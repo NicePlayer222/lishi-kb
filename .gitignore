@@ -1,0 +1,18 @@
+# 凭证与临时文件，禁止提交
+.secrets/
+.env
+*.token
+github_token*
+*.key
+
+# 系统
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# 生产中间产物
+processing/
+rework/
+reports/*.md
+inbox/*.zip
