@@ -2,7 +2,7 @@
 
 > 重要规则：
 > 1. `status` 只能写 `draft` 或 `reviewed`（不要写 `published`）。
-> 2. **来源编号从 `SE39` 起**（当前已用 `SE01–SE38`；开工先读 `sources.json` 取最大编号 +1），禁止使用 `SA/SB/SC/SD` 段。
+> 2. **来源编号按线分段**（分工见 `PRODUCTION_PACK.md` §2.1：line-a `SE39–`、line-b `SF`、line-c `SG`、line-d `SH`、line-e `SI`、line-f `SJ`、line-g `SK`、line-h `SL`、line-i `SM`）。开工先读 `sources.json` 取**本线号段**最大编号 +1，禁止使用 `SA/SB/SC/SD` 段，禁止越界到别的线的号段。
 > 3. 每条线在独立分支 `line-a` ~ `line-i` 上工作；先跑校准批。
 
 ## 校准批（先跑这 6 个）
