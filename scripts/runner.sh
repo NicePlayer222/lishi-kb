@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# LightVela runner 循环：每 30 秒拉一次仓库，有命令就执行一次。
+# LightVela runner 循环：每 30 秒检查一次命令，有命令就执行一次。
 # 启动：nohup bash scripts/runner.sh > ~/lishi-runner.log 2>&1 &
+# 注意：不要在这里再加裸 git pull；runner_once.py 已做带超时/异常保护的 pull。
 set -u
 cd "$(dirname "$0")/.." || exit 1
 
@@ -27,7 +28,6 @@ fi
 
 echo "[runner] started at $(date -Is) in $(pwd)"
 while true; do
-  git pull --rebase --autostash -q 2>/dev/null || true
   python3 scripts/runner_once.py || true
   sleep 30
 done
