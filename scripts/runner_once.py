@@ -44,12 +44,13 @@ def git(*args):
 
 
 def pull():
+    """网络不通时只警告，不中断本轮任务。"""
     try:
         r = git("pull", "--rebase", "--autostash", "-q")
         if r.returncode != 0:
             print("[runner] pull failed:", r.stderr.strip()[:300])
     except Exception as e:
-        print(f"[runner] pull skipped: {type(e).__name__}: {e}")
+        print("[runner] pull skipped:", type(e).__name__, str(e)[:200])
 
 
 def commit_push(message):
@@ -58,8 +59,12 @@ def commit_push(message):
     if diff.returncode != 0:
         git("commit", "-m", message)
     for _ in range(3):
-        r = git("push", "-q")
-        if r.returncode == 0:
+        try:
+            r = git("push", "-q")
+        except Exception as e:
+            print("[runner] push skipped:", type(e).__name__)
+            r = None
+        if r is not None and r.returncode == 0:
             return True
         pull()
         time.sleep(5)
