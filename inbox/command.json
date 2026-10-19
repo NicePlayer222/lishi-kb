@@ -1,6 +1,7 @@
 {
   "id": "20261019-003",
-  "status": "pending",
+  "status": "running",
   "prompt": "你在 ~/lishi-runner 仓库，按 PRODUCTION_PACK.md v2.1 和 TASKS.md 生产 line-a 的 W03 周报。\n\n任务：写 topics/W03-周报-2026-07-19.md，标题《河南时政周报 2026-07-13 至 2026-07-19》，id W03，category A，status draft。\n\n要求：\n1. 先读 PRODUCTION_PACK.md、TASKS.md、topics/W01-周报-2026-07-05.md、topics/W02-周报-2026-07-12.md，沿用它们的结构、语气、来源格式。\n2. 8—10 条本周要闻 + 1 个深度案例；正文 ≥2000 字；固定章节：⚡快速知识卡、📖 本周要闻十条、深度案例、来源与证据、关联专题。\n3. 来源编号只用 line-a 段 SE39—SE99：先读 sources/sources.json，新来源从当前 SE 最大编号 +1 开始；可复用 W01/W02 已用的 SE 编号。禁止 SA/SB/SC/SD，禁止其他线号段。来源 ≥5 条，至少 2 条官方白名单（*.gov.cn、大河网、河南日报、河南广电/大象新闻、新华社/人民日报河南、省政府/省统计局/省农业农村厅等）。\n4. 每个数字、政策名、文件号必须有来源；区分目标值与已完成数据；查不到就标 [存疑] 或不写，禁止编造 URL/标题/日期。\n5. 不要修改 sources/sources.json；来源条目写在正文末尾，格式 [SE39] 机构《标题》，日期，URL。不要 git commit/push，runner 会统一提交。\n6. 完成后输出：文件路径、字数、来源编号列表、[存疑] 项；如果网络查证失败，说明失败点，不要硬编。",
-  "timeout": 3600
+  "timeout": 3600,
+  "started_at": "2026-10-19T21:27:20+08:00"
 }
