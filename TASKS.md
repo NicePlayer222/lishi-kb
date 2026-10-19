@@ -1,8 +1,9 @@
 # 9 条生产线任务卡
 
-> 注意：`status` 只能写 `draft` 或 `reviewed`（不要写 `published`，`build.py` 不接受）。
->
-> 每条线在独立分支 `line-a` ~ `line-i` 上工作。先跑校准批，量出单篇积分成本，再决定批量。
+> 重要规则：
+> 1. `status` 只能写 `draft` 或 `reviewed`（不要写 `published`）。
+> 2. **来源编号从 `SE01` 起顺序编号**，禁止使用 `SA/SB/SC/SD` 段（DSH 已占用）。
+> 3. 每条线在独立分支 `line-a` ~ `line-i` 上工作；先跑校准批。
 
 ## 校准批（先跑这 6 个）
 
