@@ -121,8 +121,8 @@
 
 ## 新对话如何恢复工程
 
-1. 使用最新交付包（当前为 `lishi-kb-v1.3-ui2.zip`，此前为 ui1/v1.3 ZIP）解压，或直接使用 /home/agentuser/lishi-kb 现有目录。
-2. 先读本文件与 SPEC.md；`python3 scripts/build.py --check` 确认基线（应为 **39 个专题、215 条来源**，A10/B5/C10/D10）。
+1. 使用 GitHub `NicePlayer222/lishi-kb` 的 `main` 分支（当前为 39 篇基线），或使用本地最新目录。
+2. 先读本文件与 SPEC.md；`python3 scripts/build.py --check` 确认基线（应为 **39 个专题、215 条来源**，A12/B5/C10/D12）。
 3. 生成物（index/、site/）可随时删除重建：`python3 scripts/build.py`。
 4. UI 迭代只改 `scripts/template.html`，改后必须重新运行 build.py 生成 site/index.html。
 
