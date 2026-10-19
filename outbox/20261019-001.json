@@ -1,0 +1,10 @@
+{
+  "id": "20261019-001",
+  "status": "done",
+  "exit_code": 0,
+  "stdout": "RUNNER_OK\n/home/agentuser/lishi-runner\nHermes Agent v0.21.3 (2026.9.14)\n",
+  "stderr": "",
+  "duration_sec": 15.9,
+  "started_at": "2026-10-19T20:44:34+08:00",
+  "finished_at": "2026-10-19T20:44:49+08:00"
+}
