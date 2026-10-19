@@ -1,1 +1,382 @@
-[]
+[
+  {
+    "id": "SE01",
+    "title": "兰考县人民政府网站《县政协第十一届第三次会议第 0240016 号提案：关于提升兰考县\"共富工坊\"品质，助力乡村振兴的提案和答复》，2024-08-12， （白名单官方·县级政府网）",
+    "type": "official",
+    "url": "http://www.lankao.gov.cn/kfslkxwz/c00487/pc/content/content_1976810475155263488.html",
+    "publisher": "兰考县人民政府网站",
+    "year": 2024,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE02",
+    "title": "开封日报（开封市人民政府网站转载，兰考县委宣传部供图）《兰考县：小工坊撬动乡村共富大梦想》，2026 年， （转载版；原文见开封日报报业集团刊发）",
+    "type": "media",
+    "url": "https://www.163.com/dy/article/KN7A7UJP0556IRXW.html",
+    "publisher": "开封日报（开封市人民政府网站转载，兰考县委宣传部供图）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE03",
+    "title": "中新网河南《兰考县东坝头镇：\"共富工坊\"拓宽强村富民新路径》，2025-08-05， （媒体）",
+    "type": "media",
+    "url": "https://www.ha.chinanews.com.cn/news/zx/2025/0805/62089.shtml",
+    "publisher": "中新网河南",
+    "year": 2025,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE04",
+    "title": "开封市人民政府网站《张庄：昔日风口变景区》，2025-01， （白名单官方·省辖市政府网，背景）",
+    "type": "media",
+    "url": "http://221.176.159.209:9001/kfsrmzfwz/hhfz/pc/content/content_1737108225479974912.html",
+    "publisher": "开封市人民政府网站",
+    "year": 2025,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE05",
+    "title": "新华网《兰考县：\"田村一体、片区组团\"共绘乡村美景图》，2025-12-28， （新华社，背景）",
+    "type": "official",
+    "url": "http://www.news.cn/info/20251228/12bb46d7ebdc4dc593480808e9c434a9/c.html",
+    "publisher": "新华网",
+    "year": 2025,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE06",
+    "title": "河南省农业农村厅网站（转河南日报）《2025 年河南省委一号文件发布：关于进一步深化农村改革扎实推进乡村全面振兴的实施意见》，2025-05-20， （白名单官方·省农业农村厅）",
+    "type": "official",
+    "url": "https://nynct.henan.gov.cn/2025/05-20/3159597.html",
+    "publisher": "河南省农业农村厅网站（转河南日报）",
+    "year": 2025,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE07",
+    "title": "《光明日报》2021-12-01 第 04 版《河南：帮扶很重要，产业最长远》， （中央媒体）",
+    "type": "official",
+    "url": "https://news.gmw.cn/2021-12/01/content_35350348.htm",
+    "publisher": "未注明",
+    "year": 2021,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE08",
+    "title": "河南省脱贫攻坚领导小组《关于建立防止返贫监测和帮扶机制的实施意见》（豫脱贫组〔2020〕13 号），2020-11， （白名单官方·县级政府网披露的省级文件）",
+    "type": "official",
+    "url": "https://www.hnhx.gov.cn/_mediafile/hnhx/2020/11/09/2j3ru6gc0f.pdf",
+    "publisher": "河南省脱贫攻坚领导小组",
+    "year": 2020,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE09",
+    "title": "卢氏县农业农村局《河南省防止返贫监测对象申报政策\"明白纸\"》，2024-08-20， （白名单官方·县级政府网）",
+    "type": "official",
+    "url": "https://www.lushixian.gov.cn/3472/616977792/1890145.html",
+    "publisher": "卢氏县农业农村局",
+    "year": 2024,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE10",
+    "title": "人民日报《脱贫县农村居民人均可支配收入年均增速达 8.2%》（河南人大网转载，2026-08-27）， （白名单官方·省人大网）",
+    "type": "official",
+    "url": "https://henanrd.gov.cn/2026/08-27/245207.html",
+    "publisher": "人民日报",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE11",
+    "title": "农业农村部计划财务司《前三季度农业农村经济运行总体平稳》，2025-12， （中央部委官网，全国对照数据）",
+    "type": "official",
+    "url": "https://jhs.moa.gov.cn/jjyx/202512/t20251203_6479428.htm",
+    "publisher": "农业农村部计划财务司",
+    "year": 2025,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE12",
+    "title": "河南省人民政府门户网站《海报丨快看！2026年河南省政府工作报告来了》，2026-01-26",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/01-26/3313941.html",
+    "publisher": "河南省人民政府门户网站",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE13",
+    "title": "河南日报《政府工作报告（全文）——2026年1月26日在河南省第十四届人民代表大会第四次会议上》，河南人大网转载，2026-02-03",
+    "type": "official",
+    "url": "https://henanrd.gov.cn/2026/02-03/233636.html",
+    "publisher": "河南日报",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE14",
+    "title": "河南省人民政府门户网站《2026年河南省政府工作报告》，2026-02-03",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/02-03/3319596.html",
+    "publisher": "河南省人民政府门户网站",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE15",
+    "title": "河南省发展和改革委员会《政府工作报告》（2026年河南两会专题），2026-02",
+    "type": "official",
+    "url": "https://fgw.henan.gov.cn/2026/02-03/3319580.html",
+    "publisher": "河南省发展和改革委员会",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE16",
+    "title": "河南省人民政府门户网站《聚焦2026年河南两会》专题，2026-01",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/zt/2026zt/jj2026nhnlh",
+    "publisher": "河南省人民政府门户网站",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE17",
+    "title": "河南日报《中共河南省委 河南省人民政府关于锚定农业农村现代化 扎实推进乡村全面振兴的实施意见》，河南省发展和改革委员会网站转载，2026-05-30",
+    "type": "official",
+    "url": "https://fgw.henan.gov.cn/2026/05-30/3359969.html",
+    "publisher": "河南日报",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE18",
+    "title": "河南省人民政府门户网站《中共河南省委 河南省人民政府关于锚定农业农村现代化 扎实推进乡村全面振兴的实施意见》，2026-05-30",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/05-30/3359959.html",
+    "publisher": "河南省人民政府门户网站",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE19",
+    "title": "新华网河南频道（来源：河南日报）《沃野中原逐浪向新——写在2026年省委一号文件发布之际》，2026-05-30",
+    "type": "official",
+    "url": "http://ha.news.cn/20260530/ffeef9eb007c4622b8f680ac93f39dea/c.html",
+    "publisher": "新华网河南频道（来源：河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE20",
+    "title": "郑州市中原区人民政府网站（来源：河南日报）《重磅！2026年河南省委一号文件发布》，2026-05-30",
+    "type": "official",
+    "url": "https://www.zhongyuan.gov.cn/rdhy/10078595.jhtml",
+    "publisher": "郑州市中原区人民政府网站（来源：河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE21",
+    "title": "河南省人民政府国有资产监督管理委员会《2026年河南省委一号文件发布》，2026-05-30",
+    "type": "official",
+    "url": "https://gzw.henan.gov.cn/2026/05-30/3360021.html",
+    "publisher": "河南省人民政府国有资产监督管理委员会",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE22",
+    "title": "河南省政府门户网《〈河南省交通运输结构调整专项行动方案（2026—2028年）〉省政府政策例行吹风会》直播实录，2026-06-30",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/06-30/3370406.html",
+    "publisher": "河南省政府门户网",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE23",
+    "title": "交通运输部《河南启动三年行动专项攻坚运输结构调整》，2026-07-01",
+    "type": "official",
+    "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202607/t20260701_4208565.html",
+    "publisher": "交通运输部",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE24",
+    "title": "交通运输部（转中国水运网）《郑州国际陆港新增三条中欧（亚）班列图定线路》，2026-07-03",
+    "type": "official",
+    "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202607/t20260703_4208738.html",
+    "publisher": "交通运输部（转中国水运网）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE25",
+    "title": "交通运输部（转中国水运网）《河南中欧班列累计开行量突破1.9万列》，2026-06-30",
+    "type": "official",
+    "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202606/t20260630_4208488.html",
+    "publisher": "交通运输部（转中国水运网）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE26",
+    "title": "投资项目在线审批监管平台《河南省人民政府办公厅关于印发河南省进一步促进民间投资高质量发展若干政策措施的通知》（豫政办〔2026〕25号），2026-07-06",
+    "type": "official",
+    "url": "https://new.tzxm.gov.cn/zckd/gfxwj/202607/t20260707_1406341.shtml",
+    "publisher": "投资项目在线审批监管平台",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE27",
+    "title": "河南省商务厅转发豫政办〔2026〕25号，2026-07-06",
+    "type": "official",
+    "url": "https://hnsswt.henan.gov.cn/2026/07-06/3372610.html",
+    "publisher": "河南省商务厅转发豫政办〔2026〕25号，2026-07-06",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE28",
+    "title": "中国政府网《庆祝中国共产党成立105周年大会在京隆重举行》，2026-07-01",
+    "type": "official",
+    "url": "https://www.gov.cn/yaowen/liebiao/202607/content_7073947.htm",
+    "publisher": "中国政府网",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE29",
+    "title": "河南日报网（转人民日报）《三项失业保险政策举措支持企业稳岗扩岗》，2026-07-03",
+    "type": "media",
+    "url": "https://www.henandaily.cn/news/2026/0703/1238165.html",
+    "publisher": "河南日报网（转人民日报）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE30",
+    "title": "新华网《失业保险稳岗扩岗政策举措延续实施》，2026-07-03",
+    "type": "official",
+    "url": "https://www.news.cn/government/20260703/c9330c9fb0b043868e4c4ff66571ed02/c.html",
+    "publisher": "新华网",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE31",
+    "title": "新华网河南频道（转郑州日报）《河南高招录取今起开始 今年至少进行5次征集志愿》，2026-07-08",
+    "type": "official",
+    "url": "http://www.ha.news.cn/20260708/e5542255862d43beb5436f239f0c126d/c.html",
+    "publisher": "新华网河南频道（转郑州日报）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE32",
+    "title": "南阳市人民政府网《河南省人民政府关于推进服务业扩能提质的实施意见》（豫政〔2026〕10号），2026-07-08",
+    "type": "official",
+    "url": "https://www.nanyang.gov.cn/2026/07-08/1418283.html",
+    "publisher": "南阳市人民政府网",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE33",
+    "title": "黄河网（转河南日报）《2026年黄河调水调沙正式启动》，2026-06-23",
+    "type": "official",
+    "url": "http://yrcc.gov.cn/xwdt/mtgz/2026-mtgz-qtmt/202606/t20260623_451518.html",
+    "publisher": "黄河网（转河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE34",
+    "title": "大河网（河南省人民政府办公厅）《关于印发河南省建立长期护理保险制度实施方案的通知》（豫政办〔2026〕24号），2026-07-10， （大河网官方账号全文转载；省政府网原文链接[存疑]）",
+    "type": "media",
+    "url": "https://view.inews.qq.com/a/20260710A0AIPY00",
+    "publisher": "大河网（河南省人民政府办公厅）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE35",
+    "title": "新华网河南频道（转河南日报）《2026年主汛期前黄河调水调沙水库调度结束》，2026-07-12",
+    "type": "official",
+    "url": "http://www.ha.xinhuanet.com/20260712/6cd07cebf1504287b1cb15a773293a87/c.html",
+    "publisher": "新华网河南频道（转河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE36",
+    "title": "农小蜂政策库（转河南省人民政府办公厅）《关于适应气候变化提升粮食生产防灾减灾救灾能力的指导意见》（豫政办〔2026〕27号）， （转载页，原始发布时间[存疑]）",
+    "type": "media",
+    "url": "https://www.abeedata.com/home/article/detail/id/32124",
+    "publisher": "农小蜂政策库（转河南省人民政府办公厅）",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE37",
+    "title": "河南省政府驻广州办事处《继续补贴！河南延续实施失业保险支持企业稳岗扩岗政策》，2026-07-28",
+    "type": "official",
+    "url": "https://zgb.henan.gov.cn/2026/07-28/3379967.html",
+    "publisher": "河南省政府驻广州办事处",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE38",
+    "title": "河南省政府门户网《河南省推动2026年下半年进一步巩固拓展经济稳中向好势头新闻发布会》直播实录，2026-07-21",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/07-21/3377621.html",
+    "publisher": "河南省政府门户网",
+    "year": 2026,
+    "checked_date": "2026-10-19",
+    "note": "LightVela 生产，统一重编号，DSH 待复核"
+  }
+]
