@@ -2,7 +2,7 @@
 
 > 重要规则：
 > 1. `status` 只能写 `draft` 或 `reviewed`（不要写 `published`）。
-> 2. **来源编号从 `SE01` 起顺序编号**，禁止使用 `SA/SB/SC/SD` 段（DSH 已占用）。
+> 2. **来源编号从 `SE39` 起**（当前已用 `SE01–SE38`；开工先读 `sources.json` 取最大编号 +1），禁止使用 `SA/SB/SC/SD` 段。
 > 3. 每条线在独立分支 `line-a` ~ `line-i` 上工作；先跑校准批。
 
 ## 校准批（先跑这 6 个）

@@ -20,9 +20,10 @@
 
 ## 2.1 来源编号（重要）
 
-DSH 现有来源已占用 `SA`、`SB`、`SC`、`SD` 四个段（SA01–SD62）。LightVela 新来源**统一从 `SE01` 起顺序编号**，最多到 `SZ99`：
+DSH 现有来源已占用 `SA`、`SB`、`SC`、`SD` 四个段，以及 `SE01–SE38`。LightVela 新来源**从 `SE39` 起顺序编号**，最多到 `SZ99`：
 
-- 格式：`SE01`、`SE02`……`SE99`，用完接 `SF01`；
+- 格式：`SE39`、`SE40`……`SE99`，用完接 `SF01`；
+- **每次开工先读 `sources/sources.json`，取现有最大编号 +1，禁止复用已存在编号**；
 - **禁止使用 `SA/SB/SC/SD` 开头的编号**；
 - 同一来源在多篇里复用同一个编号，不要重复建号；
 - YAML 的 `sources` 与正文 `## 来源与证据` 里的编号必须一致。
@@ -47,7 +48,7 @@ category: D
 tags: [河南, 乡村振兴, 案例]
 related: [D10, D01]
 evidence_level: 官方
-sources: [SE01, SE02]
+sources: [SE39, SE40]
 created: 2026-10-19
 updated: 2026-10-19
 status: draft
@@ -71,7 +72,7 @@ status: draft
 ### 六、金句/对策（3-5 条）
 
 ## 来源与证据
-- [SE01] 机构《标题》，日期，URL
+- [SE39] 机构《标题》，日期，URL
 
 ## 关联专题
 - [D01 标题](D01-标题.md)
@@ -117,5 +118,5 @@ LightVela 云端到 github.com 可能间歇性超时。规则：
 - YAML 必填字段齐全；id 不重复；category 合法。
 - 正文章节齐全；字数 ≥ 1200（周报 ≥ 2000；题库按题）。
 - 来源 ≥ 5 条，URL 合法，至少 2 条官方域名。
-- 来源编号不得与现有 `SA/SB/SC/SD` 段冲突。
+- 来源编号不得与现有 `SA/SB/SC/SD/SE` 段冲突；开工先读 `sources.json` 取最大编号 +1。
 - 无「编造/占位符/待补」字样。
