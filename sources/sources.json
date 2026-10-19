@@ -1,5 +1,1775 @@
 [
   {
+    "id": "SC01",
+    "title": "关于2025年选调应届优秀大学毕业生到基层工作的通知",
+    "type": "official",
+    "url": "http://xds.jyt.henan.gov.cn/front/newsDetail?newsId=527a2184-038c-4d83-b6a1-abee175f8d0f",
+    "publisher": "河南选调生信息平台",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "2025届河南普通类选调笔试结构与面试方式的官方依据"
+  },
+  {
+    "id": "SC02",
+    "title": "河南省2026年度统一考试录用公务员公告",
+    "type": "official",
+    "url": "http://www.hnrsks.com/sitesources/hnsrskszx/page_pc/hnstykslygwyzl/dnzkgg/article197f077a15884b4dbfa18ee21e68319f.html",
+    "publisher": "河南省公务员局（河南省人事考试中心网站）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "招10429人；行测+申论各100分、分级分类命题；结构化/结构化小组面试"
+  },
+  {
+    "id": "SC03",
+    "title": "河南省2025年度统一考试录用公务员公告",
+    "type": "official",
+    "url": "http://www.hnrsks.com/sitesources/hnsrskszx/page_pc/gwyzt/zkgg/article8760246e853f4ecfa6d3be4607c40080.html",
+    "publisher": "河南省公务员局（河南省人事考试中心网站转载）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "2025届招10993人"
+  },
+  {
+    "id": "SC04",
+    "title": "详解出炉！2025河南省考扩招超10%，新增政治理论考试",
+    "type": "media",
+    "url": "http://henan.sina.cn/news/z/2025-01-07/detail-ineeayzm5082491.d.html",
+    "publisher": "大象新闻/河南广播电视台（新浪河南转载）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "媒体转述：新增政治理论模块、县级以上/县级以下分卷"
+  },
+  {
+    "id": "SC05",
+    "title": "2026年河南省公务员考试",
+    "type": "web",
+    "url": "http://www.gaodun.com/gwy/1744537.html",
+    "publisher": "高顿公考（第三方培训机构页面）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "行测120题/120分钟/六模块，属第三方转述，仅备考参考"
+  },
+  {
+    "id": "SC06",
+    "title": "中央机关及其直属机构2026年度考试录用公务员公共科目笔试考试大纲",
+    "type": "official",
+    "url": "http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/article/articledetail.html?ArticleId=8a81f6d19780e4080199ddabd11200f1",
+    "publisher": "国家公务员局",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "河南公告明确笔试范围参考该大纲；行测六部分、申论能力定义"
+  },
+  {
+    "id": "SC07",
+    "title": "2026年河南省考备考：行测申论全方位提升",
+    "type": "web",
+    "url": "https://m.gwy.com/dfgwy/398202.html",
+    "publisher": "上岸鸭公考（第三方培训机构页面）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "模块题量与速算技巧等第三方解读，仅备考参考"
+  },
+  {
+    "id": "SA01",
+    "title": "关于2025年选调应届优秀大学毕业生到基层工作的通知（河南省委组织部等，2024-12-20）",
+    "type": "official",
+    "url": "http://xds.jyt.henan.gov.cn/front/newsDetail?newsId=527a2184-038c-4d83-b6a1-abee175f8d0f",
+    "publisher": "河南选调生信息平台",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SA02",
+    "title": "大象新闻：2025河南省考新增政治理论模块、行测120题/120分钟（媒体转述）",
+    "type": "web",
+    "url": "http://henan.sina.cn/news/z/2025-01-07/detail-ineeayzm5082491.d.html",
+    "publisher": "大象新闻/新浪网",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SA03",
+    "title": "坚持和发展好新时代“枫桥经验”（中国共产党新闻网理论频道）",
+    "type": "official",
+    "url": "http://theory.people.com.cn/n1/2023/1127/c40531-40126266.html",
+    "publisher": "人民网",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SA04",
+    "title": "中共中央 国务院关于加强基层治理体系和治理能力现代化建设的意见（2021-04-28）",
+    "type": "official",
+    "url": "http://www.mod.gov.cn/gfbw/qwfb/yw_214049/4889219.html",
+    "publisher": "中国政府网转载",
+    "year": 2021,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SA05",
+    "title": "Lipsky, M. Street-Level Bureaucracy. Russell Sage Foundation, 1980（JSTOR 条目）",
+    "type": "book",
+    "url": "https://www.jstor.org/stable/10.7758/9781610447713",
+    "publisher": "Russell Sage Foundation",
+    "year": 1980,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SA06",
+    "title": "Russell Sage Foundation：Street-Level Bureaucracy 书目页及三十周年版前言",
+    "type": "paper",
+    "url": "https://www.russellsage.org/publications/book/street-level-bureaucracy",
+    "publisher": "Russell Sage Foundation",
+    "year": 2010,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SA07",
+    "title": "国务院关于印发“十三五”推进基本公共服务均等化规划的通知（国发〔2017〕9号）",
+    "type": "official",
+    "url": "http://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201703/t20170302_2545050.htm",
+    "publisher": "中国政府网转载",
+    "year": 2017,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SA08",
+    "title": "关于印发《\"十四五\"公共服务规划》的通知（发改社会〔2021〕1946号，2021-12-28）",
+    "type": "official",
+    "url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202201/t20220110_1311622.html",
+    "publisher": "国家发展改革委等21部门",
+    "year": 2021,
+    "checked_date": "2026-10-18",
+    "note": "2026-10-18 核实：原 SA08 混合登记多条政策，已拆分为 SA08/SA10/SA11"
+  },
+  {
+    "id": "SA11",
+    "title": "国家发展改革委等部门关于印发《国家基本公共服务标准（2023年版）》的通知（发改社会〔2023〕1072号，2023-07-30）",
+    "type": "official",
+    "url": "https://www.ndrc.gov.cn/xwdt/tzgg/202308/t20230809_1359264_ext.html",
+    "publisher": "国家发展改革委等11部门",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "2026-10-18 经 web_extract 核实该 URL 即 2023 年版标准通知；原 SA08 混合登记，已拆分"
+  },
+  {
+    "id": "SA10",
+    "title": "国务院《关于推行常住地提供基本公共服务的实施意见》（2026）及国家发展改革委解读",
+    "type": "official",
+    "url": "https://www.ndrc.gov.cn/xxgk/jd/jd/202605/t20260522_1405414.html",
+    "publisher": "国务院/国家发展改革委",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "2026-10-18 核实：'十五五'规划纲要提出、国务院印发实施意见；解读页证实相关表述。原 SA08 混合登记，已拆分"
+  },
+  {
+    "id": "SA09",
+    "title": "中国政府网“放管服”改革政策文件库专题",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/fgfggzcwjk.htm",
+    "publisher": "中国政府网",
+    "year": null,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SB01",
+    "title": "Roediger & Karpicke (2006). Test-enhanced learning. Psychological Science, 17, 249-255",
+    "type": "paper",
+    "url": "https://journals.sagepub.com/doi/abs/10.1111/j.1467-9280.2006.01693.x",
+    "publisher": "Psychological Science",
+    "year": 2006,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SB02",
+    "title": "Cepeda et al. (2006). Distributed practice in verbal recall tasks. Psychological Bulletin, 132(3), 354-380",
+    "type": "paper",
+    "url": "https://doi.org/10.1037/0033-2909.132.3.354",
+    "publisher": "Psychological Bulletin",
+    "year": 2006,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SB03",
+    "title": "Ebbinghaus (1885/1913). Memory: A Contribution to Experimental Psychology",
+    "type": "paper",
+    "url": "https://archive.org/download/memorycontributi00ebbiuoft/memorycontributi00ebbiuoft.pdf",
+    "publisher": "Archive.org",
+    "year": 1913,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SB04",
+    "title": "Dunlosky et al. (2013). Improving Students' Learning With Effective Learning Techniques. PSPI, 14(1), 4-58",
+    "type": "paper",
+    "url": "https://doi.org/10.1177/1529100612453266",
+    "publisher": "Psychological Science in the Public Interest",
+    "year": 2013,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SB05",
+    "title": "Pashler et al. (2008). Learning Styles: Concepts and Evidence. PSPI, 9(3), 105-119",
+    "type": "paper",
+    "url": "https://journals.sagepub.com/doi/full/10.1111/j.1539-6053.2009.01038.x",
+    "publisher": "Psychological Science in the Public Interest",
+    "year": 2008,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SB06",
+    "title": "Ericsson, Krampe & Tesch-Römer (1993). The role of deliberate practice. Psychological Review, 100(3), 363-406",
+    "type": "paper",
+    "url": "https://gwern.net/doc/psychology/writing/1993-ericsson.pdf",
+    "publisher": "Psychological Review",
+    "year": 1993,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SB07",
+    "title": "Macnamara, Hambrick & Oswald (2014). Deliberate practice and performance: A meta-analysis. Psychological Science, 25(8), 1608-1618",
+    "type": "paper",
+    "url": "https://doi.org/10.1177/0956797614535810",
+    "publisher": "Psychological Science",
+    "year": 2014,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SB08",
+    "title": "Sweller (1988). Cognitive Load During Problem Solving. Cognitive Science, 12(2), 257-285",
+    "type": "paper",
+    "url": "https://doi.org/10.1207/s15516709cog1202_4",
+    "publisher": "Cognitive Science",
+    "year": 1988,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SB09",
+    "title": "Sweller & Cooper (1985). Worked examples as a substitute for problem solving in algebra. Cognition and Instruction, 2(1), 59-89",
+    "type": "paper",
+    "url": "https://doi.org/10.1207/s1532690xci0201_3",
+    "publisher": "Cognition and Instruction",
+    "year": 1985,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SB10",
+    "title": "Chi et al. (1989). Self-explanations. Cognitive Science, 13(2), 145-182",
+    "type": "paper",
+    "url": "https://doi.org/10.1207/S15516709COG1302_1",
+    "publisher": "Cognitive Science",
+    "year": 1989,
+    "checked_date": "2026-10-18",
+    "note": ""
+  },
+  {
+    "id": "SA40",
+    "title": "国务院关于加快推进政务服务标准化规范化便利化的指导意见（国发〔2022〕5号）",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/content/2022-03/01/content_5676259.htm",
+    "publisher": "中国政府网（国务院）",
+    "year": 2022,
+    "checked_date": "2026-10-18",
+    "note": "已用 web_extract 抓取全文核实。支持论断：一项改革可同时运用规制型（清单化、审管衔接）、混合型（告知承诺制、容缺受理）、服务型（一网通办、免证办、就近办）与赋能型（数据共享、政府购买服务）工具，并分 2022/2025 两阶段设定目标。"
+  },
+  {
+    "id": "SA41",
+    "title": "文宏《政策工具研究的过程论视角：优势、逻辑与框架》（东北大学学报社科版2017年第3期）",
+    "type": "paper",
+    "url": "https://xuebao.neu.edu.cn/social/article/html/2017-3-270.htm",
+    "publisher": "东北大学学报（社会科学版）",
+    "year": 2017,
+    "checked_date": "2026-10-18",
+    "note": "已用 web_extract 抓取全文核实。支持论断：强制/混合/自愿三分法、麦克唐纳的管制—激励—能力建设—系统变迁四类工具、施耐德与英格拉姆'工具是让人们做原本不会做的事'、工具拥护者与工具非中性的过程论观点、萨拉蒙'改进政府表现的关键在于改善工具使用'。"
+  },
+  {
+    "id": "SA42",
+    "title": "《政策工具驱动科学竞争力提升的组态分析与路径选择——基于28个省份案例的fsQCA分析》（科技进步与对策2025年42卷2期）",
+    "type": "paper",
+    "url": "https://www.kjjb.org/article/2025/1001-7348/2025-42-2-014.htm",
+    "publisher": "科技进步与对策杂志社",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已用 web_extract 抓取全文核实。支持论断：供给型工具占比约51.1%、环境型36.7%、需求型12.2%；单一工具非高绩效必要条件；存在供给—环境协同、供给—需求协同等多元组合路径；'揭榜挂帅'作为国家认证与示范效应的需求型机制。"
+  },
+  {
+    "id": "SA43",
+    "title": "《政策\"工具-功能\"视角下人工智能产业央地政策研究》（科学学与科学技术管理2022年第1期）",
+    "type": "paper",
+    "url": "https://html.rhhz.net/KXYSH/html/ecdc238d-370b-4402-b65c-b5c9d4da8bc4.htm",
+    "publisher": "科学学与科学技术管理",
+    "year": 2022,
+    "checked_date": "2026-10-18",
+    "note": "已用 web_extract 抓取全文核实。支持论断：豪利特自愿型/强制型/混合型分类；Rothwell & Zegveld 供给面/需求面/环境面分类及各自含义；央地需求面工具占比仅8.11%与9.41%，供给与环境面为主的偏科现象；央地工具分工差异。"
+  },
+  {
+    "id": "SA44",
+    "title": "Lester M. Salamon, The Tools of Government: A Guide to the New Governance (Chapter 1)",
+    "type": "book",
+    "url": "https://spia.uga.edu/faculty_pages/tyler.scott/teaching/PADP6950_Spring2017/Readings/Salamon.2002.Ch1.pdf",
+    "publisher": "Oxford University Press",
+    "year": 2002,
+    "checked_date": "2026-10-18",
+    "note": "PDF 已确认可获取（HTTP 200，约34KB响应），为二进制 PDF 未做全文文本核对；引文要点（当代公共行动依赖贷款、担保、补贴、合同、券等间接工具，第三方政府格局，每种工具有自身运行程序与'政治经济学'，工具选择反哺未来政策议程）经该页摘要文本与二级文献交叉核对，未逐页核读，如实注明。"
+  },
+  {
+    "id": "SA50",
+    "title": "《关于深入推进审批服务便民化的指导意见》",
+    "type": "official",
+    "url": "https://ycklcz.com/html/art2018524art_27332_88498.html",
+    "publisher": "中共中央办公厅、国务院办公厅（镜像转载全文）",
+    "year": 2018,
+    "checked_date": "2026-10-18",
+    "note": "已核验转载页全文可访问，含'整体政府理念''一窗受理集成服务'等表述；官方原始发布渠道（新华网/中国政府网）原页未直接核验，引用以转载文本为准。；v1.2.1 注明：为镜像转载页，官方原页未直接核验"
+  },
+  {
+    "id": "SA51",
+    "title": "竺乾威《从新公共管理到整体性治理》，《中国行政管理》2008年第10期",
+    "type": "paper",
+    "url": "http://www.swg.zju.edu.cn/_upload/article/files/35/a1/40ba575044858e54c6abf6a1cdd5/74a5ee1b-46eb-4fce-a0fd-44bb78c37ab3.pdf",
+    "publisher": "中国行政管理杂志社（浙江大学机构页存档PDF）",
+    "year": 2008,
+    "checked_date": "2026-10-18",
+    "note": "URL 已核验可访问（PDF）。本专题经由陈丽君、童雪明《整体性治理视阈中的'最多跑一次'改革》一文的引注核实该文出处与观点（代表人物希克斯、邓利维，反思新公共管理碎片化），未逐字复读原文。"
+  },
+  {
+    "id": "SA52",
+    "title": "《关于推进基层整合审批服务执法力量的实施意见》",
+    "type": "official",
+    "url": "https://www.xinhuanet.com/politics/2019-01/31/c_1124071769.htm",
+    "publisher": "中共中央办公厅、国务院办公厅（新华社受权发布）",
+    "year": 2019,
+    "checked_date": "2026-10-18",
+    "note": "已核验全文可访问：'逐步实现基层一支队伍管执法'、依法下放宜放则放、权随事转人随事转钱随事转、严禁责任状与一票否决等表述均见于原文。"
+  },
+  {
+    "id": "SA53",
+    "title": "《大综合一体化背景下吴兴区'乡镇（街道）一支队伍管执法'研究》",
+    "type": "web",
+    "url": "http://www.ggzc.zju.edu.cn/2023/0104/c54184a2706186/page.htm",
+    "publisher": "浙江大学公共政策研究院（地方改革研究报告）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已核验全文可访问。数据（1599项处罚事项、277名下沉人员、85.23%）及问题清单（区属乡用、融合不深、法制审核薄弱）均见于原文；属地方性报告而非同行评审论文，使用时标注[综合]。"
+  },
+  {
+    "id": "SA54",
+    "title": "《国务院关于进一步优化政务服务提升行政效能推动'高效办成一件事'的指导意见》（国发〔2024〕3号）",
+    "type": "official",
+    "url": "https://www.mee.gov.cn/zcwj/gwywj/202401/t20240116_1063866.shtml",
+    "publisher": "国务院（生态环境部网站转载官方全文）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已核验官方全文可访问；原文发布于中国政府网。'集成办''牵头部门和配合部门''表单多表合一'及2027年目标等表述均见于原文。"
+  },
+  {
+    "id": "SA55",
+    "title": "《'基层一支队伍管执法'：制度逻辑、实践探索与规范路径》（期刊论文摘要页）",
+    "type": "paper",
+    "url": "http://journal08.magtech.org.cn/Jwk3_zlyj/CN/abstract/abstract2700.shtml",
+    "publisher": "期刊官网（magtech 平台，期刊名见摘要页）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已核验摘要页可访问，全文需订阅未能核验全文与作者卷期信息；引用仅限摘要已载明的观点（权力集中与重心下移双重逻辑、'形权人能'四大问题、新《行政处罚法》第24条）。"
+  },
+  {
+    "id": "SA60",
+    "title": "重大行政决策程序暂行条例（国务院令第713号）",
+    "type": "official",
+    "url": "https://www.xinhuanet.com/politics/2019-05/08/c_1124467872.htm",
+    "publisher": "新华社（国务院令发布报道）",
+    "year": 2019,
+    "checked_date": "2026-10-18",
+    "note": "已核实：条例自2019年9月1日施行，规定重大行政决策程序，第三十六条明确决策后评估的三种启动情形（明显未达预期效果、较多意见、决策机关认为有必要）。gov.cn 原文页（content_5389767.htm）抓取仅返回网站首页导航，故以新华社发布稿为核实依据。"
+  },
+  {
+    "id": "SA61",
+    "title": "Angrist, J. & Pischke, J.-S. Mostly Harmless Econometrics: An Empiricist's Companion",
+    "type": "book",
+    "url": "https://press.princeton.edu/books/paperback/9780691120355/mostly-harmless-econometrics",
+    "publisher": "Princeton University Press",
+    "year": 2009,
+    "checked_date": "2026-10-18",
+    "note": "已核实出版社页面：系统介绍应用计量因果工具——回归控制、工具变量（自然实验）、双重差分（利用政策变化）、断点回归；强调用这些方法回答明确的因果问题。方法论主干来源。"
+  },
+  {
+    "id": "SA62",
+    "title": "Duflo, E. Schooling and Labor Market Consequences of School Construction in Indonesia: Evidence from an Unusual Policy Experiment",
+    "type": "paper",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.91.4.795",
+    "publisher": "American Economic Review 91(4): 795-813",
+    "year": 2001,
+    "checked_date": "2026-10-18",
+    "note": "已核实摘要：1973-1978年印尼大规模建校计划，用地区建校数量差异×出生队列时间差异（DID思路）识别因果，估计每千名儿童增建1所小学使平均受教育年限增加0.12-0.19年、工资提高1.5-2.7%。准实验评估经典案例。"
+  },
+  {
+    "id": "SA63",
+    "title": "Chen, Y., Ebenstein, A., Greenstone, M. & Li, H. Evidence on the impact of sustained exposure to air pollution on life expectancy from China's Huai River policy",
+    "type": "paper",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1300018110",
+    "publisher": "PNAS 110(32): 12936-12941",
+    "year": 2013,
+    "checked_date": "2026-10-18",
+    "note": "已核实摘要：以淮河供暖线（计划经济时期仅淮河以北免费供煤供暖）为断点做断点回归（RDD），估计北方TSP浓度高约55%，北方居民预期寿命低约5.5年。以中国真实政策为识别场景的准实验代表研究。"
+  },
+  {
+    "id": "SA64",
+    "title": "Angrist, J., Bettinger, E., Bloom, E., King, E. & Kremer, M. Vouchers for Private Schooling in Colombia: Evidence from a Randomized Natural Experiment",
+    "type": "paper",
+    "url": "https://www.nber.org/papers/w8343",
+    "publisher": "NBER Working Paper 8343",
+    "year": 2001,
+    "checked_date": "2026-10-18",
+    "note": "已核实摘要：哥伦比亚PACES vouchers按抽签分配，比较中签与未中签学生：中签者私立学校就读率高15个百分点、8年级完成率高约10个百分点、标准化成绩高0.2个标准差。随机分配（自然实验）评估范例。"
+  },
+  {
+    "id": "SA65",
+    "title": "Dynarski, S. Hope for Whom? Financial Aid for the Middle Class and Its Impact on College Attendance",
+    "type": "paper",
+    "url": "https://www.nber.org/papers/w7756",
+    "publisher": "NBER Working Paper 7756",
+    "year": 2000,
+    "checked_date": "2026-10-18",
+    "note": "已核实摘要：以佐治亚州HOPE奖学金为处理、邻近州为对照做DID，估计使18-19岁青年上大学率提高7.0-7.9个百分点；同时指出该政策扩大了黑白及高低收入家庭间的入学差距（政策的分配效应）。"
+  },
+  {
+    "id": "SA66",
+    "title": "Bitler, M., Gelbach, J. & Hoynes, H. Welfare Reform and Health",
+    "type": "paper",
+    "url": "https://www.nber.org/papers/w10549",
+    "publisher": "NBER Working Paper 10549",
+    "year": 2004,
+    "checked_date": "2026-10-18",
+    "note": "已核实摘要：用DID与三重差分（DDD，以已婚女性、无子女单身女性为对照）评估美国福利改革，发现改革与医疗保险覆盖下降、就医减少相关，对健康自评无显著影响。展示DID/DDD在政策评估中的应用与组间差异分析。"
+  },
+  {
+    "id": "SB40",
+    "title": "Metacognition and Cognitive Monitoring: A New Area of Cognitive-Developmental Inquiry",
+    "type": "paper",
+    "url": "https://eric.ed.gov/?id=EJ217109",
+    "publisher": "American Psychologist, 34(10), 906–911（ERIC 收录记录）",
+    "year": 1979,
+    "checked_date": "2026-10-18",
+    "note": "Flavell 首次系统提出元认知概念与认知监测模型；元认知知识与元认知体验的区分。经 web_extract 核实 ERIC 收录页（EJ217109）"
+  },
+  {
+    "id": "SB41",
+    "title": "Metamemory: A Theoretical Framework and New Findings",
+    "type": "paper",
+    "url": "https://sites.socsci.uci.edu/~lnarens/1990/Nelson&Narens_Book_Chapter_1990.pdf",
+    "publisher": "Psychology of Learning and Motivation, Vol. 26（Academic Press），125–173",
+    "year": 1990,
+    "checked_date": "2026-10-18",
+    "note": "元认知监测-控制框架的经典表述：元级/对象级、监测（信息上行）与控制（命令下行）。经 web_extract 核实作者机构托管的原文 PDF"
+  },
+  {
+    "id": "SB42",
+    "title": "Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology",
+    "type": "paper",
+    "url": "https://journals.sagepub.com/doi/10.1177/1529100612453266",
+    "publisher": "Psychological Science in the Public Interest, 14(1), 4–58",
+    "year": 2013,
+    "checked_date": "2026-10-18",
+    "note": "十种学习技术效用综述；自测、间隔练习评级最高，重读、划线评级最低；多次自测使学习者低估学习时间的负面作用（过度自信）。经 web_extract 核实 SAGE 期刊页"
+  },
+  {
+    "id": "SB43",
+    "title": "Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments",
+    "type": "paper",
+    "url": "https://doi.org/10.1037/0022-3514.77.6.1121",
+    "publisher": "Journal of Personality and Social Psychology, 77(6), 1121–1134",
+    "year": 1999,
+    "checked_date": "2026-10-18",
+    "note": "Kruger & Dunning 原始研究；末位 quartile 参与者显著高估自身相对排名，训练后高估幅度下降。经 web_extract 核实 DOI 解析页全文"
+  },
+  {
+    "id": "SB44",
+    "title": "Why People Fail to Recognize Their Own Incompetence",
+    "type": "paper",
+    "url": "https://www.ovid.com/journals/curdp/abstract/00012301-200306000-00004~why-people-fail-to-recognize-their-own-incompetence",
+    "publisher": "Current Directions in Psychological Science, 12(3), 83–87",
+    "year": 2003,
+    "checked_date": "2026-10-18",
+    "note": "Dunning 等：低技能者受双重诅咒——既答不对，也察觉不了答错；自我评估依赖先入为主的技能观念。经 web_extract 核实期刊摘要页"
+  },
+  {
+    "id": "SB45",
+    "title": "When People's Judgments of Learning (JOLs) Are Extremely Accurate at Predicting Subsequent Recall: The \"Delayed-JOL Effect\"",
+    "type": "paper",
+    "url": "https://journals.sagepub.com/doi/10.1111/j.1467-9280.1991.tb00147.x",
+    "publisher": "Psychological Science, 2(4), 267–270",
+    "year": 1991,
+    "checked_date": "2026-10-18",
+    "note": "Nelson & Dunlosky：学习判断在延迟后做出远比立即做出准确；延迟迫使从长时记忆预提取。经 web_search 核实期刊页标题与摘要（原文全文付费，仅核实条目信息）"
+  },
+  {
+    "id": "SB46",
+    "title": "Metacognition: Monitoring and Controlling Your Own Mind（章节讲解页，含监测准确性、校准/分辨率、流畅性线索与近端学习区分配）",
+    "type": "web",
+    "url": "https://en.cognitivepsychology.com/Metacognition",
+    "publisher": "cognitivepsychology.com",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "综述性讲解页（非同行评审论文）：清晰梳理 Nelson-Narens 框架、Koriat 1997 线索利用模型、Metcalfe & Kornell 近端学习区。引用其中概念时已在其标注的原始文献内交叉核对标题出处；具体统计数字未从此页直接引用。经 web_extract 核实页面内容"
+  },
+  {
+    "id": "SC40",
+    "title": "国家公务员局《中央机关及其直属机构2026年度考试录用公务员公共科目笔试考试大纲》",
+    "type": "official",
+    "url": "http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/article/articledetail.html?ArticleId=8a81f6d19780e4080199ddabd11200f1",
+    "publisher": "国家公务员局",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "河南省考公告明确笔试范围参考该大纲；申论测查阅读理解、综合分析、贯彻执行、提出和解决问题、文字表达等能力。原文页面为动态加载，本次核验返回2027年度专题页头（2027年国考公告已于2026年10月中旬发布，咨询期10月14-26日），大纲正文内容以河南公告的转述及C02专题此前核验为准。"
+  },
+  {
+    "id": "SC41",
+    "title": "河南省2026年度统一考试录用公务员公告（笔试内容与能力要求）",
+    "type": "web",
+    "url": "https://www.sohu.com/a/994680411_121124351",
+    "publisher": "河南省人事考试中心（据河南人事考试网消息）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "经URL直接抓取核验：笔试公共科目为行测与申论，各100分，分类分级命题，'重点测查用党的创新理论指导分析和解决问题的能力'；笔试范围参考2026年度国考公共科目大纲。第三方转载页面，原始出处为河南省人事考试中心。；v1.2.1 修正：转载页非官方原始文件，类型改为 web（所载公告内容仍为官方信息）"
+  },
+  {
+    "id": "SC42",
+    "title": "《关于2025年选调应届优秀大学毕业生到基层工作的通知》",
+    "type": "official",
+    "url": "http://xds.jyt.henan.gov.cn/front/newsDetail?newsId=527a2184-038c-4d83-b6a1-abee175f8d0f",
+    "publisher": "河南选调生信息平台",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "经URL直接抓取核验：'笔试内容包括案例分析、行政能力测试、材料写作等，共1张试卷，满分100分'。案例分析为河南选调笔试的明确组成部分。2027年选调公告尚未发布。"
+  },
+  {
+    "id": "SC43",
+    "title": "Tool 10: Problem analysis approaches for the planning process (problem tree / five whys / fishbone)",
+    "type": "official",
+    "url": "https://apps.who.int/wash-health-toolkit/contents/uploads/2019/05/Tool-10-Tool-Problem_analysis_approaches_for_the_planning_process.pdf",
+    "publisher": "WHO, WASH and Health working together — a 'how to' guide for NTD programmes",
+    "year": 2019,
+    "checked_date": "2026-10-18",
+    "note": "经web_extract核验：系统介绍问题树（主干问题—上层原因—下层后果）、'五个为什么'根因追问（约五次'为什么'以逼近根因）、鱼骨图（按类别组织多重根因并呈现关系），并提示避免把问题过度简化。"
+  },
+  {
+    "id": "SC44",
+    "title": "Root Cause Analysis Protocol: Fishbone",
+    "type": "official",
+    "url": "https://www.doe.mass.edu/turnaround/level4/root-cause-analysis-protocol-fishbone.pdf",
+    "publisher": "Massachusetts Department of Elementary and Secondary Education",
+    "year": 2015,
+    "checked_date": "2026-10-18",
+    "note": "经web_extract核验：RCA四条原则（瞄准根因优于治症状、系统性分析、根因常不止一个、须建立因果链），并要求对每条候选原因追问'是否有数据支撑、是否有证据证明它导致问题'。"
+  },
+  {
+    "id": "SC45",
+    "title": "What is ROMA? — Diagnose a problem",
+    "type": "web",
+    "url": "https://odi.org/en/about/features/what-is-roma/",
+    "publisher": "ODI (Overseas Development Institute)",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "经web_extract核验：ROMA方法把'诊断问题'置于政策工作的核心环节，强调必须诊断到根因而非症状；先以'五个为什么'做近似诊断，再以鱼骨图做详细诊断。"
+  },
+  {
+    "id": "SC46",
+    "title": "Rittel, H. W. J. & Webber, M. M. (1973). Dilemmas in a general theory of planning. Policy Sciences 4(2): 155-169",
+    "type": "paper",
+    "url": "https://link.springer.com/content/pdf/10.1007/s42532-022-00106-w.pdf",
+    "publisher": "Policy Sciences（转述见 Xiang 2022, Socio-Ecological Practice Research 综述）",
+    "year": 1973,
+    "checked_date": "2026-10-18",
+    "note": "'抗解问题'（wicked problems）原始论文；经综述PDF核验其十属性表（无最终界定的表述、无停止规则、解只有好坏之分、每个问题都可能是另一问题的症状、解释方式的选择决定解的性质等）。原文为付费文献，此处核验的是带完整属性表的开放综述。"
+  },
+  {
+    "id": "SC47",
+    "title": "鱼骨图（特性要因图/石川图）百科条目",
+    "type": "web",
+    "url": "https://wiki.mbalib.com/wiki/%E9%B1%BC%E9%AA%A8%E5%9B%BE",
+    "publisher": "MBA智库百科",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "经web_extract与网页抓取核验：鱼骨图由石川馨于20世纪60年代提出，用于质量管理；画法要点（大要因中性描述、中小要因用价值判断、小要因须分析到可直接下对策、防止原因/现象/对策混淆）。开放百科条目，非同行评审来源。"
+  },
+  {
+    "id": "SC50",
+    "title": "谷振诣《批判性思维与思维基本功》（光明日报讲演，中国青年政治学院）",
+    "type": "paper",
+    "url": "https://epaper.gmw.cn/gmrb/html/2011-05/16/nw.D110000gmrb_20110516_1-05.htm",
+    "publisher": "光明日报（光明网转载）",
+    "year": 2011,
+    "checked_date": "2026-10-18",
+    "note": "已核实可访问。提出批判性思维的宽容原则与中立原则、恩尼斯'反省思维'定义；作者为《批判性思维教程》（北京大学出版社2006）作者。用于论证评估的态度与标准部分。"
+  },
+  {
+    "id": "SC51",
+    "title": "Matthew Van Cleave, Introduction to Logic and Critical Thinking (v1.4)",
+    "type": "book",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/457",
+    "publisher": "Open Textbook Library / Lansing Community College",
+    "year": 2016,
+    "checked_date": "2026-10-18",
+    "note": "已核实可访问（CC BY 开放教材）。第1章含论证的识别与重构、标准形式、隐含前提（arguments with missing premises）等内容，是论证结构分析框架的主要依据。"
+  },
+  {
+    "id": "SC52",
+    "title": "翟锦程、刘怡含《非形式逻辑在中国的传播与发展》",
+    "type": "paper",
+    "url": "http://www.southacademic.com/qkll/content/post_1290713.html",
+    "publisher": "《学术研究》2025年第3期（中国南方学术网）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已核实可访问。梳理非形式逻辑兴起背景（20世纪五六十年代北美、1978年温莎会议）及谬误理论、论证分析等核心议题；用于学科背景与谬误理论部分。"
+  },
+  {
+    "id": "SC53",
+    "title": "中国科学院大学《逻辑与批判性思维》课程大纲",
+    "type": "official",
+    "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/208702",
+    "publisher": "中国科学院大学教务系统",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已核实可访问。教学大纲含'论证分析（论证的识别、重构和评估）''逻辑谬误'章节及求因果五法等，反映国内高校通识课对论证逻辑的通行框架；参考书含谷振诣《批判性思维教程》。"
+  },
+  {
+    "id": "SC54",
+    "title": "北京市各级机关2026年度考试录用公务员公共科目笔试考试大纲（华图教育转载页）",
+    "type": "web",
+    "url": "https://ah.huatu.com/zt/bjgwyksdg/",
+    "publisher": "北京市公务员主管部门（原文）/ 华图教育（转载）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "已核实转载页可访问。判断推理部分表述为'主要测查报考者对各种事物关系的分析推理能力，主要涉及对图形、原理、概念、事物关系和文字材料的理解、比较、组合、运用、演绎和归纳等'。属官方文件的第三方转载，用于能力定位佐证；正式引用应以官方原文为准。；v1.2.1 修正：转载页非官方原始文件，类型改为 web"
+  },
+  {
+    "id": "SC60",
+    "title": "NIST/SEMATECH e-Handbook of Statistical Methods, §2.5.5 Propagation of error considerations",
+    "type": "book",
+    "url": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc55.htm",
+    "publisher": "NIST（美国国家标准与技术研究院）/ SEMATECH",
+    "year": 2012,
+    "checked_date": "2026-10-18",
+    "note": "经web_extract核验：误差传播的偏导数公式 s_y=√[(∂Y/∂X)²s_x²+(∂Y/∂Z)²s_z²+…+协方差项]、Goodman(1960)乘积方差精确公式、近似公式假设各测量独立、协方差项何时须计入等。估算精度讨论的权威技术出处。"
+  },
+  {
+    "id": "SC61",
+    "title": "NIST/SEMATECH e-Handbook of Statistical Methods, §2.5.5.1 Formulas for functions of one variable",
+    "type": "book",
+    "url": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc551.htm",
+    "publisher": "NIST / SEMATECH",
+    "year": 2012,
+    "checked_date": "2026-10-18",
+    "note": "经URL抓取核验页面标题与内容：单变量函数（加减乘除、幂）的不确定度传播公式，含除法/乘法情形的相对误差合成与'N较小时近似可能严重失真'的提示。"
+  },
+  {
+    "id": "SC62",
+    "title": "Anchoring Bias（锚定效应）条目",
+    "type": "web",
+    "url": "https://thedecisionlab.com/biases/anchoring-bias",
+    "publisher": "The Decision Lab",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "经web_extract核验：锚定效应定义为判断过度依赖最先获得的信息（锚点），后续信息以锚点为参照而非客观评估；条目引用 Tversky & Kahneman 的原始研究脉络。非同行评审的科普条目，用于转述概念定义。"
+  },
+  {
+    "id": "SC63",
+    "title": "Base Rate Fallacy（基础比率谬误）条目",
+    "type": "web",
+    "url": "https://thedecisionlab.com/biases/base-rate-fallacy",
+    "publisher": "The Decision Lab",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "经URL抓取核验：页面存在且大量引用 Kahneman 与 Tversky 的研究，讲解人们忽视基础比率、过度依赖代表性/具体信息的判断偏差。用于'比例偏差与代表性启发'概念的科普性转述出处。"
+  },
+  {
+    "id": "SC64",
+    "title": "中华人民共和国2023年国民经济和社会发展统计公报",
+    "type": "official",
+    "url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240228_1947915.html",
+    "publisher": "国家统计局",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "经URL抓取核验页面标题：国家统计局官方统计公报。此类公报（总量+同比增速+比重的标准体例）是资料分析材料的最典型数据源，本专题示范题的指标体例据此设计（数据本身为虚构）。"
+  },
+  {
+    "id": "SC65",
+    "title": "中国统计年鉴2024（网络版目录）",
+    "type": "data",
+    "url": "https://www.stats.gov.cn/sj/ndsj/2024/indexch.htm",
+    "publisher": "国家统计局",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "经URL抓取核验页面标题（GB2312编码转码后确认为'中国统计年鉴2024'）：公开统计年鉴数据库，含全国与分省总量、增速、比重、平均数等指标，是理解真实统计口径与材料结构的公开数据源。"
+  },
+  {
+    "id": "SD01",
+    "title": "国务院关于进一步优化政务服务提升行政效能推动\"高效办成一件事\"的指导意见（国发〔2024〕3号）",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202401/content_6926256.htm",
+    "publisher": "中国政府网",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实：2024-01-16发布，成文2024-01-09；两阶段目标（2024/2027）、五方面任务（渠道建设/模式创新/数字赋能/扩面增效/工作基础）、\"四办\"模式（集成办、承诺办、跨域办、免申办）原文在案。"
+  },
+  {
+    "id": "SD02",
+    "title": "河南省人民政府关于进一步优化政务服务提升行政效能推动\"高效办成一件事\"的实施意见（豫政〔2024〕18号）",
+    "type": "official",
+    "url": "https://www.weidong.gov.cn/contents/32763/26360.html",
+    "publisher": "河南省人民政府（平顶山市卫东区政府网转载全文）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实（2024-07-17印发）。含2024年量化目标：表单信息自动生成50%以上、申请材料压减60%以上、办理时限压缩70%以上、办理环节压缩80%以上；国务院部署13个\"一件事\"2024年10月底前落地；\"五端一体\"、负面清单管理、牵头部门第一责任人等条款原文在案。"
+  },
+  {
+    "id": "SD03",
+    "title": "国务院办公厅关于健全\"高效办成一件事\"重点事项常态化推进机制的意见（国办发〔2025〕24号）",
+    "type": "official",
+    "url": "https://www.gov.cn/gongbao/2025/issue_12166/202507/content_7032503.html",
+    "publisher": "中国政府网（国务院公报2025年第20号）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实（2025-07-03印发）：两个全生命周期总体清单、2027年底前总体清单内重点事项全面落地、防止\"数字形式主义\"、\"人工智能+政务服务\"、基层报表\"只报一次\"等条款。"
+  },
+  {
+    "id": "SD04",
+    "title": "【新华解读】集成创新、重点突破，以\"高效办成一件事\"为重要抓手优服务提效能（作者：河南省行政审批和政务信息管理局党组书记、局长李明东）",
+    "type": "official",
+    "url": "https://www.hnzwfw.gov.cn/2024/01-18/41000194.html",
+    "publisher": "河南政务服务网",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实。河南实施数据：95.1%事项全程网办、7195项掌上办、省级统筹45个\"一件事一次办\"、省级事项71.5%与省统一受理系统实质性联通、1391项事项\"跨省通办\"、比亚迪郑州航空港项目签约到开工37天、濮阳不动产登记秒办秒结等。"
+  },
+  {
+    "id": "SD05",
+    "title": "让\"高效办成一件事\"办成一件件民生实事（新华社）",
+    "type": "web",
+    "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063650.htm",
+    "publisher": "新华社（中国政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实（2026-03-24）：国家层面重点事项清单已推出五批共55项；河南省实施建设项目联合验收\"一件事\"，全省统一受理条件、申请材料、办理流程和时限标准，省市县三级联动，实现\"一次告知、一表申请、一套材料、一窗（端）受理、一网办理\"。"
+  },
+  {
+    "id": "SD06",
+    "title": "\"劲儿往一处使\"——2025\"高效办成一件事\"的鲜活样本（新华社）",
+    "type": "web",
+    "url": "https://www.news.cn/20251230/29808e41d6074046ade72dd9fe2586a0/c.html",
+    "publisher": "新华社",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实（2025-12-30）：截至2025年底累计推出四批重点事项清单；张定安、孟庆国等学者关于\"从碎片化管理到整体性治理\"\"三层面再造\"的评述原文在案。"
+  },
+  {
+    "id": "SD07",
+    "title": "河南基本实现让企业群众办事只进一门、只跑一次（大河报，人民网河南频道转载）",
+    "type": "web",
+    "url": "http://henan.people.com.cn/n2/2022/0829/c351638-40100593.html",
+    "publisher": "人民网河南频道",
+    "year": 2022,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实：2022年河南省政务服务事项办理时限压缩70%以上、90%以上事项不见面审批、175个市县政务服务中心、省政务大厅进驻39个部门2335项事项——改革背景层面证据。"
+  },
+  {
+    "id": "SD08",
+    "title": "西华：把群众\"上心事\"办成\"放心事\"（周口日报）",
+    "type": "web",
+    "url": "https://www.zhoukou.gov.cn/page_pc/xwzx/xqdt/xqdt/article2fe1f62f72d94952b62fc8820b9bdd50.html",
+    "publisher": "周口市人民政府网",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实（2026-08-21）：西华县按省市部署推动41项\"高效办成一件事\"重点事项上线，累计办理24269件；企业开办压至1个工作日内、工程建设项目总审批时限压至60个工作日内。县级落地证据。"
+  },
+  {
+    "id": "SD09",
+    "title": "河南省安阳县：\"一二三四\"工作法提质增效 构建惠企政务服务新模式",
+    "type": "web",
+    "url": "http://business.china.com.cn/2026-08/20/content_43479561.shtml",
+    "publisher": "中国网商务频道",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实（2026-08-20）：安阳县上线51个\"一件事\"、48项重点事项全部即来即办（即来即办率94%）、企业办事跑动频次下降82%、联办事项办理时限压缩81%、累计办理15323件、满意率100%（注意：满意率100%为自报口径，媒体宣传性质，引用需谨慎）。"
+  },
+  {
+    "id": "SD10",
+    "title": "关于全面推进紧密型县域医疗卫生共同体建设的指导意见（国卫基层发〔2023〕41号）",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202312/content_6923447.htm",
+    "publisher": "国家卫生健康委等10部门（中国政府网刊发）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。规定2024年6月底前以省为单位全面推开、2025年底90%以上县基本建成、2027年底基本全覆盖；'七统一'管理、医保总额付费、结余留用、合理超支分担等核心机制原文。"
+  },
+  {
+    "id": "SD11",
+    "title": "河南：'13710'建设紧密型医共体",
+    "type": "official",
+    "url": "http://www.news.cn/health/20211117/608d7a6ad43f45fd8b2a7c4d06ae19d1/c.html",
+    "publisher": "新华网",
+    "year": 2021,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。河南省委深改办数据：103县(市)组建190个医共体、覆盖365个县级公立机构与1755个乡镇卫生院；102县设管委会、89县由县委书记兼任主任；33县实行医保总额付费；'13710'督办制度；县级医院升级与乡镇卫生院达标数据；县域就诊率90%、基层就诊率65%目标。"
+  },
+  {
+    "id": "SD12",
+    "title": "让百姓在'家门口'获得更好医疗服务——聚焦紧密型县域医共体建设（新华社政策解读）",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/202401/content_6925713.htm",
+    "publisher": "新华社（中国政府网）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。国家卫健委发布会：2019年起828个试点县、3个试点省份；国家医保局'总额付费、加强监督考核、结余留用、合理超支分担'要求；2022年基层住院报销比例比二三级医院分别高约10%和17%。"
+  },
+  {
+    "id": "SD13",
+    "title": "河南省人民政府办公厅关于印发河南省推进紧密型县域医疗卫生共同体高质量发展若干措施的通知（豫政办〔2025〕23号）",
+    "type": "official",
+    "url": "https://m.hnzx.gov.cn/2025/05-28/4352171.html",
+    "publisher": "河南省人民政府办公厅（河南省政协网站转载全文）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文（2025-04-29成文、05-27发布）。总院长负责制、支持取消县域内公立医疗机构行政级别、2025年底前落实'七统一'、派驻帮扶至少半年、严防虹吸基层资源与滞留挪用基层资金等条款原文。"
+  },
+  {
+    "id": "SD14",
+    "title": "关于印发紧密型县域医疗卫生共同体监测指标体系的通知（国卫办基层发〔2024〕22号）",
+    "type": "official",
+    "url": "https://www.nhc.gov.cn/jws/c100073/202411/85be7c1072b342ada194530590291833.shtml",
+    "publisher": "国家卫生健康委办公厅、国家医保局办公室、国家中医药局综合司、国家疾控局综合司",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。2024版监测指标体系，供县级自评、省市监测评价、国家动态监测。"
+  },
+  {
+    "id": "SD15",
+    "title": "医保支持基层，河南有实招！",
+    "type": "official",
+    "url": "https://www.nhsa.gov.cn/art/2026/5/24/art_14_20683.html",
+    "publisher": "国家医疗保障局官网",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。安阳市医共体结余资金按县乡村5:3:2分配；河南2023年起基层病种'同病同付'；2025年信阳市一级医院DIP基层病种诊治占比67.7%；中医按疗效价值付费等。数据为医保部门自报。"
+  },
+  {
+    "id": "SD16",
+    "title": "潮涌千帆竞，'豫见'健康新图景（健康报）",
+    "type": "official",
+    "url": "https://www.nhc.gov.cn/xcs/jkzglszb/202512/05fa97214b404f8a8c47a9d841da831d.shtml",
+    "publisher": "健康报（国家卫生健康委官网转载）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。河南省卫健委主任黄红霞专访：'十四五'以来102家县级医院达到推荐标准、119家乡镇卫生院达到二级医院能力水平等数据，属官方自报进展。"
+  },
+  {
+    "id": "SD17",
+    "title": "Comprehensive evaluation of the implementation of close-type county medical alliance in Shandong Province using entropy weight TOPSIS method and non-integer rank sum ratio method",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11459849/",
+    "publisher": "BMC Health Services Research",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已核实摘要与部分全文（PubMed Central）。同行评审实证研究，熵权TOPSIS+非整数秩和比法评价山东省紧密型县域医共体实施情况；研究针对山东，不可直接外推河南。未检索到针对河南医共体的独立因果评估研究。"
+  },
+  {
+    "id": "SD20",
+    "title": "河南省以综治中心规范化促基层治理高效能 进一扇门 解千千结",
+    "type": "official",
+    "url": "http://www.hnswxcb.com/2025/05-30/417874.html",
+    "publisher": "河南日报（中共河南省委宣传部党建网转载）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。含2024年全省依托综治中心化解矛盾纠纷75.25万件、化解率98.6%，61个县（市、区）综治中心完成规范化建设，郑州金水区24个窗口37项业务等数据。"
+  },
+  {
+    "id": "SD21",
+    "title": "【综治中心规范化建设】河南省信阳市光山县：让为民解忧之光照耀每个角落",
+    "type": "official",
+    "url": "http://www.chinapeace.gov.cn/chinapeace/c100052/2025-12/17/content_12815959.shtml",
+    "publisher": "中国长安网（来源：中原盾、河南法治报）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。含光山县'四项机制'、派单流转、一案一码、驻交警大队调解工作室（调处交通事故纠纷1000余起、促成赔偿超1200万元）、七星湖社区'网格排查+源头预防+就地化解'等做法。"
+  },
+  {
+    "id": "SD22",
+    "title": "一站式调处，为群众高效解纠纷（河南省新乡市建成统一平台）",
+    "type": "official",
+    "url": "http://henan.people.com.cn/n2/2024/0521/c351638-40850808.html",
+    "publisher": "人民网河南频道（人民日报记者调研报道）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。含新乡市三级社会治理综合服务中心、1.5万个基础网格、四级网格化体系、网格员预警培训机构退费纠纷并推动全市116家培训机构入资金监管平台等做法。"
+  },
+  {
+    "id": "SD23",
+    "title": "河南司法行政系统充分发挥职能作用赋能平安河南建设",
+    "type": "official",
+    "url": "http://legalinfo.moj.gov.cn/pub/sfbzhfx/zhfxyfzl/yfzldfyfzl/202607/t20260714_537452.html",
+    "publisher": "司法部微信公众号（智慧普法平台转载）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。2026年上半年全省累计化解各类矛盾纠纷30.21万件；人民调解委员会优化调整、退休法官任调解员、商事调解、矛盾纠纷多元化解专项小组等机制。"
+  },
+  {
+    "id": "SD24",
+    "title": "让老百姓有地方'找个说法'，河南去年诉前调解分流案件43万件，调解成功近一半",
+    "type": "web",
+    "url": "https://www.shangbw.com/news/show-32006.html",
+    "publisher": "河南商报",
+    "year": 2021,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。2020年全省法院诉前调解分流案件43万件、成功20.1万件（46.7%）；139家中基层法院设248个人民调解工作室、入驻调解员1576人；民事一审案件同比下降11.49%。数据源自省高院副院长宋海萍介绍。"
+  },
+  {
+    "id": "SD25",
+    "title": "全面推进综治中心规范化建设 不断夯实更高水平平安中国建设根基",
+    "type": "web",
+    "url": "https://xcb.just.edu.cn/2025/0915/c11681a366167/page.htm",
+    "publisher": "江苏警官学院宣传部转载（理论文章）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。系统阐述场所设置、部门入驻、运行机制、督办落实、信息化建设'五个规范化'，及统一受理—分类流转—依法办理—闭环管理流程；引用2019年《中国共产党政法工作条例》、2023年中办国办《关于坚持和发展新时代'枫桥经验'提升社会矛盾纠纷预防化解能力的意见》等文件脉络。"
+  },
+  {
+    "id": "SD26",
+    "title": "党建引领网格化高效能治理",
+    "type": "official",
+    "url": "http://dangjian.people.com.cn/n1/2025/1229/c117092-40634221.html",
+    "publisher": "中国共产党新闻网·党建（作者系郑州市委相关负责同志）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。郑州'十个一'党建引领网格化高效能治理体系、'一格管全面''一键全处理'闭环流程、河南省委'五基四化'部署等。"
+  },
+  {
+    "id": "SD27",
+    "title": "《郑州市高效能社会治理网格化服务管理条例》新闻发布会",
+    "type": "official",
+    "url": "https://www.zhengzhou.gov.cn/conference3/9997732.jhtml",
+    "publisher": "郑州市人民政府门户网站",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "已核实发布稿全文。地方立法将网格化服务管理纳入法治化轨道，是网格化管理机制的制度化样本。"
+  },
+  {
+    "id": "SD28",
+    "title": "综治中心规范化建设专栏（河南长安网）",
+    "type": "web",
+    "url": "http://www.henanpeace.org.cn/column.html?cid=1335",
+    "publisher": "河南长安网（河南省委政法委主管）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "栏目聚合页，核实存在并持续更新（如2026-05-28平顶山湛河区'一站兜底全量纠纷、多元联动闭环化解'条目）；未逐条抓取全文，仅作省级政法系统专栏入口与佐证线索。"
+  },
+  {
+    "id": "SD30",
+    "title": "中共中央 国务院关于学习运用\"千村示范、万村整治\"工程经验有力有效推进乡村全面振兴的意见（2024年中央一号文件）",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/202402/content_6929934.htm",
+    "publisher": "中共中央、国务院（中国政府网刊发，新华社受权发布）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。肯定'千万工程'为推进乡村全面振兴的成功经验和实践范例，要求学习运用其发展理念、工作方法和推进机制，把乡村全面振兴作为'三农'工作总抓手。"
+  },
+  {
+    "id": "SD31",
+    "title": "造就万千美丽乡村 造福万千农民群众——\"千万工程\"二十年启示录",
+    "type": "official",
+    "url": "https://www.news.cn/politics/2023-06/25/c_1129715698.htm",
+    "publisher": "新华社（新华网）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。含阶段划分（2003-2010示范引领、2011-2020深化提升、2021起迭代升级）；整治范围从约1万个行政村推广到全省所有行政村；农村居民人均可支配收入连续38年居全国省区第一；城乡收入比2003年2.43→2022年1.90。"
+  },
+  {
+    "id": "SD32",
+    "title": "学习浙江\"千万工程\"经验案例",
+    "type": "official",
+    "url": "https://www.12371.cn/2023/06/20/ARTI1687250290285397.shtml",
+    "publisher": "共产党员网（《同学》工作室）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已核实页面（正文含【详细】折叠，概况部分完整）：2003年6月启动背景，从近4万个村庄中选择约1万个行政村全面整治、约1000个中心村建成全面小康示范村；六条主要做法。"
+  },
+  {
+    "id": "SD33",
+    "title": "造就万千美丽乡村 造福万千农民群众——中央财办、中央农办负责人就《关于有力有序有效推广浙江\"千万工程\"经验的指导意见》答记者问",
+    "type": "official",
+    "url": "https://www.12371.cn/2023/07/05/ARTI1688546116657744.shtml",
+    "publisher": "新华社（共产党员网转载）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。六大科学方法（含'一把手'亲自抓的领导体制、因地制宜结合财政承受能力）；推广'三不'底线：不超越发展阶段、不搞形象工程、不搞强迫命令——复制推广条件的官方边界。"
+  },
+  {
+    "id": "SD34",
+    "title": "中共浙江省委：在深入践行\"千万工程\"上走前列作示范",
+    "type": "official",
+    "url": "https://www.12371.cn/2023/06/16/ARTI1686882539201876.shtml",
+    "publisher": "共产党员网（转载中共浙江省委署名文章）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。2022年城乡居民人均可支配收入71268元/37565元；规划保留村生活污水治理覆盖率100%、卫生厕所全覆盖、垃圾'零增长''零填埋'、90%以上村庄建成新时代美丽乡村；村级集体总资产8800亿元、年经营性收入50万以上行政村占比51.2%；2018年获联合国'地球卫士奖'。均为省级官方自报数据。"
+  },
+  {
+    "id": "SD35",
+    "title": "农业农村部召开全国乡村建设工作推进会：以学习运用\"千万工程\"经验为引领，扎实有力推进宜居宜业和美乡村建设",
+    "type": "official",
+    "url": "https://www.gov.cn/lianbo/bumen/202411/content_6985268.htm",
+    "publisher": "农业农村部（中国政府网）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。明确'省级党委政府负责、市县两级抓落实'推进机制、自下而上农民参与实施机制、不搞强迫命令与形象工程等要求。"
+  },
+  {
+    "id": "SD36",
+    "title": "刘国中强调：学习运用\"千万工程\"经验 扎实稳步全面推进乡村振兴（全国现场推进会）",
+    "type": "official",
+    "url": "https://www.gov.cn/yaowen/liebiao/202310/content_6909042.htm",
+    "publisher": "新华社（中国政府网）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。2023-10-13全国学习运用'千万工程'经验现场推进会在杭州召开；提出规划引领、梯次推进、逐步扩容、迭代升级的工作格局。"
+  },
+  {
+    "id": "SD37",
+    "title": "中央农村工作会议关键提法之三：\"千万工程\"经验",
+    "type": "official",
+    "url": "https://www.news.cn/politics/20260104/ff4b57a492f741aea822b49239652125/c.html",
+    "publisher": "新华网",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。梳理2025年底中央农村工作会议提法：乡村全面振兴总抓手是学习运用'千万工程'经验；三阶段演进与2024年一号文件定位（据《习近平经济思想概论》）。"
+  },
+  {
+    "id": "SD38",
+    "title": "中共中央 国务院关于做好2023年全面推进乡村振兴重点工作的意见（2023年中央一号文件）",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/2023-02/13/content_5741370.htm",
+    "publisher": "中共中央、国务院（中国政府网，新华社受权发布）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文。第二十五、二十六条部署农村人居环境整治提升（厕所革命、污水垃圾治理）与乡村基础设施建设，为学习运用'千万工程'经验的全国化安排。"
+  },
+  {
+    "id": "SD40",
+    "title": "国务院办公厅关于转发国家发展改革委《城市社区嵌入式服务设施建设工程实施方案》的通知（国办函〔2023〕121号）",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202311/content_6917191.htm",
+    "publisher": "中国政府网（另见生态环境部转载页 mee.gov.cn/zcwj/gwywj/202312/t20231206_1058332.shtml，已抓取全文）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实（经mee.gov.cn转载页全文抓取，gov.cn原文页同文）：成文2023-11-19；七类服务、50个左右试点城市×每市100个左右社区、2027年推开、'四个一批'空间拓展、公建民营/民办公助运营模式、5年土地用途不变等支持政策原文在案。"
+  },
+  {
+    "id": "SD41",
+    "title": "国家发展改革委 住房城乡建设部 自然资源部关于印发《城市社区嵌入式服务设施建设导则（试行）》的通知（发改社会〔2024〕5号）",
+    "type": "official",
+    "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202401/t20240117_1363400_ext.html",
+    "publisher": "国家发展改革委",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实：2024-01-03印发，为121号文的配套技术规范，附导则PDF/OFD。"
+  },
+  {
+    "id": "SD42",
+    "title": "扎实推进城市社区嵌入式服务设施建设工程",
+    "type": "official",
+    "url": "https://www.ndrc.gov.cn/fggz/202409/t20240927_1393383.html",
+    "publisher": "国家发展改革委（政研室）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实：三部门印发《关于扎实推进城市社区嵌入式服务设施建设工程的通知》，将江苏省苏州市等56个城市纳入工程建设范围；要求聚焦'一老一小'。56城完整名单未在该页逐项列出。"
+  },
+  {
+    "id": "SD43",
+    "title": "让群众在'家门口'享受优质服务——相关部门解读城市社区嵌入式服务设施建设",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/202311/content_6917403.htm",
+    "publisher": "新华社（中国政府网转载）",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "抓取经搜索结果页核验内容（发布会实录要点）：发改委刘明'关键小事/民生大事'、试点城市与社区遴选条件、避免'建设轰轰烈烈，服务冷冷清清'、普惠化运营等表述在案。该页正文经搜索摘录核对，未整页抓取，引用以转述为准。"
+  },
+  {
+    "id": "SD44",
+    "title": "民政部等11部门《积极发展老年助餐服务行动方案》（民发〔2023〕58号）印发——计划到2025年底老年助餐服务网络形成一定规模",
+    "type": "official",
+    "url": "https://www.news.cn/politics/2023-10/24/c_1129933524.htm",
+    "publisher": "新华社/新华网",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实：11部门联合印发，2025/2026两阶段目标、纳入一刻钟居家养老服务圈、多元筹资机制（个人出一点、企业让一点、政府补一点等）在案。"
+  },
+  {
+    "id": "SD45",
+    "title": "2023年度国家老龄事业发展公报",
+    "type": "data",
+    "url": "https://www.gov.cn/lianbo/bumen/202410/P020241012307602653540.pdf",
+    "publisher": "民政部、全国老龄办（中国政府网PDF；解读见 gov.cn/lianbo/bumen/202410/content_6979486.htm）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实：截至2023年末60周岁及以上29697万人占21.1%，65岁及以上21676万人占15.4%，抚养比22.5%；解读页另载养老机构设施40.4万个、床位823万张等数据。"
+  },
+  {
+    "id": "SD46",
+    "title": "2025年全国千人口托位数达到了4.73个",
+    "type": "web",
+    "url": "https://zhonghongwang.com/show-258-448761-1.html",
+    "publisher": "中宏网（转述国家卫生健康委2025-12-26新闻发布会，人口家庭司司长王海东介绍）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实：千人口托位数4.73个、新增普惠托位89万个、托育机构12.6万家/托位666万个、'十四五'以来托位增幅132%。属官方发布会内容的媒体转述，标[综合]。"
+  },
+  {
+    "id": "SD47",
+    "title": "2025年郑州市政府工作报告",
+    "type": "official",
+    "url": "https://zzjsj.zhengzhou.gov.cn/gzdt/9068453.jhtml",
+    "publisher": "郑州市人民政府（郑州市城乡建设局网站转载，来源郑州日报）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实：2025-02-08市长何雄作报告；'入选全国首批城市社区嵌入式服务设施建设工程建设范围'、运营老年助餐场所645家/累计服务200万人次、普惠托育每千人托位4.8个等表述原文在案。"
+  },
+  {
+    "id": "SD48",
+    "title": "社区食堂：让老人从舌尖暖到心尖",
+    "type": "web",
+    "url": "http://www.news.cn/caipiao/20240926/176c70fa87d34eb69727ebe8e78e9f44/c.html",
+    "publisher": "河南日报（新华网转载）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实：老年助餐列入河南2024年十项重点民生实事；年度目标7300个以上助餐场所、覆盖40%城镇社区和10%行政村；已布局6818个、下达补助资金2.24亿元（省级补助70%以上）；洛阳A级—5A级年1万—5万元运营补贴等地方做法在案。"
+  },
+  {
+    "id": "SD49",
+    "title": "河南省人大常委会以小切口监督'小快灵'立法托起老年人幸福'食'光",
+    "type": "official",
+    "url": "https://www.bjrd.gov.cn/xwzx/gsrd/202512/t20251211_4335875.html",
+    "publisher": "中国人大网（北京市人大常委会网站转载）",
+    "year": 2025,
+    "checked_date": "2026-10-18",
+    "note": "已抓取全文核实：《河南省发展老年助餐服务规定》2025-12-04省十四届人大常委会第二十一次会议通过（2026-01-01施行，19条）；截至2024年底河南60岁及以上人口2038万人；全省建成老年助餐服务设施8367个（城市3592、农村4775）；省人大自述'可持续运营难度较大、服务监管有待加强'。"
+  },
+  {
+    "id": "SB50",
+    "title": "See, Howe, Warm & Dember (1995). Meta-analysis of the sensitivity decrement in vigilance. Psychological Bulletin",
+    "type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26276365",
+    "publisher": "American Psychological Association（PubMed 收录）",
+    "year": 1995,
+    "checked_date": "2026-10-18",
+    "note": "警觉衰减作为稳健现象的元分析脉络；具体效应量经相关综述页转述核实，元分析原文未逐页核对。本条 PubMed 页为 SB54 条目页，其中综述了 See et al. 1995 的结论（衰减在高需求任务 20-30 分钟内显著）。"
+  },
+  {
+    "id": "SB51",
+    "title": "Bell, Kawadri, Simone & Wiseheart (2014). Long-term memory, sleep, and the spacing effect. Memory 22(3)",
+    "type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23521365",
+    "publisher": "Taylor & Francis（PubMed 收录，PMID: 23521365）",
+    "year": 2014,
+    "checked_date": "2026-10-18",
+    "note": "已核实摘要：Swahili 词对实验比较集中/当日12h/隔夜12h/24h 四种间隔；含睡眠的12小时间隔长期记忆与24小时相当，支持睡眠对间隔效应长期收益的作用。"
+  },
+  {
+    "id": "SB52",
+    "title": "Cousins et al. (2019). The long-term memory benefits of a daytime nap compared with cramming",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6335868/",
+    "publisher": "Royal Society Open Science（PMC 全文）",
+    "year": 2019,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文页：3 组（小睡/休息/塞实）学习事实材料；即时测试小睡与塞实均优于休息，但1周后只有小睡组保持优势显著。注意为青年样本。"
+  },
+  {
+    "id": "SB53",
+    "title": "Faber et al. (2019). Sustaining attention for a prolonged period of time increases temporal variability in cortical responses. Cortex",
+    "type": "paper",
+    "url": "https://sciencedirect.com/science/article/abs/pii/S0010945219300681",
+    "publisher": "Elsevier（ScienceDirect 摘要页）",
+    "year": 2019,
+    "checked_date": "2026-10-18",
+    "note": "已核实摘要：80分钟无休息持续注意任务，衰减约30分钟内快速发生后趋稳；60分钟处金钱激励短暂提升表现但不能恢复初始水平——动机不能完全抵消衰减。"
+  },
+  {
+    "id": "SB54",
+    "title": "Warm et al. (2015). Sustained attention in auditory and visual monitoring tasks: rest break countermeasure（PMID: 26276365）",
+    "type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26276365",
+    "publisher": "Human Factors（PubMed 收录）",
+    "year": 2015,
+    "checked_date": "2026-10-18",
+    "note": "已核实摘要：40分钟监视任务中第30分钟插入5分钟休息改善后段成绩但不完全恢复；文中综述更短至1分钟微休息亦有恢复作用、衰减多在前20-30分钟。"
+  },
+  {
+    "id": "SB55",
+    "title": "'I need a break': the effect of choice of rest break duration on vigilance（PMID: 34328396）",
+    "type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34328396",
+    "publisher": "Taylor & Francis（PubMed 收录）",
+    "year": 2021,
+    "checked_date": "2026-10-18",
+    "note": "已核实摘要：30秒-150秒微休息总体不足以抵消警觉衰减与压力负荷；120秒休息显著优于30秒（检出率与敏感度），150秒未见显著优势；资源论与单调论解释并存。"
+  },
+  {
+    "id": "SB56",
+    "title": "The effect of daytime napping and full-night sleep on the consolidation of declarative and procedural information（多中心研究，PMC6378597）",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6378597",
+    "publisher": "Nature and Science of Sleep（PMC 全文）",
+    "year": 2019,
+    "checked_date": "2026-10-18",
+    "note": "已核实全文页：多中心研究未发现白天小睡对陈述性/程序性任务的显著行为学益处——作为小睡效果的反例证据登记，用于说明个体与任务差异，防止把小睡收益绝对化。"
+  },
+  {
+    "id": "SA70",
+    "title": "A Ladder of Citizen Participation (Arnstein, 1969, JAIP 35(4))",
+    "type": "paper",
+    "url": "https://doi.org/10.1080/01944366908977225",
+    "publisher": "Taylor & Francis (Journal of the American Institute of Planners)",
+    "year": 1969,
+    "checked_date": "2026-10-18",
+    "note": "已抓取摘要与核心段落（参与=权力再分配、empty ritual 表述已核对），全文未逐页核读。"
+  },
+  {
+    "id": "SA71",
+    "title": "Mobilization, Participatory Planning Institutions, and Elite Capture: Evidence from a Field Experiment in Rural Kenya",
+    "type": "paper",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0305750X14003362",
+    "publisher": "World Development",
+    "year": 2014,
+    "checked_date": "2026-10-18",
+    "note": "已抓取摘要与 highlights：动员提高参会率但对需求—立项匹配无影响。仅摘要可免费获取。"
+  },
+  {
+    "id": "SA72",
+    "title": "陈奕敏：聚焦：参与式预算的路径与前景（学习时报）",
+    "type": "web",
+    "url": "http://theory.people.com.cn/n/2015/0104/c40531-26320394.html",
+    "publisher": "人民网理论频道",
+    "year": 2015,
+    "checked_date": "2026-10-18",
+    "note": "全文已抓取核对：温岭泽国/新河模式、焦作预算公开型、无锡项目选择型等，属亲历者叙述，非严格实证。"
+  },
+  {
+    "id": "SA73",
+    "title": "中共中央 国务院关于加强和完善城乡社区治理的意见（新华社通稿）",
+    "type": "official",
+    "url": "https://www.idcpc.org.cn/zgzc/zcwj/201912/t20191216_106319.html",
+    "publisher": "新华社（中联部网站转载）",
+    "year": 2017,
+    "checked_date": "2026-10-18",
+    "note": "通稿已抓取核对，含多方参与共同治理、增强社区居民参与能力等表述。"
+  },
+  {
+    "id": "SA80",
+    "title": "中共中央 国务院关于全面实施预算绩效管理的意见",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/2018-09/25/content_5325315.htm",
+    "publisher": "中国政府网",
+    "year": 2018,
+    "checked_date": "2026-10-18",
+    "note": "全文已抓取核对：全方位全过程全覆盖体系、重投入轻管理等问题表述、3-5年目标。"
+  },
+  {
+    "id": "SA81",
+    "title": "国务院办公厅关于进一步推进省以下财政体制改革工作的指导意见（国办发〔2022〕20号）",
+    "type": "official",
+    "url": "https://www.gov.cn/gongbao/content/2022/content_5697973.htm",
+    "publisher": "国务院公报",
+    "year": 2022,
+    "checked_date": "2026-10-18",
+    "note": "全文已抓取核对：事权与支出责任划分不尽合理、基层三保压力等表述。"
+  },
+  {
+    "id": "SA82",
+    "title": "省以下财政体制改革如何推进（人民日报政策解读）",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/2022-06/14/content_5695535.htm",
+    "publisher": "中国政府网转载人民日报",
+    "year": 2022,
+    "checked_date": "2026-10-18",
+    "note": "全文已抓取核对：委托事权足额安排转移支付、不得向下转嫁支出责任、按税种属性划分收入等。"
+  },
+  {
+    "id": "SA83",
+    "title": "中央部门预算绩效管理改革的进度评估与优化路径",
+    "type": "paper",
+    "url": "https://html.rhhz.net/HNLGDXXBSKB/html/2022-2-106.htm",
+    "publisher": "河南理工大学学报（社会科学版）",
+    "year": 2022,
+    "checked_date": "2026-10-18",
+    "note": "已抓取摘要：45个中央部门2015-2020预决算绩效信息，过程导向偏重、信息透明度不高、结果有效性偏低。仅摘要核对，全文未核读。"
+  },
+  {
+    "id": "SA90",
+    "title": "中共中央办公厅：关于解决形式主义突出问题为基层减负的通知（全文）",
+    "type": "official",
+    "url": "http://cpc.people.com.cn/n1/2019/0312/c419242-30970708.html",
+    "publisher": "人民网—中国共产党新闻网",
+    "year": 2019,
+    "checked_date": "2026-10-18",
+    "note": "全文已抓取核对：2019基层减负年、文山会海、督查检查考核过多过频过度留痕、规范问责。"
+  },
+  {
+    "id": "SA91",
+    "title": "整治形式主义为基层减负若干规定（新华社通稿，教育部网站转载）",
+    "type": "official",
+    "url": "http://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202508/t20250807_1315239.html",
+    "publisher": "新华社（教育部网站转载）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "全文已抓取核对：2024-07-30政治局会议审议批准；部门政务应用原则上最多1个、填表报数一般不延伸到县级、最多报一次。转载页日期2025-08。"
+  },
+  {
+    "id": "SA92",
+    "title": "人民观点：'属地管理'不是责任转嫁（人民日报评论）",
+    "type": "official",
+    "url": "https://www.cnipa.gov.cn/art/2020/5/19/art_616_150934.html",
+    "publisher": "人民日报（国家知识产权局网站转载）",
+    "year": 2020,
+    "checked_date": "2026-10-18",
+    "note": "全文已抓取核对：乡镇一年四五十份责任状、'属地管理是个筐'、引述2020年中办通知关于责任清单表述。"
+  },
+  {
+    "id": "SA93",
+    "title": "乡村振兴责任制实施办法",
+    "type": "official",
+    "url": "https://www.gov.cn/zhengce/2022-12/14/content_5731828.htm",
+    "publisher": "中国政府网",
+    "year": 2022,
+    "checked_date": "2026-10-18",
+    "note": "全文已抓取核对：中央统筹、省负总责、市县乡抓落实；五级书记抓乡村振兴。"
+  },
+  {
+    "id": "SA94",
+    "title": "陈天祥：打开'痕迹管理'的正确方式（南方杂志评论）",
+    "type": "web",
+    "url": "https://sog.sysu.edu.cn/article/856",
+    "publisher": "南方杂志（中山大学政治与公共事务管理学院转发）",
+    "year": 2018,
+    "checked_date": "2026-10-18",
+    "note": "仅抓取到转发页与核心观点句：过程管理服务结果导向、合并减少考评检查督查；原文见南方杂志电子版链接。"
+  },
+  {
+    "id": "SA100",
+    "title": "中共中央办公厅 国务院办公厅关于推进新型城市基础设施建设打造韧性城市的意见",
+    "type": "official",
+    "url": "https://www.gov.cn/gongbao/2024/issue_11766/202412/content_6993325.html",
+    "publisher": "国务院公报",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "全文已抓取核对：2027/2030目标、设施/管理/空间韧性、生命线工程、地下管网一张图。"
+  },
+  {
+    "id": "SA101",
+    "title": "从安徽创新到国家行动：城市基础设施生命线安全工程写入政府工作报告",
+    "type": "web",
+    "url": "https://www.tsinghua.edu.cn/info/3266/124547.htm",
+    "publisher": "清华大学（转中国日报网）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "全文已抓取核对：清华合肥院2013年成立、推广至140余城、2026政府工作报告表述；属高校宣传性来源，无独立效果评估。"
+  },
+  {
+    "id": "SA102",
+    "title": "全国城镇燃气安全专项整治工作方案（安委〔2023〕3号）",
+    "type": "official",
+    "url": "https://www.mem.gov.cn/gk/zfxxgkpt/fdzdgknr/202308/t20230811_459110.shtml",
+    "publisher": "应急管理部",
+    "year": 2023,
+    "checked_date": "2026-10-18",
+    "note": "主体已抓取核对：三级责任压实、治理模式向事前预防转型。"
+  },
+  {
+    "id": "SA103",
+    "title": "司马媛、童星：对风险社会理论的再思考及政策适应",
+    "type": "paper",
+    "url": "http://sociology.cssn.cn/webpic/web/sociology/upload/2012/04/d20120413122917997.pdf",
+    "publisher": "中国社会科学网社会学研究所存档（载《风险社会与秩序重建》）",
+    "year": 2006,
+    "checked_date": "2026-10-18",
+    "note": "PDF已抓取但正文解析不完整，确认作者与文献信息；贝克理论要点引用以此文献脚注为准，细节核对有限。"
+  },
+  {
+    "id": "SC70",
+    "title": "华图教育《2027年省考申论如何写作》（评分标准、立意方法、论证技巧）",
+    "type": "web",
+    "url": "https://www.huatu.com/2026/0519/2862694.html",
+    "publisher": "华图教育",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "机构教研综述，用于大作文结构与评分参考；非官方文件。C07 引用。"
+  },
+  {
+    "id": "SC71",
+    "title": "Stephen Toulmin 论证模型（The Uses of Argument, 1958 六要件）",
+    "type": "web",
+    "url": "https://en.wikipedia.org/wiki/Stephen_Toulmin",
+    "publisher": "Wikipedia",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "理论原始文献为 Toulmin 1958；条目已核实 claim/ground/warrant/backing/qualifier/rebuttal 六要件。C07 引用。"
+  },
+  {
+    "id": "SC72",
+    "title": "《党政机关公文处理工作条例》（中办发〔2012〕14号）",
+    "type": "official",
+    "url": "https://www.gov.cn/zwgk/2013-02/22/content_2337704.htm",
+    "publisher": "中共中央办公厅、国务院办公厅（中国政府网）",
+    "year": 2012,
+    "checked_date": "2026-10-18",
+    "note": "全文已核实；2012-07-01 施行。C07 引用。"
+  },
+  {
+    "id": "SC73",
+    "title": "中央机关及其直属机构2026年度考试录用公务员公共科目笔试考试大纲（河南华图转载页）",
+    "type": "official",
+    "url": "https://ha.huatu.com/zt/gwyks/dg.html",
+    "publisher": "第三方转载（河南华图）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "官方大纲之转载页，能力定位表述已核对；正式引用前应对官方原文。C07/C08/C09 引用。"
+  },
+  {
+    "id": "SC74",
+    "title": "周金声、李海洋《大学语文教材类型分析及其创新建设》，《写作》2024年第2期",
+    "type": "paper",
+    "url": "https://wxy.pdsu.edu.cn/info/1102/5623.htm",
+    "publisher": "《写作》杂志（平顶山学院文学院转载）",
+    "year": 2024,
+    "checked_date": "2026-10-18",
+    "note": "议论文/应用文写作教学背景参考。C07 引用。"
+  },
+  {
+    "id": "SC80",
+    "title": "Walter Kintsch, The Role of Knowledge in Discourse Comprehension: A Construction-Integration Model, Psychological Review 95(2):163-182",
+    "type": "paper",
+    "url": "https://condor.depaul.edu/dallbrit/extra/hon207/readings/kintsch-1988-construction-integration.pdf",
+    "publisher": "American Psychological Association（DePaul 课程镜像）",
+    "year": 1988,
+    "checked_date": "2026-10-18",
+    "note": "全文 PDF 已核实；建构—整合模型。C08 引用。"
+  },
+  {
+    "id": "SC81",
+    "title": "Collocation（搭配）条目",
+    "type": "web",
+    "url": "https://en.wikipedia.org/wiki/Collocation",
+    "publisher": "Wikipedia",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "共现频率定义与语言教学意义已核实。C08 引用。"
+  },
+  {
+    "id": "SC82",
+    "title": "Rhetorical Structure Theory（修辞结构理论）条目",
+    "type": "web",
+    "url": "https://en.wikipedia.org/wiki/Rhetorical_structure_theory",
+    "publisher": "Wikipedia",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "核心—卫星（nucleus/satellite）关系已核实。C08 引用。"
+  },
+  {
+    "id": "SC83",
+    "title": "基于 Kintsch 模型的阅读理解层次测评研究（ERIC ED382681）",
+    "type": "paper",
+    "url": "https://files.eric.ed.gov/fulltext/ED382681.pdf",
+    "publisher": "ERIC",
+    "year": 1995,
+    "checked_date": "2026-10-18",
+    "note": "表层/文本基/情境模型三层表征的测评应用已核实。C08 引用。"
+  },
+  {
+    "id": "SC84",
+    "title": "中央机关及其直属机构2026年度考试录用公务员公共科目笔试考试大纲（河南华图转载页）",
+    "type": "official",
+    "url": "https://ha.huatu.com/zt/gwyks/dg.html",
+    "publisher": "第三方转载（河南华图）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "与 SC73 同页，按专题分别登记以便引用追踪。C08 引用。"
+  },
+  {
+    "id": "SC85",
+    "title": "高顿教育《26考生必看！河南省考题型数量及占比》",
+    "type": "web",
+    "url": "https://www.gaodun.com/gwy/1745053.html",
+    "publisher": "高顿教育",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "机构统计：河南省考行测120题/120分钟、言语约30题；备考参考，以2027年官方公告为准。C08/C09 引用。"
+  },
+  {
+    "id": "SC90",
+    "title": "George Pólya, How to Solve It（四阶段问题解决框架条目）",
+    "type": "book",
+    "url": "https://en.wikipedia.org/wiki/How_to_Solve_It",
+    "publisher": "Princeton University Press, 1945（条目 Wikipedia）",
+    "year": 1945,
+    "checked_date": "2026-10-18",
+    "note": "四阶段：理解问题—拟定计划—执行—回顾。C09 引用。"
+  },
+  {
+    "id": "SC91",
+    "title": "Y. Hartono, Mathematical Modelling in Problem Solving, J. Phys.: Conf. Ser. 1480, 012001",
+    "type": "paper",
+    "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1480/1/012001",
+    "publisher": "IOP Publishing",
+    "year": 2020,
+    "checked_date": "2026-10-18",
+    "note": "开放获取，DOI 10.1088/1742-6596/1480/1/012001 已核实；结论：建模是问题解决的组成部分。C09 引用。"
+  },
+  {
+    "id": "SC92",
+    "title": "高顿教育《26考生必看！河南省考题型数量及占比》",
+    "type": "web",
+    "url": "https://www.gaodun.com/gwy/1745053.html",
+    "publisher": "高顿教育",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "与 SC85 同页，按专题分别登记。C09 引用。"
+  },
+  {
+    "id": "SC93",
+    "title": "中央机关及其直属机构2026年度考试录用公务员公共科目笔试考试大纲（河南华图转载页）",
+    "type": "official",
+    "url": "https://ha.huatu.com/zt/gwyks/dg.html",
+    "publisher": "第三方转载（河南华图）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "与 SC73 同页。C09 引用。"
+  },
+  {
+    "id": "SC100",
+    "title": "行测判断推理教研资料（定义判断要件体系），MarginNote 社区收录 PDF",
+    "type": "web",
+    "url": "https://bbs.marginnote.com.cn/uploads/short-url/kbF5anFFxv7nvV5lLZpZXISKrzP.pdf",
+    "publisher": "MarginNote 中文社区（收录件，原始出处不详）",
+    "year": null,
+    "checked_date": "2026-10-18",
+    "note": "要件清单（主体/客体/目的/方式/原因/结果/条件）已核实；原始出版方不详，标注为机构教研资料。C10 引用。"
+  },
+  {
+    "id": "SC101",
+    "title": "云南公务员考试网《2013年行测指导：定义判断专业术语注意事项》",
+    "type": "web",
+    "url": "http://www.yngwy.org/2013/0604/5341.html",
+    "publisher": "云南公务员考试网",
+    "year": 2013,
+    "checked_date": "2026-10-18",
+    "note": "抽象定义的内涵理解路径与 2012 年国考真题解析已核实。C10 引用。"
+  },
+  {
+    "id": "SC102",
+    "title": "Structure-mapping theory（Gentner 结构映射理论）条目",
+    "type": "web",
+    "url": "https://en.wikipedia.org/wiki/Structure-mapping_theory",
+    "publisher": "Wikipedia（原始文献：Gentner 1983, Cognitive Science 7:155-170）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "属性/关系之别、系统性原则已核实。C10 引用。"
+  },
+  {
+    "id": "SC103",
+    "title": "中央机关及其直属机构2026年度考试录用公务员公共科目笔试考试大纲（河南华图转载页）",
+    "type": "official",
+    "url": "https://ha.huatu.com/zt/gwyks/dg.html",
+    "publisher": "第三方转载（河南华图）",
+    "year": 2026,
+    "checked_date": "2026-10-18",
+    "note": "判断推理能力定位（对各种事物关系的分析推理能力）已核实。C10 引用。"
+  },
+  {
+    "id": "SD50",
+    "title": "河南省人力资源和社会保障厅网站文章（D06起始线索，未核实成功）",
+    "type": "web",
+    "url": "https://hrss.henan.gov.cn/2025/02-13/3123157.html",
+    "publisher": "河南省人社厅",
+    "year": "2025",
+    "checked_date": "2026-10-18",
+    "note": "web_extract 返回 http_error，内容未能核实，正文未引用其内容；已改用其他可靠来源。"
+  },
+  {
+    "id": "SD51",
+    "title": "《党建引领网格化高效能治理——郑州学习贯彻习近平总书记关于社会治理重要论述的实践启示》（安伟）",
+    "type": "web",
+    "url": "http://dangjian.people.com.cn/n1/2025/1229/c117092-40634221.html",
+    "publisher": "人民日报（中国共产党新闻网转载），作者为河南省委常委、郑州市委书记",
+    "year": "2025",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。系统阐述郑州'十个一'党建引领网格化体系、'基层发现—一键上报—智能分派—联动处置—结果反馈—综合评价'闭环、'郑好拍'接诉渠道。属官员署名文章，为官方自述口径。"
+  },
+  {
+    "id": "SD52",
+    "title": "《坚定信心推动高质量发展高效能治理》（刘宁）",
+    "type": "web",
+    "url": "https://www.qstheory.cn/20250815/00a5bb539ff243fea5217ca49b3439ef/c.html",
+    "publisher": "《求是》2025年第16期（河南省委书记署名文章）",
+    "year": "2025",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。提出河南深化'党建+网格+大数据'模式，并自陈社会治理仍有'先进技术赋能有待加强'等短板。"
+  },
+  {
+    "id": "SD53",
+    "title": "《河南省信阳市光山县：让为民解忧之光照耀每个角落》",
+    "type": "web",
+    "url": "http://www.chinapeace.gov.cn/chinapeace/c100052/2025-12/17/content_12815959.shtml",
+    "publisher": "中国长安网（中央政法委）",
+    "year": "2025",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。河南光山县'网格排查+源头预防+就地化解'闭环机制、社区矛盾纠纷摸排化解个案（官方口径）。"
+  },
+  {
+    "id": "SD54",
+    "title": "《卸下'指尖'负担 树立实干新风》",
+    "type": "web",
+    "url": "http://www.chbeo.org.cn/article_view.aspx?classid=41&id=8682",
+    "publisher": "中央纪委国家监委网站（营商环境监测中心转载）",
+    "year": "2025",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。梳理'指尖上的形式主义'整治脉络：2024年7月中央政治局会议要求、中办国办《整治形式主义为基层减负若干规定》专章部署、甘肃定西等地案例（一干部手机近30个工作群）。"
+  },
+  {
+    "id": "SD55",
+    "title": "国家网信办有关负责同志就《政务移动互联网应用程序规范化管理办法》答记者问",
+    "type": "web",
+    "url": "https://www.12371.cn/2026/01/29/ARTI1769652801074835.shtml",
+    "publisher": "共产党员网",
+    "year": "2026",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。梳理2023年12月中央网信委《关于防治'指尖上的形式主义'的若干意见》、2024年10月起全国整治、2026年国办出台政务App规范化管理办法。"
+  },
+  {
+    "id": "SD60",
+    "title": "《河南南阳：紧盯关键环节 精准破解难题》",
+    "type": "web",
+    "url": "https://www.zyshgzb.gov.cn/n1/2025/0414/c460384-40459273.html",
+    "publisher": "中共中央社会工作部网站（内容由南阳市委社会工作部提供）",
+    "year": "2025",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。南阳破解'小马拉大车'：赋予乡镇61项、街道45项行政处罚权并建承接机制；减负赋能双向发力。官方自述口径。"
+  },
+  {
+    "id": "SD61",
+    "title": "《全国乡镇（街道）履职事项清单全部编制完成》",
+    "type": "web",
+    "url": "https://www.gov.cn/yaowen/liebiao/202507/content_7034457.htm",
+    "publisher": "新华社（中国政府网）",
+    "year": "2025",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。2024年2月起全国3.8万个乡镇（街道）开展清单编制，2025年6月底全部完成；平均340项（基本117、配合99、收回124）；'三上三下'程序；中央编办明确965项收回事项与53项'保民生、保安全、保底线'事项。官方自报。"
+  },
+  {
+    "id": "SD62",
+    "title": "中办国办印发《关于用好乡镇（街道）履行职责事项清单的具体措施》",
+    "type": "web",
+    "url": "https://www.gov.cn/zhengce/202605/content_7069581.htm",
+    "publisher": "新华社（中国政府网）",
+    "year": "2026",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。清单使用规则：考核以基本履职清单为基本依据、不得以收回事项考核基层；配合事项失职上级承担主责；杜绝'条条干预'。"
+  },
+  {
+    "id": "SD63",
+    "title": "《在基层淬炼 以实干作答》（人民日报年终策划，中原网转载）",
+    "type": "web",
+    "url": "https://news.zynews.cn/zz/2025/12/30/186264.html",
+    "publisher": "人民日报（中原网转载，国家一类新闻网站）",
+    "year": "2025",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。郑州市完成193个乡镇（街道）履职事项清单编制、依托'城市大脑'非接触考核指标精简率73.89%、西大街街道上级收回14类86项事项、清理30多块标牌30多个工作群。官方自报口径。"
+  },
+  {
+    "id": "SD70",
+    "title": "中办国办《关于推进新型城市基础设施建设打造韧性城市的意见》",
+    "type": "web",
+    "url": "https://www.gov.cn/zhengce/202412/content_6991171.htm",
+    "publisher": "新华社（中国政府网）",
+    "year": "2024",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。目标：2027年新型城市基础设施建设取得明显进展，2030年建成一批高水平韧性城市；部署CIM平台、城市运行管理服务'一网统管'等11项重点任务，并要求力戒形式主义、防止数据壁垒与重复建设。"
+  },
+  {
+    "id": "SD71",
+    "title": "《河南省城市基础设施生命线安全工程建设三年行动方案（2023—2025年）》（豫政办〔2023〕43号）",
+    "type": "web",
+    "url": "http://www.jiyuan.gov.cn/gov_special/yshjzjy/zcjc/snzc/t914301.html",
+    "publisher": "河南省人民政府办公厅（济源示范区网站全文转载）",
+    "year": "2023",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实全文。2023年摸清风险底数、建省市级城市运行管理服务平台；2024年各省辖市全覆盖'三高'区域六类监测；2025年所有县（市）覆盖，省长任领导小组组长。"
+  },
+  {
+    "id": "SD72",
+    "title": "《河南印发城市基础设施生命线安全工程建设三年行动方案》",
+    "type": "web",
+    "url": "http://www.ha.chinanews.com.cn/wap/hnxw/2023/0904/48464.shtml",
+    "publisher": "中国新闻网河南",
+    "year": "2023",
+    "checked_date": "2026-10-18",
+    "note": "URL 可访问、标题经检索确认，但页面正文抓取不完整；内容以 SD71 官方全文为准。"
+  },
+  {
+    "id": "SD73",
+    "title": "《清华大学合肥公共安全研究院建设全国首个城市生命线安全工程》",
+    "type": "web",
+    "url": "https://www.tsinghua.edu.cn/info/1175/87870.htm",
+    "publisher": "清华大学新闻网",
+    "year": "2021",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实（正文部分截取，要点经检索摘要交叉确认）。2017年系统运行以来成功预警燃气燃爆、爆管、塌陷、桥梁险情6000多起，地下管网事故发生率下降60%、风险排查效率提高70%；皖办发〔2021〕22号推广'合肥模式'。建设方自报数据。"
+  },
+  {
+    "id": "SD74",
+    "title": "《事故发生率下降60%！清华合肥院科技赋能城市生命线》",
+    "type": "web",
+    "url": "https://www.stdaily.com/web/gdxw/2026-08/07/content_560425.html",
+    "publisher": "科技日报",
+    "year": "2026",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。安徽全省布设23.6万套感知设备、覆盖17万公里管网325座桥梁，累计处置三级以上险情3700余起；技术已推广至全国140多个城市。官方/建设方口径。"
+  },
+  {
+    "id": "SD75",
+    "title": "《河南郑州等地特大暴雨洪涝灾害灾后恢复重建总体规划》（附国务院批复国函〔2022〕11号）",
+    "type": "web",
+    "url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202203/P020220314480103680956.pdf",
+    "publisher": "国家发展改革委",
+    "year": "2022",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实PDF。规划期2021—2024，40个极重/重灾县（市、区）；要求按海绵城市、韧性城市要求源头减排、易涝点整治、智能化感知终端布设。"
+  },
+  {
+    "id": "SD76",
+    "title": "《关于对郑州夏季暴雨积水问题治理及智慧防汛体系建设提案的答复》",
+    "type": "web",
+    "url": "https://public.zhengzhou.gov.cn/D1102X/10203725.jhtml",
+    "publisher": "郑州市人民政府办公室",
+    "year": "2026",
+    "checked_date": "2026-10-18",
+    "note": "已抓取核实。'7·20'后郑州进展：防洪排涝监测预警系统一期2022年建成投运，2021年以来改造积水点、累计改造管网约47.26公里，金水河防洪标准提至100年一遇；官方自报口径。"
+  },
+  {
     "id": "SE01",
     "title": "兰考县人民政府网站《县政协第十一届第三次会议第 0240016 号提案：关于提升兰考县\"共富工坊\"品质，助力乡村振兴的提案和答复》，2024-08-12， （白名单官方·县级政府网）",
     "type": "official",

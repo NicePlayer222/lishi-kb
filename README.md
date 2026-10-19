@@ -7,3 +7,4 @@
 - 规范：见 `PRODUCTION_PACK.md`；任务：见 `TASKS.md`。
 - 分支：`line-a` ~ `line-i`；不要直接推 `main`。
 - 入库：DSH 侧 `scripts/ingest.py` 自动校验；不合格进 `rework/`。
+- 当前基线：**39 篇 / 215 条来源**（含校准批 6 篇）；`python3 scripts/build.py --check` 应通过。
