@@ -40,13 +40,16 @@ def now():
 
 def git(*args):
     return subprocess.run(
-        ["git", *args], cwd=ROOT, capture_output=True, text=True, timeout=120)
+        ["git", *args], cwd=ROOT, capture_output=True, text=True, timeout=15)
 
 
 def pull():
-    r = git("pull", "--rebase", "--autostash", "-q")
-    if r.returncode != 0:
-        print("[runner] pull failed:", r.stderr.strip()[:300])
+    try:
+        r = git("pull", "--rebase", "--autostash", "-q")
+        if r.returncode != 0:
+            print("[runner] pull failed:", r.stderr.strip()[:300])
+    except Exception as e:
+        print(f"[runner] pull skipped: {type(e).__name__}: {e}")
 
 
 def commit_push(message):
