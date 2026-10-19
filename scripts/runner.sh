@@ -1,33 +1,17 @@
 #!/usr/bin/env bash
-# LightVela runner 循环：每 30 秒检查一次命令，有命令就执行一次。
-# 启动：nohup bash scripts/runner.sh > ~/lishi-runner.log 2>&1 &
-# 注意：不要在这里再加裸 git pull；runner_once.py 已做带超时/异常保护的 pull。
 set -u
-cd "$(dirname "$0")/.." || exit 1
 
-if ! command -v hermes >/dev/null 2>&1; then
-  echo "[runner] hermes not found in PATH" >&2
-  exit 1
-fi
+cd "$(dirname "$0")/.."
+export GIT_TERMINAL_PROMPT=0
 
-# 防止重复启动（有 flock 用 flock，没有就退化为 pid 文件）
-if command -v flock >/dev/null 2>&1; then
-  exec 9>"$HOME/.lishi-runner.loop.lock"
-  if ! flock -n 9; then
-    echo "[runner] already running" >&2
-    exit 1
-  fi
-else
-  PIDFILE="$HOME/.lishi-runner.loop.pid"
-  if [ -f "$PIDFILE" ] && kill -0 "$(cat "$PIDFILE" 2>/dev/null)" 2>/dev/null; then
-    echo "[runner] already running" >&2
-    exit 1
-  fi
-  echo $$ > "$PIDFILE"
-fi
-
-echo "[runner] started at $(date -Is) in $(pwd)"
 while true; do
-  python3 scripts/runner_once.py || true
-  sleep 30
+    python3 scripts/runner_once.py || true
+
+    ahead="$(git rev-list --count '@{u}..HEAD' 2>/dev/null || echo 0)"
+    if [ "${ahead:-0}" -gt 0 ]; then
+        echo "[runner] local ahead by ${ahead}; retrying push"
+        timeout 20 git push origin main || echo "[runner] push failed; retry next loop"
+    fi
+
+    sleep 30
 done
