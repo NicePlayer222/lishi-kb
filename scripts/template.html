@@ -480,7 +480,7 @@ function home(){
   <details class="srcindex"><summary><span class="chev">${ICONS.chev}</span>来源索引（${DATA.sources.length} 条）</summary><div class="src">`+
     DATA.sources.map(s=>`<div>[${s.id}] ${esc(s.title)} — <a href="${s.url}" target="_blank" rel="noopener">${s.url}</a>（${s.type}，核实于 ${s.checked_date}）</div>`).join("")+
   `</div></details>
-  <div class="homefoot">《砺行》备考知识库 · 内容版本 v1.3 · 全部专题为 draft 状态，以官方公告为准</div>`;
+  <div class="homefoot">《砺行》备考知识库 · 内容持续更新中 · 以官方公告为准</div>`;
   const c=document.getElementById("content");c.innerHTML=h;
   const lu=document.getElementById("lastupdate");
   if(lu){
@@ -537,7 +537,7 @@ function topicView(id){
     return rt?`<button onclick="openTopic('${r}')"><span class="rid">${r}</span><span class="rt">${esc(rt.title)}</span></button>`:""}).join("");
   let h=`<div class="page-article">
   <div id="articlecol">
-    <button class="backtop" onclick="go('${t.category}')">← 返回 ${t.category} 类列表</button>
+    <button class="backtop" onclick="go('${t.category}')">← 返回${(CATS[t.category]||{}).name||"列表"}</button>
     <div class="artmeta"><span class="pill">${t.id}</span><span class="pill dim">证据等级：${t.evidence_level}</span><span class="pill dim">${t.status}</span><span>更新 ${t.updated}</span></div>
     ${sp.card?`<div class="kcard"><div class="kcap">${ICONS.zap} 快速知识卡</div><div class="md">${md(sp.card)}</div></div>`:""}
     <article class="md">${rendered}</article>
@@ -571,7 +571,7 @@ document.addEventListener("click",e=>{
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){hideSearch();document.body.classList.remove("sideopen")}});
 
 /* ---------- 启动 ---------- */
-document.getElementById("verline").textContent=`v1.3 · UI2`;
+document.getElementById("verline").textContent=`2027 河南普选`;
 document.getElementById("tstat").textContent=``;
 buildNav();home();
 </script></body></html>
