@@ -2788,5 +2788,85 @@
     "year": null,
     "checked_date": "2026-10-20",
     "note": "来自 topics/D12-河南粮食安全.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·县级政府网）；《中华人民共和国粮食安全保障法》条文见国家粮食和物资储备局网站 https://www.lswz.gov.cn/html/zcfb/2023-12/30/content_278749.shtml （白名单官方·国家部委"
+  },
+  {
+    "id": "SF15",
+    "title": "河南省统计局、国家统计局河南调查总队《2025 年河南省国民经济和社会发展统计公报》，2026-04-16",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/04-16/3343041.html",
+    "publisher": "河南省统计局、国家统计局河南调查总队",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D13-河南民营经济.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省政府门户；2025 年 GDP 66632.79 亿元见省政府新闻办 2025 年经济运行发布会，https://www.scio.gov.cn/xwfb/dfxwfb/gssfbh/hn_13841/202601/t20260127_947966.html"
+  },
+  {
+    "id": "SF16",
+    "title": "中共河南省委、河南省人民政府《关于促进民营经济发展壮大的实施意见》，2024-05-06",
+    "type": "official",
+    "url": "https://fgw.zhengzhou.gov.cn/work/8488377.jhtml",
+    "publisher": "中共河南省委、河南省人民政府",
+    "year": 2024,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D13-河南民营经济.md，LightVela 生产，DSH 待复核；原文备注：；全文见郑州市商务局转载 https://swj.zhengzhou.gov.cn/zcfg/8511461.jhtml （白名单官方·省辖市政府部门转载"
+  },
+  {
+    "id": "SF17",
+    "title": "河南日报《促进民营经济！河南最新发文》，2025-05-19",
+    "type": "official",
+    "url": "http://gkj.jiyuan.gov.cn/xwdt/gzdt/t978355.html",
+    "publisher": "河南日报",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D13-河南民营经济.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·县级政府网转载省级党报"
+  },
+  {
+    "id": "SF18",
+    "title": "央视网《经营主体突破 1103 万户 上半年河南民营经济发展稳中有进》，2026-07-22",
+    "type": "media",
+    "url": "https://local.cctv.com/2026/07/22/ARTIgIHnMZmdSXmp1H4fW5Nh260722.shtml",
+    "publisher": "央视网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D13-河南民营经济.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SF19",
+    "title": "黄河科技学院商学部、河南中原创新发展研究院课题组《展现强大韧性的河南民营经济——河南民营经济 2025 总体分析暨 2026 前景展望》，2025-12-30",
+    "type": "media",
+    "url": "https://cxyjy.hhstu.edu.cn/info/1051/2322.htm",
+    "publisher": "黄河科技学院商学部、河南中原创新发展研究院课题组",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D13-河南民营经济.md，LightVela 生产，DSH 待复核；原文备注：智库报告，非官方，数据口径已标注"
+  },
+  {
+    "id": "SF20",
+    "title": "河南日报《从\"营商\"到\"赢商\"，河南正厚植沃土》，2025-12-09",
+    "type": "official",
+    "url": "https://www.henanrd.gov.cn/2025/12-09/230395.html",
+    "publisher": "河南日报",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D13-河南民营经济.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省人大）；《河南省民营经济促进条例（草案征求意见稿）》见省行政审批和政务信息管理局网站 2025-07 公开 PDF，https://xcoss.henan.gov.cn/typtfile/20250714/f891d7d9416d47298f476b035efac680.pdf （正式通过与施行时间 [存疑]"
+  },
+  {
+    "id": "SF21",
+    "title": "河南省人民政府办公厅《关于印发河南省重大项目建设\"三个一批\"活动评价办法（试行）和推进重大项目建设三项制度的通知》，2022-01-06",
+    "type": "official",
+    "url": "https://fgw.henan.gov.cn/2022/01-06/2378250.html",
+    "publisher": "河南省人民政府办公厅",
+    "year": 2022,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D13-河南民营经济.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省发改委）；\"项目为王\"一年综述见中国网河南《\"项目为王\"动员令发出一年，河南项目建设成效如何？》，2022-07-18，http://henan.china.com.cn/m/2022-07/18/content_42038572.html"
+  },
+  {
+    "id": "SF22",
+    "title": "新华社《表决通过！促进民营经济发展有了专门法》，2025-04-30",
+    "type": "media",
+    "url": "https://www.gov.cn/yaowen/liebiao/202504/content_7021914.htm",
+    "publisher": "新华社",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D13-河南民营经济.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·中国政府网转新华社"
   }
 ]
