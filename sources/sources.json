@@ -1908,5 +1908,125 @@
     "year": null,
     "checked_date": "2026-10-20",
     "note": "来自 topics/D15-河南新质生产力.md，LightVela 生产，DSH 待复核；原文备注：研究机构观点，非白名单，仅用于 2025 年数据旁证"
+  },
+  {
+    "id": "SE89",
+    "title": "河南日报 大象新闻（河南省人民政府网转载）《省委常委会召开会议 刘宁主持并讲话》，2026-08-21",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-21/3401536.html",
+    "publisher": "河南日报 大象新闻（河南省人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE90",
+    "title": "河南政府网 大象新闻（河南省人民政府网）《王凯主持召开省政府常务会议》，2026-08-18",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-18/3400356.html",
+    "publisher": "河南政府网 大象新闻（河南省人民政府网）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE91",
+    "title": "大河网（河南省人民政府网转载）《向新向优！河南1-7月经济运行情况公布》，2026-08-19",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-19/3400528.html",
+    "publisher": "大河网（河南省人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE92",
+    "title": "河南日报（河南省人民政府网转载）《制造底盘稳 消费引擎热——从1—7月增值税发票数据看全省经济运行态势》，2026-08-21",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-21/3401157.html",
+    "publisher": "河南日报（河南省人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE93",
+    "title": "河南日报 大象新闻（河南省人民政府网转载）《刘宁到周口漯河督导调研防汛和灾后重建工作时强调 有力有序推进灾后恢复重建工作 加快防灾减灾救灾能力整体提升》，2026-08-18",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-18/3400359.html",
+    "publisher": "河南日报 大象新闻（河南省人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE94",
+    "title": "河南日报 大象新闻（河南省人民政府网转载）《河南省第十五届运动会暨第九届残疾人运动会在安阳开幕 刘宁宣布开幕 王凯致开幕词》，2026-08-19",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-19/3400739.html",
+    "publisher": "河南日报 大象新闻（河南省人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE95",
+    "title": "河南日报（河南省人民政府网转载）《河南污染防治亮出成绩单 优良天数增量居全国第一》，2026-08-20",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-20/3400769.html",
+    "publisher": "河南日报（河南省人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE96",
+    "title": "河南日报（河南省人民政府网转载）《河南三市跻身国家氢能应用试点》，2026-08-23",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-23/3401578.html",
+    "publisher": "河南日报（河南省人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE97",
+    "title": "河南日报（河南省人民政府网转载）《平漯周高铁成功跨越郑阜高铁 河南高铁建设持续提速》，2026-08-21",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-21/3401154.html",
+    "publisher": "河南日报（河南省人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE98",
+    "title": "河南政府网（河南省人民政府网）《2026豫台经贸洽谈会暨两岸智能装备制造对接活动开幕 郭金龙出席并致辞》，2026-08-22",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-22/3401552.html",
+    "publisher": "河南政府网（河南省人民政府网）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE99",
+    "title": "河南日报（河南省人民政府网转载）《三条\"国字头\"骨干流通走廊落子河南 连廊成网 流通中原》，2026-08-17",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-17/3399491.html",
+    "publisher": "河南日报（河南省人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE100",
+    "title": "河南日报（河南省人民政府网转载）《信阳港固始港区中心作业区加力冲刺迎开港 豫货\"通江达海\"再添深水良港》，2026-08-22",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/08-22/3401550.html",
+    "publisher": "河南日报（河南省人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
   }
 ]

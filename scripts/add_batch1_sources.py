@@ -41,8 +41,9 @@ FILES = [
     "topics/D13-河南民营经济.md",
     "topics/D14-河南统一大市场.md",
     "topics/D15-河南新质生产力.md",
+    "topics/W08-周报-2026-08-23.md",
 ]
-LINE_RE = re.compile(r"^-\s*\[(S[EF]\d{2})\]\s*(.+)$")
+LINE_RE = re.compile(r"^-\s*\[(S[EF]\d{2,3})\]\s*(.+)$")
 URL_RE = re.compile(r"https?://[^\s，,）)]+")
 DATE_RE = re.compile(r"(\d{4})-(\d{2})-(\d{2})")
 BOOK_RE = re.compile(r"《([^》]+)》")
