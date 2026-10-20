@@ -2578,5 +2578,145 @@
     "year": 2025,
     "checked_date": "2026-10-20",
     "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：转载页，非白名单域名，数据源为赛迪顾问"
+  },
+  {
+    "id": "SE151",
+    "title": "人民网河南频道（河南日报稿）《河南省召开全省领导干部会议》，2026-09-24",
+    "type": "official",
+    "url": "http://henan.people.com.cn/n2/2026/0924/c351638-41706425.html",
+    "publisher": "人民网河南频道（河南日报稿）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W13-周报-2026-09-27.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE152",
+    "title": "河南人大网《河南省人民代表大会常务委员会关于王陆进代理河南省人民政府省长职务的决定》，2026-09-24",
+    "type": "official",
+    "url": "https://www.henanrd.gov.cn/2026/09-24/246366.html",
+    "publisher": "河南人大网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W13-周报-2026-09-27.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE153",
+    "title": "腾讯新闻（转载河南日报客户端）《省十四届人大常委会第二十六次会议闭幕 会议接受王凯辞去河南省人民政府省长职务 决定任命王陆进为河南省人民政府副省长、代理省长职务》，2026-09-24",
+    "type": "media",
+    "url": "https://news.qq.com/rain/a/20260924A0DYDE00",
+    "publisher": "腾讯新闻（转载河南日报客户端）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W13-周报-2026-09-27.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE154",
+    "title": "中国政府网（转央视网《新闻联播》，2026-09-26",
+    "type": "media",
+    "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7082160.htm",
+    "publisher": "中国政府网（转央视网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W13-周报-2026-09-27.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE155",
+    "title": "凤凰网大风号（转河南日报，记者王延辉、刘一洁）《2026年中国农民丰收节河南省主场活动在濮阳清丰举行》，2026-09-23",
+    "type": "media",
+    "url": "https://feng.ifeng.com/c/8wfoVr7To6V",
+    "publisher": "凤凰网大风号（转河南日报，记者王延辉、刘一洁）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W13-周报-2026-09-27.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE156",
+    "title": "人民网财经《京港高铁雄商段将于9月28日开通运营》，2026-09-25",
+    "type": "official",
+    "url": "http://finance.people.com.cn/n1/2026/0925/c1004-40805649.html",
+    "publisher": "人民网财经",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W13-周报-2026-09-27.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE157",
+    "title": "中新网河南新闻《周口国家农高区\"高\"在何处？》，2026-09-21",
+    "type": "media",
+    "url": "https://www.ha.chinanews.com.cn/news/dfxw/2026/0921/70870.shtml",
+    "publisher": "中新网河南新闻",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W13-周报-2026-09-27.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SF63",
+    "title": "中国网（来源：中国新闻网）《河南人才资源总量超1200万人》，2022-09-20",
+    "type": "media",
+    "url": "http://news.china.com.cn/2022-09/20/content_78428312.htm",
+    "publisher": "中国网（来源：中国新闻网）",
+    "year": 2022,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D18-河南人才引育与中原人才高地.md，LightVela 生产，DSH 待复核；原文备注：转载页，原源为中新网，数据出自省委宣传部\"河南这十年\"新闻发布会"
+  },
+  {
+    "id": "SF64",
+    "title": "河南日报网《为引才松绑 为英才搭台 为发展赋能 我省\"人才新政\"含金量有多高》，2026-08-04",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026/0804/1244123.html",
+    "publisher": "河南日报网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D18-河南人才引育与中原人才高地.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·河南日报"
+  },
+  {
+    "id": "SF65",
+    "title": "河南大学校友会/黄河文明中心网页《我校22位专家学者入选\"中原英才计划\"(育才系列)》",
+    "type": "media",
+    "url": "https://xyh.henu.edu.cn/news/zhkd/show-5138.html",
+    "publisher": "河南大学校友会/黄河文明中心网页",
+    "year": null,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D18-河南人才引育与中原人才高地.md，LightVela 生产，DSH 待复核；原文备注：高校官网，非白名单域名；内容为\"中原英才计划\"制度介绍"
+  },
+  {
+    "id": "SF66",
+    "title": "欧美同学会网站《搭建平台\"引才\" 诚意服务\"留才\"——河南正在加速形成近悦远来的人才生态》，2023-11-03",
+    "type": "media",
+    "url": "https://www.wrsa.net/1002154/2023/11-03/content_42534192.htm",
+    "publisher": "欧美同学会网站",
+    "year": 2023,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D18-河南人才引育与中原人才高地.md，LightVela 生产，DSH 待复核；原文备注：主办机构官网，非白名单域名；含第六届大会与郑州市人才安居数据"
+  },
+  {
+    "id": "SF67",
+    "title": "河南省人民政府门户网站《一流大学郑州研究院呈集聚之势——人才磁场引发创新\"聚变\"》，2024-12-05",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2024/12-05/3095185.html",
+    "publisher": "河南省人民政府门户网站",
+    "year": 2024,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D18-河南人才引育与中原人才高地.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省政府门户"
+  },
+  {
+    "id": "SF69",
+    "title": "新华网评论《\"柔性引才\"推动发展向\"新\"而行》，2025-06-17",
+    "type": "official",
+    "url": "http://www.xinhuanet.com/comments/20250617/526a1481d35f4116a518396c03ffd282/c.html",
+    "publisher": "新华网评论",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D18-河南人才引育与中原人才高地.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·新华网；全国层面柔性引才评论，作观点旁证"
+  },
+  {
+    "id": "SF70",
+    "title": "河南工业大学人事处转载（来源：河南日报）《河南省到2025年将招引万名博士后等青年人才》，2022-07-05",
+    "type": "media",
+    "url": "https://hr.edu.cn/zwhzx/jiaoyuzx/202207/t20220705_2236003.shtml",
+    "publisher": "河南工业大学人事处转载（来源：河南日报）",
+    "year": 2022,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D18-河南人才引育与中原人才高地.md，LightVela 生产，DSH 待复核；原文备注：高校转载页，原源为河南日报"
   }
 ]
