@@ -1218,13 +1218,24 @@ function updateReadTrack(){
   const pctEl = document.getElementById('readpct');
   if (!track || !pctEl) return;
   if (!window.__currentTopic) { track.classList.remove('on'); pctEl.classList.remove('on'); return; }
-  // 用文章列的实际高度算，比整页更准
-  const col = document.getElementById('articlecol') || document.documentElement;
-  const rect = col.getBoundingClientRect();
-  const colTop = window.scrollY + rect.top;
-  const colH = col.offsetHeight || rect.height;
-  const viewBottom = window.scrollY + window.innerHeight;
-  let p = (viewBottom - colTop) / colH;
+  // 只用「正文」：article.md；不含上方标题栏/工具条/知识卡，也不含后方来源与关联卡片
+  const art = document.querySelector('#articlecol article.md');
+  if (!art) { track.classList.remove('on'); pctEl.classList.remove('on'); return; }
+  const rect = art.getBoundingClientRect();
+  const artTop = window.scrollY + rect.top;
+  const artH = art.offsetHeight || rect.height;
+  if (artH <= 0) { track.classList.remove('on'); pctEl.classList.remove('on'); return; }
+  const vh = window.innerHeight;
+  const topbarH = 60;
+  // 0%：正文首句到达阅读区顶部（跳过标题栏）；100%：正文末句到达屏幕底部
+  const startY = artTop - topbarH;
+  const endY = artTop + artH - vh;
+  let p;
+  if (endY <= startY) {
+    p = (window.scrollY >= endY) ? 1 : 0;
+  } else {
+    p = (window.scrollY - startY) / (endY - startY);
+  }
   p = Math.min(1, Math.max(0, p));
   track.querySelector('i').style.height = (p*100).toFixed(1) + '%';
   pctEl.textContent = Math.round(p*100) + '%';
