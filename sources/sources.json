@@ -2988,5 +2988,105 @@
     "year": 2026,
     "checked_date": "2026-10-20",
     "note": "来自 topics/W16-周报-2026-10-18.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE191",
+    "title": "河南政协网（转河南日报）《中国共产党河南省第十一届委员会第十二次全体会议公报》，2026-10-18",
+    "type": "official",
+    "url": "https://www.hnzx.gov.cn/2026/10-18/4372463.html",
+    "publisher": "河南政协网（转河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W17-周报-2026-10-25.md，LightVela 生产，DSH 待复核；原文备注：；另见郑州市人民政府网转载版，2026-10-19，https://www.zhengzhou.gov.cn/news1/10301263.jhtml"
+  },
+  {
+    "id": "SE192",
+    "title": "河南日报网《省第十二次党代会举行预备会议 周祖翼主持并讲话》，2026-10-20",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026/1020/1257854.html",
+    "publisher": "河南日报网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W17-周报-2026-10-25.md，LightVela 生产，DSH 待复核；原文备注：；主席团第一次会议内容见河南日报客户端报道（搜狐分发口径，2026-10-19，https://www.sohu.com/a/1089860139_121123521"
+  },
+  {
+    "id": "SE193",
+    "title": "郑州发布（搜狐分发口径）《小布播报｜省第十二次党代会今日在郑州召开；2天降12℃！河南气温创入秋新低》，2026-10-20",
+    "type": "media",
+    "url": "https://www.sohu.com/a/1089959767_120575855",
+    "publisher": "郑州发布（搜狐分发口径）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W17-周报-2026-10-25.md，LightVela 生产，DSH 待复核；原文备注：；另见三门峡日报《社论丨奋力谱写中原大地推进中国式现代化新篇章——热烈祝贺省十二次党代会隆重召开》，2026-10-20，https://www.ismx.cn/content-27-122760-1.html"
+  },
+  {
+    "id": "SE194",
+    "title": "中国政府网（转新华社）《前三季度我国GDP同比增长4.6%》，2026-10-19",
+    "type": "media",
+    "url": "https://www.gov.cn/lianbo/202610/content_7083662.htm",
+    "publisher": "中国政府网（转新华社）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W17-周报-2026-10-25.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE195",
+    "title": "新华网河南频道《中国开封第44届菊花文化节开幕》，2026-10-18",
+    "type": "official",
+    "url": "http://www.ha.xinhuanet.com/20261018/5807db5f1a644ac689a9da3964ec5da6/c.html",
+    "publisher": "新华网河南频道",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W17-周报-2026-10-25.md，LightVela 生产，DSH 待复核；原文备注：；另见新华网《这个秋天 来开封赏菊》，2026-10-18，https://www.news.cn/local/20261018/de01e7beefd14a65a10c1ad97c66bf5c/c.html"
+  },
+  {
+    "id": "SE196",
+    "title": "南阳市农业农村局（转载）《河南省2026年小麦秋播生产技术明白纸》，2026-10-12",
+    "type": "official",
+    "url": "https://nyj.nanyang.gov.cn/2026/10-12/1444944.html",
+    "publisher": "南阳市农业农村局（转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W17-周报-2026-10-25.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE197",
+    "title": "中新网（中新社记者韩章云）《河南秋收基本结束 收获7267万亩粮食作物》，2026-10-15",
+    "type": "media",
+    "url": "https://www.jwview.com/jingwei/html/m/10-15/692607.shtml",
+    "publisher": "中新网（中新社记者韩章云）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W17-周报-2026-10-25.md，LightVela 生产，DSH 待复核；原文备注：发布于上一周期，作秋收进度参照"
+  },
+  {
+    "id": "SE198",
+    "title": "河南日报网《手机报·早报 2026年10月19日》，2026-10-19",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026/1019/1257429.html",
+    "publisher": "河南日报网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W17-周报-2026-10-25.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE199",
+    "title": "河南日报网《手机报·早报 2026年10月20日》，2026-10-20",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026/1020/1257743.html",
+    "publisher": "河南日报网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W17-周报-2026-10-25.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE200",
+    "title": "大河财立方（转河南日报）《何言：奋力谱写新篇章——写在中国共产党河南省第十二次代表大会召开之际》，2026-10-19",
+    "type": "media",
+    "url": "https://app.dahecube.com/nweb/news/20261019/290167nc96c91501d4.htm?artid=290167",
+    "publisher": "大河财立方（转河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W17-周报-2026-10-25.md，LightVela 生产，DSH 待复核"
   }
 ]
