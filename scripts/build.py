@@ -184,11 +184,64 @@ def main():
     # GitHub Pages 从 docs/ 发布，同步一份
     DOCS_DIR = os.path.join(ROOT, 'docs')
     os.makedirs(DOCS_DIR, exist_ok=True)
+
+    # ---------- PWA 注入 ----------
+    import time as _time
+    cache_ver = _time.strftime('%Y%m%d%H%M%S')
+    pwa_head = (
+        '<link rel="manifest" href="manifest.webmanifest">'
+        '<meta name="theme-color" content="#A8736B">'
+        '<link rel="apple-touch-icon" href="icon-192.png">'
+        '<meta name="apple-mobile-web-app-capable" content="yes">'
+        '<meta name="apple-mobile-web-app-title" content="砺行集">'
+        '<meta name="mobile-web-app-capable" content="yes">'
+    )
+    pwa_style = (
+        '<style>#pwa-update{position:fixed;left:50%;bottom:22px;transform:translate(-50%,80px);'
+        'z-index:300;display:flex;align-items:center;gap:14px;padding:12px 18px;'
+        'background:#3A3A38;color:#F7F5F1;border-radius:10px;font-size:13.5px;'
+        'box-shadow:0 8px 26px rgba(0,0,0,.28);opacity:0;transition:transform .32s,opacity .32s;'
+        'pointer-events:none;font-family:system-ui,sans-serif}'
+        '#pwa-update.on{transform:translate(-50%,0);opacity:1;pointer-events:auto}'
+        '#pwa-update button{background:#A8736B;color:#fff;border:0;border-radius:7px;'
+        'padding:6px 16px;font-size:13px;cursor:pointer;font-family:inherit}'
+        '</style>'
+    )
+    pwa_script = (
+        '<script>(function(){'
+        'if(!("serviceWorker" in navigator))return;'
+        'navigator.serviceWorker.register("sw.js").then(function(reg){'
+        'reg.addEventListener("updatefound",function(){'
+        'var nw=reg.installing;if(!nw)return;'
+        'nw.addEventListener("statechange",function(){'
+        'if(nw.state==="installed"&&navigator.serviceWorker.controller){bar(reg);}});});'
+        '}).catch(function(){});'
+        'function bar(reg){var d=document.getElementById("pwa-update");'
+        'if(!d){d=document.createElement("div");d.id="pwa-update";'
+        'd.innerHTML="<span>有新版本，点击刷新</span><button>刷新</button>";'
+        'document.body.appendChild(d);}'
+        'd.classList.add("on");'
+        'd.querySelector("button").onclick=function(){'
+        'if(reg.waiting)reg.waiting.postMessage("SKIP_WAITING");'
+        'setTimeout(function(){location.reload();},300);};}'
+        '})();</script>'
+    )
+    html = html.replace('</head>', pwa_head + '</head>', 1)
+    html = html.replace('</body>', pwa_style + pwa_script + '</body>', 1)
+
     open(os.path.join(DOCS_DIR, 'index.html'), 'w', encoding='utf-8').write(html)
     open(os.path.join(DOCS_DIR, '.nojekyll'), 'w', encoding='utf-8').write('')
+    for _n in ('manifest.webmanifest', 'icon-192.png', 'icon-512.png'):
+        if not os.path.exists(os.path.join(DOCS_DIR, _n)):
+            print(f'[WARN] 缺少 PWA 文件: docs/{_n}')
+    _sw = os.path.join(ROOT, 'scripts', 'sw.js')
+    if os.path.exists(_sw):
+        _t = open(_sw, encoding='utf-8').read().replace('__CACHE_VERSION__', cache_ver)
+        open(os.path.join(DOCS_DIR, 'sw.js'), 'w', encoding='utf-8').write(_t)
+        print(f'已生成: docs/sw.js（cache={cache_ver}）')
     print(f'已生成: {os.path.relpath(INDEX_PATH, ROOT)}')
     print(f'已生成: {os.path.relpath(os.path.join(SITE_DIR, "index.html"), ROOT)}')
-    print(f'已同步: docs/index.html（GitHub Pages）')
+    print(f'已同步: docs/index.html（GitHub Pages + PWA）')
 
 if __name__ == '__main__':
     main()
