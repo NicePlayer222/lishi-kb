@@ -2028,5 +2028,205 @@
     "year": 2026,
     "checked_date": "2026-10-20",
     "note": "来自 topics/W08-周报-2026-08-23.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE101",
+    "title": "河南日报 新华网河南频道《全省防汛专题调度会议召开 刘宁主持并讲话 王凯出席》，2026-08-27",
+    "type": "official",
+    "url": "http://ha.news.cn/20260827/b442c5d5072b4e9dbe1a32ad6396a81f/c.html",
+    "publisher": "河南日报 新华网河南频道",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE102",
+    "title": "河南日报 河南省政协网转载《省委常委会召开会议 刘宁主持并讲话》，2026-08-28",
+    "type": "official",
+    "url": "https://www.hnzx.gov.cn/2026/08-28/4370320.html",
+    "publisher": "河南日报 河南省政协网转载",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE103",
+    "title": "河南日报 新华网河南频道《省委常委扩大会议暨省委党的建设工作领导小组会议召开》，2026-08-29",
+    "type": "official",
+    "url": "http://ha.news.cn/20260829/8bc2481872e74296bf94e24098758199/c.html",
+    "publisher": "河南日报 新华网河南频道",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核；原文备注：仅确认会议名称与日期，内容细节[存疑]"
+  },
+  {
+    "id": "SE104",
+    "title": "河南日报 河南一百度转载《省委财经委员会会议召开 刘宁主持并讲话 王凯出席》，2026-08-31",
+    "type": "media",
+    "url": "http://www.henan100.com/news/2026/1243801.shtml",
+    "publisher": "河南日报 河南一百度转载",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE105",
+    "title": "河南日报网《两趟\"全国首列\"双线齐发》，2026-08-27",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026/0827/1248022.html",
+    "publisher": "河南日报网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE106",
+    "title": "河南日报网《郑州片区入选国家数字贸易示范区首批创建试点》，2026-08-27",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026/0827/1248023.html",
+    "publisher": "河南日报网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE107",
+    "title": "河南日报网《具身智能头部企业抢滩中原大市场（产需对接 豫见具身）》，2026-08-26",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026/0826/1247799.html",
+    "publisher": "河南日报网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE108",
+    "title": "河南日报网《河南省民政行业职业技能大赛在郑开幕》，2026-08-27",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026/0827/1248026.html",
+    "publisher": "河南日报网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE109",
+    "title": "新华网 中国天气网《台风\"沙德尔\"登陆浙江玉环 强降雨时间长影响将波及9省区》，2026-08-28",
+    "type": "official",
+    "url": "https://www.news.cn/politics/20260828/fa3b8abb0f3243a1a777f1fe57ff84d3/c.html",
+    "publisher": "新华网 中国天气网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE110",
+    "title": "河南日报网《濮阳长出一座数谷》，2026-08-24",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026/0824/1247315.html",
+    "publisher": "河南日报网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE111",
+    "title": "河南省应急管理厅（转载国家防总、应急管理部会商消息）《国家防总、应急管理部组织多部门联合会商调度部署台风\"沙德尔\"防范应对工作》，2026-08-26",
+    "type": "official",
+    "url": "https://yjglt.henan.gov.cn/2026/08-26/3407674.html",
+    "publisher": "河南省应急管理厅（转载国家防总、应急管理部会商消息）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE112",
+    "title": "新华网《河南周口贾鲁河堤坝溃口顺利合龙》，2026-08-15",
+    "type": "official",
+    "url": "https://www.xinhuanet.com/20260815/62125c2eaae3493ea3f5fe109a023515/c.html",
+    "publisher": "新华网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W09-周报-2026-08-30.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE121",
+    "title": "河南日报（河南政协网转载）《刘宁在调研经济运行工作时强调 锚定目标任务 强化运行调度 坚决打好打赢经济发展夏秋季战役》，2026-08-31",
+    "type": "official",
+    "url": "https://www.hnzx.gov.cn/2026/08-31/4370513.html",
+    "publisher": "河南日报（河南政协网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W10-周报-2026-09-06.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE122",
+    "title": "河南省人民政府网（驻马店市人民政府网转载）《王凯主持召开省政府常务会议》，2026-08-31",
+    "type": "official",
+    "url": "https://www.zhumadian.gov.cn/zwyw/hnyw/202609/t20260903_723306.html",
+    "publisher": "河南省人民政府网（驻马店市人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W10-周报-2026-09-06.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE123",
+    "title": "河南省人民政府网（驻马店市人民政府网转载）《王凯主持召开省政府党组扩大会议》，2026-08-31",
+    "type": "official",
+    "url": "http://www.zhumadian.gov.cn/zwyw/hnyw/202609/t20260902_722995.html",
+    "publisher": "河南省人民政府网（驻马店市人民政府网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W10-周报-2026-09-06.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE124",
+    "title": "新华社《新华视点丨暴雨过后，河南受灾地区秋粮咋样了？》，2026-09-01",
+    "type": "official",
+    "url": "https://www.news.cn/20260901/7d3eb15aaddd41afa2094e09ce6bdebf/c.html",
+    "publisher": "新华社",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W10-周报-2026-09-06.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE125",
+    "title": "新华社河南频道《省人大常委会党组召开扩大会议》，2026-08-31",
+    "type": "official",
+    "url": "http://ha.xinhuanet.com/20260902/c20222e2f7574b64bc8aab8777773fd6/c.html",
+    "publisher": "新华社河南频道",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W10-周报-2026-09-06.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE126",
+    "title": "中国日报网河南频道（通讯员稿）《河南1900万中小学生迎来秋季新学期》，2026-09-03",
+    "type": "media",
+    "url": "https://hen.chinadaily.com.cn/a/202609/03/WS6a990f68e4b09a165c787c46.html",
+    "publisher": "中国日报网河南频道（通讯员稿）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W10-周报-2026-09-06.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE127",
+    "title": "新华社河南频道《开学第一课开讲 河南开封多维度守护学生安全健康》，2026-09-02",
+    "type": "official",
+    "url": "http://www.ha.xinhuanet.com/20260902/94302de7e41845eaaf67507d35781005/c.html",
+    "publisher": "新华社河南频道",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W10-周报-2026-09-06.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE128",
+    "title": "河南日报（郑州大学党政办公室网转载）《省委书记刘宁来校看望慰问教师代表》，2026-09-05",
+    "type": "media",
+    "url": "https://www5.zzu.edu.cn/dzb/info/1221/5076.htm",
+    "publisher": "河南日报（郑州大学党政办公室网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W10-周报-2026-09-06.md，LightVela 生产，DSH 待复核"
   }
 ]
