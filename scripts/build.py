@@ -231,7 +231,8 @@ def main():
 
     open(os.path.join(DOCS_DIR, 'index.html'), 'w', encoding='utf-8').write(html)
     open(os.path.join(DOCS_DIR, '.nojekyll'), 'w', encoding='utf-8').write('')
-    for _n in ('manifest.webmanifest', 'icon-192.png', 'icon-512.png'):
+    for _n in ('manifest.webmanifest', 'icon-96.png', 'icon-144.png', 'icon-192.png',
+               'icon-512.png', 'icon-maskable-192.png', 'icon-maskable-512.png'):
         if not os.path.exists(os.path.join(DOCS_DIR, _n)):
             print(f'[WARN] 缺少 PWA 文件: docs/{_n}')
     _sw = os.path.join(ROOT, 'scripts', 'sw.js')
