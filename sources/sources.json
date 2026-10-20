@@ -2228,5 +2228,185 @@
     "year": 2026,
     "checked_date": "2026-10-20",
     "note": "来自 topics/W10-周报-2026-09-06.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE131",
+    "title": "大河网（大河网讯）《突破20000列！河南中欧（亚）班列迎来重要里程碑》，2026-09-11",
+    "type": "media",
+    "url": "https://henan.sina.cn/news/z/2026-09-14/detail-iniruarh4012078.d.html",
+    "publisher": "大河网（大河网讯）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W11-周报-2026-09-13.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE132",
+    "title": "人民网河南频道《河南中欧班列累计开行突破20000列 织密内陆开放丝路通道》，2026-09-11",
+    "type": "media",
+    "url": "https://news.qq.com/rain/a/20260911A0DDPI00",
+    "publisher": "人民网河南频道",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W11-周报-2026-09-13.md，LightVela 生产，DSH 待复核；原文备注：人民网稿腾讯分发页；标注\"人民网记者\"署名，转载口径"
+  },
+  {
+    "id": "SE133",
+    "title": "央视网《第一时间》，2026-09-12",
+    "type": "media",
+    "url": "https://tv.cctv.com/2026/09/12/VIDE9UWb0qz29RfyYzFZHlKJ260912.shtml",
+    "publisher": "央视网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W11-周报-2026-09-13.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE134",
+    "title": "河南日报客户端《全省党校（行政学院）校长（院长）会议召开 刘宁出席并讲话》，2026-09-08",
+    "type": "official",
+    "url": "https://app-api.henandaily.cn/mobile/view/news/618697890583281664626088",
+    "publisher": "河南日报客户端",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W11-周报-2026-09-13.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE135",
+    "title": "中共河南省委、河南省人民政府《慰问信》，2026-09-10",
+    "type": "media",
+    "url": "http://m.zmdnews.cn/article/538377",
+    "publisher": "中共河南省委、河南省人民政府",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W11-周报-2026-09-13.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE136",
+    "title": "新华网《庆祝第42个教师节，教育部通知来了》，2026-08-21",
+    "type": "official",
+    "url": "https://www.xinhuanet.com/edu/20260821/35a2d2b5359d45d787a2af8bc7b60c19/c.html",
+    "publisher": "新华网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W11-周报-2026-09-13.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE137",
+    "title": "仲景宛西制药官网《河南省省长王凯调研仲景宛西制药》，2026-09-10",
+    "type": "media",
+    "url": "https://www.zhongjing.cn/News_detail/414.html",
+    "publisher": "仲景宛西制药官网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W11-周报-2026-09-13.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE138",
+    "title": "新华网河南频道（河南日报稿）《河南省\"开局起步'十五五' 奋力谱写新篇章\"系列周口专场新闻发布会举行》，2026-09-11",
+    "type": "official",
+    "url": "http://ha.news.cn/20260911/88442a62af3f4dfabd89f31260356f6d/c.html",
+    "publisher": "新华网河南频道（河南日报稿）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W11-周报-2026-09-13.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SF43",
+    "title": "文化和旅游部网站（来源：河南省文化和旅游厅）《河南省 2024 年国庆假期文旅市场情况》，2024-10-08",
+    "type": "official",
+    "url": "https://www.mct.gov.cn/wlbphone/wlbydd/xxfb/qglb/hn/202410/t20241008_955581.html",
+    "publisher": "文化和旅游部网站（来源：河南省文化和旅游厅）",
+    "year": 2024,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·文旅部网"
+  },
+  {
+    "id": "SF44",
+    "title": "文化和旅游部网站（来源：中国文化报）《河南文旅\"政策包\"助力 33 项重点工作落地生根》，2025-02-11",
+    "type": "official",
+    "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hn/202502/t20250211_958342.htm",
+    "publisher": "文化和旅游部网站（来源：中国文化报）",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·文旅部网"
+  },
+  {
+    "id": "SF45",
+    "title": "央广网（据中新网）《2024 年河南接待游客量突破 10 亿人次》，2025-01-06",
+    "type": "official",
+    "url": "https://news.cnr.cn/native/gd/kx/20250106/t20250106_527032716.shtml",
+    "publisher": "央广网（据中新网）",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·央广网"
+  },
+  {
+    "id": "SF46",
+    "title": "中新网河南《河南省国家一级博物馆数量达 14 家》，2024-05-18",
+    "type": "media",
+    "url": "http://www.ha.chinanews.com.cn/news/dszx/2024/0518/53440.shtml",
+    "publisher": "中新网河南",
+    "year": 2024,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：媒体，非白名单域名；数据源为河南省文物局发布会"
+  },
+  {
+    "id": "SF47",
+    "title": "人民网河南频道《河南省挂牌国家考古遗址公园增至 8 家》，2025-06-15",
+    "type": "official",
+    "url": "http://henan.people.com.cn/n2/2025/0615/c351638-41260297.html",
+    "publisher": "人民网河南频道",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·人民网/人民日报河南"
+  },
+  {
+    "id": "SF48",
+    "title": "南京大学网站（来源：人民网）《\"鼎型中意\"！\"行走河南·读懂中国\"文旅品牌标识正式发布》，2024-09-14",
+    "type": "media",
+    "url": "https://www.nju.edu.cn/info/1056/377601.htm",
+    "publisher": "南京大学网站（来源：人民网）",
+    "year": 2024,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：转载页，非白名单域名，原源为人民网"
+  },
+  {
+    "id": "SF49",
+    "title": "新华网/人民日报图文《中式主题乐园重塑文旅赛道》，2026-06-09",
+    "type": "official",
+    "url": "https://www.news.cn/politics/20260609/90c0619e0a4a4ab9a422e9e73c3c52a7/c.html",
+    "publisher": "新华网/人民日报图文",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·新华社"
+  },
+  {
+    "id": "SF50",
+    "title": "河南日报 2026-05-22 第 13 版（文旅强省建设相关版面），2026-05-22",
+    "type": "official",
+    "url": "https://newpaper.dahe.cn/hnrb/resfile/2026-05-22/13/hnrb2026052213.pdf",
+    "publisher": "河南日报 2026-05-22 第 13 版（文旅强省建设相关版面）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·河南日报/大河网"
+  },
+  {
+    "id": "SF51",
+    "title": "河南省社科联·中原人文社科网《李庚香：塑造\"行走河南·读懂中国\"国际知名文旅品牌，全力把殷墟甲骨文打造成中华文化新地标》，2025-06-25",
+    "type": "media",
+    "url": "http://www.hnskl.org/meitijujiao/20250625/17958.html",
+    "publisher": "河南省社科联·中原人文社科网",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：智库/专家观点，非白名单"
+  },
+  {
+    "id": "SF52",
+    "title": "河南省社科联·中原人文社科网《河南省文化旅游融合发展存在的主要问题与对策建议》，2025-06-25",
+    "type": "media",
+    "url": "http://www.hnskl.org/zhuanti/zyzklm/zhikuchengguo/20250625/17884.html",
+    "publisher": "河南省社科联·中原人文社科网",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：智库观点，非白名单"
   }
 ]
