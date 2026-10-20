@@ -260,6 +260,11 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 .sec-exam>h2,.sec-exam>h3{color:var(--c-teal)}
 .sec-quote{background:var(--c-gold-bg);border-color:rgba(184,147,90,.3)}
 .sec-quote>h2,.sec-quote>h3{color:var(--c-gold)}
+/* 行内加粗形式的卡片（周报类） */
+.sec-card.cardin{padding:16px 20px 6px;margin:22px 0}
+.sec-card.cardin .cardbody>*:first-child{margin-top:0}
+.sec-exam.cardin .cardbody>p:first-child strong{color:var(--c-teal)}
+.sec-quote.cardin .cardbody>p:first-child strong{color:var(--c-gold)}
 
 /* 分类卡配色区分 */
 .catcard[data-cat="D"] .letter{background:var(--c-teal-bg);color:var(--c-teal);border-color:rgba(110,146,152,.22)}
@@ -281,7 +286,7 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 .kcard .kcap{display:flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:.1em;color:var(--acc);font-weight:700;margin-bottom:10px}
 .kcard .md{font-size:15.5px;line-height:1.9}
 .kcard .md p:last-child{margin-bottom:0}
-article.md{line-height:1.95;font-size:16.5px;letter-spacing:.01em}
+article.md{line-height:1.95;font-size:16.5px;letter-spacing:.01em;overflow-wrap:break-word;word-break:break-word}
 article.md h1{font-size:31px;line-height:1.35;margin:8px 0 20px;letter-spacing:.02em;font-family:var(--serif);font-weight:700}
 article.md h2{font-size:22px;margin:38px 0 14px;padding-bottom:9px;border-bottom:1px solid var(--bd);font-family:var(--serif);letter-spacing:.03em;position:relative}
 article.md h2::after{content:"";position:absolute;left:0;bottom:-1px;width:52px;height:2px;background:var(--acc2)}
@@ -299,10 +304,17 @@ article.md th{background:var(--hov);font-weight:600;white-space:nowrap}
 article.md code{background:var(--code);padding:1px 5px;border-radius:4px;font-size:.9em}
 article.md pre{background:var(--code);padding:14px 16px;overflow:auto;border-radius:10px;font-size:13px;border:1px solid var(--bd)}
 article.md pre code{background:none;padding:0}
-.srcbox{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 22px;margin:26px 0;font-size:13.5px;word-break:break-all;box-shadow:var(--shadow)}
+html,body{max-width:100%;overflow-x:hidden}
+.srcbox{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 22px;margin:26px 0;font-size:13.5px;word-break:break-all;overflow-wrap:anywhere;box-shadow:var(--shadow);max-width:100%;box-sizing:border-box}
 .srcbox b{font-size:14.5px}
-.srcbox .srcitem{padding:7px 0;border-bottom:1px dashed var(--bd)}
+.srcbox .srcitem{padding:7px 0;border-bottom:1px dashed var(--bd);line-height:1.7;overflow-wrap:anywhere}
 .srcbox .srcitem:last-child{border-bottom:0}
+.srcbox .srcitem a{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:var(--acc);text-decoration:none;overflow-wrap:anywhere;vertical-align:top}
+.srcbox.showall .srcitem a{-webkit-line-clamp:unset;display:inline}
+.srcbox .srctoggle{display:inline-flex;align-items:center;gap:5px;margin-top:12px;padding:6px 14px;
+  border:1px solid var(--bd);border-radius:7px;background:var(--hov);color:var(--muted);
+  font-size:12.5px;cursor:pointer;transition:background .15s,color .15s;font-family:inherit}
+.srcbox .srctoggle:hover{background:var(--accbg);color:var(--acc)}
 .relbox h3{font-size:17px;margin:28px 0 12px}
 .relbtns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .relbtns button{display:flex;align-items:center;gap:10px;text-align:left;padding:12px 16px;border:1px solid var(--bd);border-radius:10px;background:var(--card);cursor:pointer;font-size:13.5px;color:var(--fg);transition:border-color .15s,background .15s}
@@ -400,7 +412,7 @@ article.md pre code{background:none;padding:0}
     <p class="splash-quote">
       <span class="q">“</span>砺所以致刃，行所以致远。<span class="q">”</span>
     </p>
-    <p class="splash-desc">河南时政 · 政策案例 · 每周更新<br>把最新的政策与数据，整理成能用的素材</p>
+    <p class="splash-desc">河南时政 · 政策案例 · 每周更新</p>
     <button class="splash-enter" onclick="enterSite()">
       <span>进入备考库</span>
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -571,25 +583,55 @@ function highlightNav(id){
 function go(v){document.body.classList.remove('sideopen');v==="home"?home():catView(v)}
 function openTopic(id){document.body.classList.remove('sideopen');topicView(id)}
 
-/* 将“可考角度”“金句/对策”两节包成彩色卡片 */
+/* 来源链接展开/收起 */
+function toggleSrc(btn){
+  const box=btn.closest('.srcbox');
+  if(!box)return;
+  const on=box.classList.toggle('showall');
+  btn.textContent=on?'收起链接':'展开全部链接';
+}
+
+/* 将“可考角度”“金句/对策”两节包成彩色卡片
+   兼容两种写法：
+   A) 标题形式：## 五、可考角度 / ### 六、金句/对策
+   B) 行内加粗形式：**可考角度**：... / **金句（适用主题：…）**：…
+*/
 function wrapSpecialSections(html){
-  const wrapOne=(src,titleRe,cls)=>{
-    // 找到标题位置
+  // ---------- A. 标题形式 ----------
+  const wrapHeading=(src,titleRe,cls)=>{
     const re=new RegExp('<h[23][^>]*>([^<]*(?:'+titleRe+')[^<]*)</h[23]>','i');
     const m=src.match(re);
     if(!m)return src;
-    const start=m.index;
-    const afterStart=start+m[0].length;
-    // 找下一个同级或更高级标题
+    const start=m.index, afterStart=start+m[0].length;
     const rest=src.slice(afterStart);
     const nextM=rest.match(/<h[23][\s>]/i);
     const end=nextM?afterStart+nextM.index:src.length;
-    const header=src.slice(start,afterStart);
-    const body=src.slice(afterStart,end);
+    const header=src.slice(start,afterStart), body=src.slice(afterStart,end);
     return src.slice(0,start)+`<div class="${cls}">${header}<div class="cardbody">${body}</div></div>`+src.slice(end);
   };
-  html=wrapOne(html,'可考角度','sec-card sec-exam');
-  html=wrapOne(html,'金句','sec-card sec-quote');
+  // ---------- B. 行内加粗形式 ----------
+  // 从 <p><strong>可考角度</strong>... 开始，直到下一个“复盘/来源/关联”标题或段落结束
+  const wrapInline=(src,titleRe,cls)=>{
+    // 找到包含关键字的 <p> 开头
+    const re=new RegExp('<p><strong>([^<]*(?:'+titleRe+')[^<]*)</strong>','i');
+    const m=src.match(re);
+    if(!m)return src;
+    const start=m.index;
+    // 结尾：下一个 h2/h3，或下一个 <p><strong>（可能是别的加粗段）
+    const rest=src.slice(start+m[0].length);
+    const stopM=rest.match(/<h[23][\s>]|<p><strong>(?!.*?(?:'+titleRe+'))/i);
+    let end=stopM?start+m[0].length+stopM.index:src.length;
+    const seg=src.slice(start,end);
+    return src.slice(0,start)+`<div class="${cls} cardin"><div class="cardbody">${seg}</div></div>`+src.slice(end);
+  };
+  // 先试标题形式，没有再试行内形式
+  const apply=(html,titleRe,cls)=>{
+    const r1=wrapHeading(html,titleRe,cls);
+    if(r1!==html)return r1;
+    return wrapInline(html,titleRe,cls);
+  };
+  html=apply(html,'可考角度','sec-card sec-exam');
+  html=apply(html,'金句','sec-card sec-quote');
   return html;
 }
 
@@ -750,7 +792,7 @@ function topicView(id){
     <div class="artmeta"><span class="pill">${t.id}</span><span class="pill dim">证据等级：${t.evidence_level}</span><span class="pill dim">${t.status}</span><span>更新 ${t.updated}</span></div>
     ${sp.card?`<div class="kcard"><div class="kcap">${ICONS.zap} 快速知识卡</div><div class="md">${md(sp.card)}</div></div>`:""}
     <article class="md">${rendered}</article>
-    ${srcs?`<div class="srcbox"><b>本专题来源（${t.sources.length} 条）</b>${srcs}</div>`:""}
+    ${srcs?`<div class="srcbox"><b>本专题来源（${t.sources.length} 条）</b>${srcs}<button class="srctoggle" onclick="toggleSrc(this)">展开全部链接</button></div>`:""}
     ${rel?`<div class="relbox"><h3>${ICONS.link} 关联专题</h3><div class="relbtns">${rel}</div></div>`:""}
     <button class="backtop" onclick="go('home')">← 返回首页</button>
   </div>
