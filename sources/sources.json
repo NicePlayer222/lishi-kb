@@ -2408,5 +2408,175 @@
     "year": 2025,
     "checked_date": "2026-10-20",
     "note": "来自 topics/D16-河南文旅文创融合.md，LightVela 生产，DSH 待复核；原文备注：智库观点，非白名单"
+  },
+  {
+    "id": "SE141",
+    "title": "新华网河南频道（河南日报稿）《王凯主持召开省政府常务会议》，2026-09-15",
+    "type": "official",
+    "url": "http://ha.news.cn/20260915/ff33dde554c04a47b0ba8d48fe1436d3/c.html",
+    "publisher": "新华网河南频道（河南日报稿）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W12-周报-2026-09-20.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE142",
+    "title": "人民网河南频道（河南日报稿）《王凯主持召开河南省政府常务会议》，2026-09-15",
+    "type": "official",
+    "url": "http://henan.people.com.cn/n2/2026/0915/c351638-41696106.html",
+    "publisher": "人民网河南频道（河南日报稿）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W12-周报-2026-09-20.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE143",
+    "title": "新华网河南频道《第十九届（2026）牛业发展大会在河南光山开幕》，2026-09-18",
+    "type": "official",
+    "url": "http://ha.news.cn/20260918/145c6964e6c44343901aae8d7b6ef39d/c.html",
+    "publisher": "新华网河南频道",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W12-周报-2026-09-20.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE144",
+    "title": "国务院新闻办公室网站（国新网）转载《河南省举行\"开局起步'十五五' 奋力谱写新篇章\"系列漯河专场新闻发布会》，2026-09-18",
+    "type": "official",
+    "url": "http://www.scio.gov.cn/xwfb/dfxwfb/gssfbh/hn_13841/202609/t20260923_1009745.html",
+    "publisher": "国务院新闻办公室网站（国新网）转载",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W12-周报-2026-09-20.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE145",
+    "title": "中原经济网（河南经济报社）《濮阳：油城焕新 建设制造强市》，2026-09-19",
+    "type": "media",
+    "url": "https://www.zyjjw.cn/article/20260919/178973730434730.html",
+    "publisher": "中原经济网（河南经济报社）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W12-周报-2026-09-20.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE146",
+    "title": "农业农村部网站《2026年中国农民丰收节总体安排和筹备情况》，2026-09-16",
+    "type": "official",
+    "url": "https://nmfsj.moa.gov.cn/xwzx_25646/ywjj/202609/t20260916_6487715.htm",
+    "publisher": "农业农村部网站",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W12-周报-2026-09-20.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE147",
+    "title": "光山县委宣传部（央广网河南频道刊发）《第十九届（2026）牛业发展大会在河南光山开幕》，2026-09-20",
+    "type": "official",
+    "url": "https://hn.cnr.cn/hnpdgb/hngexb/20260920/t20260920_527819404.html",
+    "publisher": "光山县委宣传部（央广网河南频道刊发）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W12-周报-2026-09-20.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SF53",
+    "title": "人民网河南频道（来源：河南日报）《河南省 255 项经济社会管理权限赋予县（市）》，2021-10-13",
+    "type": "official",
+    "url": "http://henan.people.com.cn/n2/2021/1013/c351638-34953238.html",
+    "publisher": "人民网河南频道（来源：河南日报）",
+    "year": 2021,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·人民网/人民日报河南"
+  },
+  {
+    "id": "SF54",
+    "title": "河南省人民政府门户网站《2025 年河南省政府工作报告全文》，2025-02-05",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2025/02-05/3119670.html",
+    "publisher": "河南省人民政府门户网站",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省政府门户"
+  },
+  {
+    "id": "SF55",
+    "title": "人民网河南频道（来源：河南日报）《河南 6 地上榜全国百强县》，2022-07-22",
+    "type": "official",
+    "url": "http://henan.people.com.cn/n2/2022/0722/c351638-40048527.html",
+    "publisher": "人民网河南频道（来源：河南日报）",
+    "year": 2022,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·人民网/人民日报河南"
+  },
+  {
+    "id": "SF56",
+    "title": "新浪河南（来源：大河财立方）《全国百强名单揭晓！河南这些县市、区上榜》，2025-09-22",
+    "type": "media",
+    "url": "https://henan.sina.com.cn/news/2025-09-22/detail-infrikpr4902911.shtml",
+    "publisher": "新浪河南（来源：大河财立方）",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：转载页，非白名单域名，原源为大河财立方"
+  },
+  {
+    "id": "SF57",
+    "title": "无限鹤壁（来源：转载赛迪顾问发布稿）《河南领跑！2025 中部百强县、百强区榜单发布》，2025-11-07",
+    "type": "media",
+    "url": "https://www2.hebitv.com/wap/news/775913",
+    "publisher": "无限鹤壁（来源：转载赛迪顾问发布稿）",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：媒体，非白名单域名；数据源为赛迪顾问"
+  },
+  {
+    "id": "SF58",
+    "title": "中国日报网企业频道《2025 年全国县域综合竞争力百强县市等榜单发布》，2025-12-04",
+    "type": "media",
+    "url": "https://qiye.chinadaily.com.cn/a/202512/04/WS693125f1a310942cc4994e67.html",
+    "publisher": "中国日报网企业频道",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：媒体，非白名单域名；数据源为中郡县域经济研究所年度报告"
+  },
+  {
+    "id": "SF59",
+    "title": "河南省发展和改革委员会《关于河南省 2024 年国民经济和社会发展计划执行情况与 2025 年国民经济和社会发展计划草案的报告》，2025-03-17",
+    "type": "official",
+    "url": "https://fgw.henan.gov.cn/2025/03-17/3137607.html",
+    "publisher": "河南省发展和改革委员会",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省政府组成部门"
+  },
+  {
+    "id": "SF60",
+    "title": "映象网·智库河南《以特色产业支撑县域经济高质量发展的理论逻辑与实践价值》",
+    "type": "media",
+    "url": "http://zkhn.hnr.cn/zkllzx/article/1/2092822192809938945",
+    "publisher": "映象网·智库河南",
+    "year": null,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：智库观点，非白名单"
+  },
+  {
+    "id": "SF61",
+    "title": "第一财经《明年起河南所有县不再向市上交财力，财政省直管县再掀高潮？》，2021-09-24",
+    "type": "media",
+    "url": "https://www.yicai.com/news/101182616.html",
+    "publisher": "第一财经",
+    "year": 2021,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：媒体，非白名单；含财税专家观点"
+  },
+  {
+    "id": "SF62",
+    "title": "新浪财经（来源：市场星报）《2025 年全国百强县名单\"出炉\"！》，2025-07-24",
+    "type": "media",
+    "url": "https://finance.sina.cn/2025-07-24/detail-infhnutm3389585.d.html",
+    "publisher": "新浪财经（来源：市场星报）",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D17-河南县域经济高质量发展.md，LightVela 生产，DSH 待复核；原文备注：转载页，非白名单域名，数据源为赛迪顾问"
   }
 ]
