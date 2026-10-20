@@ -71,10 +71,10 @@ svg{display:block}
 .progbar i{display:block;height:100%;width:0;border-radius:99px;
   background:linear-gradient(90deg,var(--acc),var(--c-teal));transition:width .5s}
 .progstats{display:flex;gap:26px;flex-wrap:wrap}
-.progstats .ps{display:flex;flex-direction:column;gap:2px;cursor:pointer;
-  padding:6px 10px;margin:-6px -4px;border-radius:8px;transition:background .16s}
-.progstats .ps:hover{background:var(--hov)}
-.progstats .ps:active{background:var(--accbg)}
+.progstats .ps{display:flex;flex-direction:column;gap:2px;padding:6px 10px;margin:-6px -4px;border-radius:8px}
+.progstats .ps[onclick]{cursor:pointer;transition:background .16s}
+.progstats .ps[onclick]:hover{background:var(--hov)}
+.progstats .ps[onclick]:active{background:var(--accbg)}
 .progstats .ps b{font-family:var(--serif);font-size:20px;line-height:1.2;font-variant-numeric:tabular-nums}
 .progstats .ps span{font-size:12px;color:var(--muted)}
 .progstats .ps:nth-child(1) b{color:var(--acc)}
@@ -909,9 +909,9 @@ function catView(c){
   <p class="sub">${CATS[c].desc}</p></div>
   <span class="pill" style="flex:none">${ts.length} 篇专题</span></div>
   <div class="topiclist">`;
-  h+=ts.map(t=>`<div class="topiccard" onclick="openTopic('${t.id}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')openTopic('${t.id}')">
-    <div class="row1"><span class="tid">${t.id}</span><h3>${esc(t.title)}</h3></div>
-    <div class="tags">${esc(t.tags.join(" · "))}</div>
+  h+=ts.map(t=>`<div class="topiccard cat-${t.category}" onclick="openTopic('${t.id}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')openTopic('${t.id}')">
+    <div class="row1"><h3><span class="catbadge b-${t.category}">${catBadge(t.category)}</span>${esc(t.category==='W'?weekLabel(t.title):t.title)}</h3></div>
+    <div class="tags">${esc(t.tags.join(" · "))}<span class="tidmini">${t.id}</span></div>
     <div class="meta2"><span>证据等级：${t.evidence_level}</span><span>状态：${t.status}</span><span>更新：${t.updated}</span></div></div>`).join("");
   h+=`</div>`;
   document.getElementById("content").innerHTML=h;
@@ -1215,8 +1215,8 @@ function renderProgress(){
   h += '</div>';
   h += `<div class="progbar"><i style="width:${st.percent}%"></i></div>`;
   h += `<div class="progstats">
-    <div class="ps" onclick="showReadList()"><b>${st.read}<span style="font-size:13px;opacity:.5">/${st.total}</span></b><span>已读专题</span></div>
-    <div class="ps" onclick="showReadList()"><b>${st.percent}%</b><span>完成度</span></div>
+    <div class="ps"><b>${st.read}<span style="font-size:13px;opacity:.5">/${st.total}</span></b><span>已读专题</span></div>
+    <div class="ps"><b>${st.percent}%</b><span>完成度</span></div>
     <div class="ps" onclick="showFavList()"><b>${st.fav}</b><span>收藏</span></div>
   </div>`;
   if (st.read === 0) {
@@ -1256,9 +1256,9 @@ function openListPage(title, items){
   let h = `<div class="crumb"><a onclick="go('home')">首页</a>${ICONS.chev}<span>${title}</span></div>
   <div class="catview-head"><div><h1>${title}</h1><p class="sub">共 ${items.length} 篇</p></div></div>
   <div class="topiclist">`;
-  h += items.map(t => `<div class="topiccard${PROG.isRead(t.id)?' isread':''}" onclick="openTopic('${t.id}')">
-      <div class="row1"><span class="tid">${t.id}</span><h3>${esc(t.title)}</h3></div>
-      <div class="tags">${esc(t.tags.join(' · '))}</div>
+  h += items.map(t => `<div class="topiccard${PROG.isRead(t.id)?' isread':''} cat-${t.category}" onclick="openTopic('${t.id}')">
+      <div class="row1"><h3><span class="catbadge b-${t.category}">${catBadge(t.category)}</span>${esc(t.category==='W'?weekLabel(t.title):t.title)}</h3></div>
+      <div class="tags">${esc(t.tags.join(' · '))}<span class="tidmini">${t.id}</span></div>
       <div class="meta2"><span>${t.category==='W'?'时政周报':t.category==='D'?'河南案例':'政策摘要'}</span><span>更新 ${t.updated}</span></div>
     </div>`).join('');
   h += '</div>';
