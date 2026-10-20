@@ -166,7 +166,7 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 .secthead .more{margin-left:auto;font-size:13px;color:var(--muted)}
 .catgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-bottom:38px}
 /* 本周推荐 */
-.reccard{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-bottom:38px}
+.reccard{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-bottom:38px}
 .recitem{display:flex;align-items:flex-start;gap:12px;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:18px 20px;cursor:pointer;transition:border-color .18s,transform .18s,box-shadow .18s;box-shadow:var(--shadow);min-width:0;overflow:hidden}
 .recitem:hover{border-color:var(--acc);transform:translateY(-2px);box-shadow:var(--shadow-lg);text-decoration:none}
 .recitem.remain{background:linear-gradient(135deg,var(--accbg),var(--card) 75%);border-color:rgba(92,122,153,.25)}
@@ -178,7 +178,7 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 .recmeta{display:flex;gap:10px;font-size:11.5px;color:var(--muted);margin-top:3px;flex-wrap:wrap}
 .recarr{flex:none;color:var(--bd);transition:color .15s,transform .15s}
 .recitem:hover .recarr{color:var(--acc);transform:translateX(2px)}
-@media (max-width:1100px){.reccard{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}}
+@media (max-width:1100px){.reccard{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}}
 @media (max-width:600px){.reccard{grid-template-columns:1fr}}
 .catcard{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:18px 20px;cursor:pointer;
   box-shadow:var(--shadow);transition:border-color .18s,transform .18s,box-shadow .18s;display:flex;flex-direction:column;gap:10px;min-width:0;overflow:hidden}
@@ -504,25 +504,20 @@ function buildNav(){
 function renderRec(){
   const box=document.getElementById('recbox');
   if(!box)return;
-  // 从标题里抽出周报开始日期（如“2026-10-19 至 2026-10-25”），按开始日期倒序 → 最新在前的
+  // 只推最新时政周报，按开始日期倒序
   const startDate=t=>{
     const m=(t.title||'').match(/(20\d{2}-\d{2}-\d{2})/);
     return m?m[1]:'0000-00-00';
   };
   const ws=DATA.topics.filter(t=>t.category==='W')
     .sort((a,b)=>startDate(b).localeCompare(startDate(a))).slice(0,3);
-  // 案例卡标题无日期，按 ID 倒序（D18→D01）取最新
-  const ds=DATA.topics.filter(t=>t.category==='D')
-    .sort((a,b)=>b.id.localeCompare(a.id)).slice(0,2);
-  const pick=[...ws,...ds];
-  if(!pick.length)return;
-  box.innerHTML=pick.map(t=>{
-    const isW=t.category==='W';
+  if(!ws.length)return;
+  box.innerHTML=ws.map(t=>{
     const d=startDate(t);
     return `<a class="recitem" onclick="openTopic('${t.id}')" title="${esc(t.title)}">
-      <div class="recbadge">${isW?'时政':'案例'}</div>
+      <div class="recbadge">时政</div>
       <div class="recbody">
-        <div class="rectitle">${esc(t.title)}</div>
+        <div class="rectitle">${esc(shortWeek(t.title))}</div>
         <div class="recmeta"><span>${t.id}</span>${d!=='0000-00-00'?`<span>${d}</span>`:''}${t.sources.length?`<span>${t.sources.length} 源</span>`:''}</div>
       </div>
     </a>`;
