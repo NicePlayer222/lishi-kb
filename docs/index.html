@@ -52,6 +52,14 @@ svg{display:block}
 .trow.isread .t1{opacity:.62}
 .trow .favmark{color:var(--c-gold);font-size:13px;display:none;margin-left:4px}
 .trow.isfav .favmark{display:inline}
+/* 分类标签 */
+.catbadge{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.04em;
+  padding:1px 7px;border-radius:4px;margin-right:7px;vertical-align:1.5px;flex:none}
+.catbadge.b-W{background:var(--accbg);color:var(--acc)}
+.catbadge.b-D{background:var(--c-teal-bg);color:var(--c-teal)}
+.catbadge.b-P{background:var(--c-plum-bg);color:var(--c-plum)}
+/* 编号弱化为小灰字 */
+.tidmini{font-size:10.5px;color:var(--muted);opacity:.55;margin-left:8px;font-variant-numeric:tabular-nums}
 .topiccard.isread .row1 h3{opacity:.62}
 /* 进度面板（首页） */
 .progpanel{background:var(--card);border:1px solid var(--bd);border-radius:12px;
@@ -63,7 +71,10 @@ svg{display:block}
 .progbar i{display:block;height:100%;width:0;border-radius:99px;
   background:linear-gradient(90deg,var(--acc),var(--c-teal));transition:width .5s}
 .progstats{display:flex;gap:26px;flex-wrap:wrap}
-.progstats .ps{display:flex;flex-direction:column;gap:2px;cursor:pointer}
+.progstats .ps{display:flex;flex-direction:column;gap:2px;cursor:pointer;
+  padding:6px 10px;margin:-6px -4px;border-radius:8px;transition:background .16s}
+.progstats .ps:hover{background:var(--hov)}
+.progstats .ps:active{background:var(--accbg)}
 .progstats .ps b{font-family:var(--serif);font-size:20px;line-height:1.2;font-variant-numeric:tabular-nums}
 .progstats .ps span{font-size:12px;color:var(--muted)}
 .progstats .ps:nth-child(1) b{color:var(--acc)}
@@ -72,16 +83,16 @@ svg{display:block}
 .progstats .ps:nth-child(4) b{color:var(--c-green)}
 .progempty{font-size:13.5px;color:var(--muted);line-height:1.8}
 #resume-tip{position:fixed;right:16px;bottom:20px;transform:translateY(90px);z-index:290;
-  display:flex;flex-direction:column;gap:8px;padding:12px;
-  background:var(--card);border:1px solid var(--bd);border-radius:14px;
+  display:flex;flex-direction:column;gap:10px;padding:14px;
+  background:var(--card);border:1px solid var(--bd);border-radius:16px;
   box-shadow:var(--shadow-lg);opacity:0;transition:transform .3s,opacity .3s;pointer-events:none}
 #resume-tip.show{transform:translateY(0);opacity:1;pointer-events:auto}
-#resume-tip button{border:0;border-radius:9px;padding:11px 22px;font-size:13.5px;
-  cursor:pointer;font-family:var(--serif);letter-spacing:.06em;
-  transition:opacity .15s,background .15s;white-space:nowrap}
-#resume-tip button.ok{background:var(--acc);color:#fff}
+#resume-tip button{border:0;border-radius:11px;padding:15px 34px;font-size:15.5px;
+  cursor:pointer;font-family:var(--serif);letter-spacing:.08em;font-weight:600;
+  transition:opacity .15s,background .15s;white-space:nowrap;min-width:118px}
+#resume-tip button.ok{background:var(--acc);color:#fff;box-shadow:0 4px 12px rgba(92,122,153,.28)}
 #resume-tip button.no{background:var(--hov);color:var(--muted)}
-#resume-tip button:hover{opacity:.86}
+#resume-tip button:hover{opacity:.88}
 /* 阅读进度条：极简，贴右侧边缘 */
 #readtrack{position:fixed;right:3px;top:50%;transform:translateY(-50%);
   width:3px;height:38vh;background:rgba(138,136,128,.16);border-radius:99px;
@@ -289,8 +300,8 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 
 /* 全部专题：表格式列表 */
 .topicpanel{background:var(--card);border:1px solid var(--bd);border-radius:12px;box-shadow:var(--shadow);overflow:hidden;margin-bottom:38px}
-.topicpanel .tp-head{display:grid;grid-template-columns:72px 1fr 240px 32px;gap:16px;padding:12px 24px;border-bottom:1px solid var(--bd);background:var(--hov);font-size:11.5px;color:var(--muted);letter-spacing:.08em}
-.trow{display:grid;grid-template-columns:72px 1fr 240px 32px;gap:16px;align-items:center;padding:14px 24px;border-bottom:1px solid var(--bd);cursor:pointer;transition:background .12s}
+.topicpanel .tp-head{display:grid;grid-template-columns:16px 1fr 180px 32px;gap:14px;padding:12px 24px;border-bottom:1px solid var(--bd);background:var(--hov);font-size:11.5px;color:var(--muted);letter-spacing:.08em}
+.trow{display:grid;grid-template-columns:16px 1fr 180px 32px;gap:14px;align-items:center;padding:14px 24px;border-bottom:1px solid var(--bd);cursor:pointer;transition:background .12s}
 .trow:last-child{border-bottom:0}
 .trow:hover{background:var(--accbg)}
 .trow .tid{font-weight:700;color:var(--acc);font-size:12.5px;font-variant-numeric:tabular-nums;font-family:var(--serif)}
@@ -366,6 +377,10 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 .sec-exam>h2,.sec-exam>h3{color:var(--c-teal)}
 .sec-quote{background:var(--c-gold-bg);border-color:rgba(184,147,90,.3)}
 .sec-quote>h2,.sec-quote>h3{color:var(--c-gold)}
+.sec-review{background:var(--c-green-bg);border-color:rgba(124,154,130,.28)}
+.sec-review>h2,.sec-review>h3{color:var(--c-green)}
+.sec-review .cardbody li{line-height:1.85}
+.sec-review .cardbody strong{color:var(--c-green)}
 /* 行内加粗形式的卡片（周报类） */
 .sec-card.cardin{padding:16px 20px 6px;margin:22px 0}
 .sec-card.cardin .cardbody>*:first-child{margin-top:0}
@@ -426,14 +441,14 @@ html,body{max-width:100%;overflow-x:hidden}
 
 /* ---------- 响应式 ---------- */
 @media (max-width:1200px){
-  .trow,.topicpanel .tp-head{grid-template-columns:64px 1fr 200px 28px}
+  .trow,.topicpanel .tp-head{grid-template-columns:16px 1fr 140px 28px}
 }
 @media (max-width:1120px){
   #toccol{display:none}
   .page-article{max-width:none}
 }
 @media (max-width:900px){
-  .trow,.topicpanel .tp-head{grid-template-columns:56px 1fr 28px}
+  .trow,.topicpanel .tp-head{grid-template-columns:12px 1fr 28px}
   .trow .tm,.topicpanel .tp-head .h-meta{display:none}
 }
 @media (max-width:840px){
@@ -673,6 +688,45 @@ function renderRec(){
 function shortWeek(t){
   return (t||'').replace(/^河南时政周报\s*/, '');
 }
+// 从标题抽出开始日期
+function weekStart(t){
+  const m = (t||'').match(/(20\d{2})-(\d{2})-(\d{2})/);
+  return m ? {y:+m[1], mo:+m[2], d:+m[3]} : null;
+}
+// 计算该日期属当月第几周（以周一为一周开始，按 ISO 周逻辑简化为“当月第几周”）
+function weekOfMonth(y, mo, d){
+  // 当月的 1 号所在周的周一
+  const first = new Date(y, mo-1, 1);
+  const dow = (first.getDay() + 6) % 7;      // 0=周一
+  const firstMon = new Date(y, mo-1, 1 - dow);
+  const cur = new Date(y, mo-1, d);
+  const diff = Math.floor((cur - firstMon) / (7*86400000));
+  return diff + 1;
+}
+// 周报显示名：如“10月第2周”；跨月周按覆盖天数多的一月命名
+function weekLabel(t){
+  const m = (t||'').match(/(20\d{2})-(\d{2})-(\d{2})\s*至\s*(20\d{2})-(\d{2})-(\d{2})/);
+  if (!m) return shortWeek(t);
+  const y1=+m[1], mo1=+m[2], d1=+m[3], y2=+m[4], mo2=+m[5], d2=+m[6];
+  const start = new Date(y1, mo1-1, d1);
+  const end   = new Date(y2, mo2-1, d2);
+  // 计算这两天分别在各自月内的天数
+  const daysIn1 = new Date(y1, mo1, 0).getDate();
+  const inFirstMonth = daysIn1 - d1 + 1;   // 起始月覆盖天数
+  const inSecondMonth = d2;                 // 结束月覆盖天数
+  let mo, d;
+  if (mo1 === mo2) { mo = mo1; d = d1; }
+  else if (inFirstMonth >= inSecondMonth) { mo = mo1; d = d1; }
+  else { mo = mo2; d = 1; }                 // 归到下个月
+  return `${mo}月第${weekOfMonth(mo===mo1?y1:y2, mo, d)}周`;
+}
+// 分类对应的短标签
+function catBadge(c){
+  if (c === 'W') return '时政';
+  if (c === 'D') return '案例';
+  if (c === 'P') return '政策';
+  return c;
+}
 function toggleGroup(c){const g=document.getElementById("ng"+c);g.classList.toggle("closed");
   g.querySelector(".navgroup-head").setAttribute("aria-expanded",g.classList.contains("closed")?"false":"true")}
 function highlightNav(id){
@@ -728,6 +782,8 @@ function wrapSpecialSections(html){
   };
   html=apply(html,'可考角度','sec-card sec-exam');
   html=apply(html,'金句','sec-card sec-quote');
+  // “复盘与下周关注”也做成卡片，与正文区分
+  html=apply(html,'复盘与下周关注','sec-card sec-review');
   return html;
 }
 
@@ -818,10 +874,10 @@ function home(){
   h+=`</div>
   <div class="secthead"><h2>全部专题</h2><span class="more">共 ${n} 篇 · 点击行进入阅读</span></div>
   <div class="topicpanel">
-    <div class="tp-head"><span>编号</span><span>专题标题</span><span class="h-meta">标签 / 状态</span><span></span></div>`;
-  h+=DATA.topics.map(t=>`<div class="trow${PROG.isRead(t.id)?' isread':''}${PROG.isFav(t.id)?' isfav':''}" onclick="openTopic('${t.id}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')openTopic('${t.id}')">
-    <span class="tidwrap"><span class="rddot"></span><span class="tid">${t.id}</span></span>
-    <div class="tt"><div class="t1">${esc(t.title)}<span class="favmark">★</span></div><div class="t2">${esc(t.tags.slice(0,4).join(" · "))}</div></div>
+    <div class="tp-head"><span></span><span>专题标题</span><span class="h-meta">标签 / 状态</span><span></span></div>`;
+  h+=DATA.topics.map(t=>`<div class="trow${PROG.isRead(t.id)?' isread':''}${PROG.isFav(t.id)?' isfav':''} cat-${t.category}" onclick="openTopic('${t.id}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')openTopic('${t.id}')">
+    <span class="tidwrap"><span class="rddot"></span></span>
+    <div class="tt"><div class="t1"><span class="catbadge b-${t.category}">${catBadge(t.category)}</span>${esc(t.category==='W'?weekLabel(t.title):t.title)}<span class="favmark">★</span></div><div class="t2">${esc(t.tags.slice(0,4).join(" · "))}<span class="tidmini">${t.id}</span></div></div>
     <div class="tm"><div class="pillrow"><span class="pill">${t.evidence_level}</span><span class="pill dim">${t.status}</span></div><div class="tags">更新 ${t.updated}</div></div>
     <span class="arr">${ICONS.arrow}</span></div>`).join("");
   h+=`</div>
@@ -1159,8 +1215,8 @@ function renderProgress(){
   h += '</div>';
   h += `<div class="progbar"><i style="width:${st.percent}%"></i></div>`;
   h += `<div class="progstats">
-    <div class="ps"><b>${st.read}<span style="font-size:13px;opacity:.5">/${st.total}</span></b><span>已读专题</span></div>
-    <div class="ps"><b>${st.percent}%</b><span>完成度</span></div>
+    <div class="ps" onclick="showReadList()"><b>${st.read}<span style="font-size:13px;opacity:.5">/${st.total}</span></b><span>已读专题</span></div>
+    <div class="ps" onclick="showReadList()"><b>${st.percent}%</b><span>完成度</span></div>
     <div class="ps" onclick="showFavList()"><b>${st.fav}</b><span>收藏</span></div>
   </div>`;
   if (st.read === 0) {
@@ -1185,6 +1241,15 @@ function showFavList(){
   if (!ids.length) { toast('还没有收藏任何专题'); return; }
   const items = ids.map(id => DATA.topics.find(t=>t.id===id)).filter(Boolean);
   openListPage('我的收藏', items);
+}
+/* 已读列表 */
+function showReadList(){
+  const ids = Object.keys(PROG.data.read || {});
+  if (!ids.length) { toast('还没有阅读记录'); return; }
+  // 按最近阅读时间倒序
+  ids.sort((a,b) => String(PROG.data.read[b]).localeCompare(String(PROG.data.read[a])));
+  const items = ids.map(id => DATA.topics.find(t=>t.id===id)).filter(Boolean);
+  openListPage('已读专题', items);
 }
 /* 通用列表页 */
 function openListPage(title, items){
