@@ -2968,5 +2968,95 @@
     "year": 2026,
     "checked_date": "2026-10-20",
     "note": "来自 topics/D14-河南统一大市场.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·区政府网转载省级党报"
+  },
+  {
+    "id": "SF33",
+    "title": "河南省发展和改革委员会《\"创新驱动、科教兴省、人才强省\"战略实施报告》，2023-09-07",
+    "type": "official",
+    "url": "https://fgw.henan.gov.cn/2023/09-07/2810989.html",
+    "publisher": "河南省发展和改革委员会",
+    "year": 2023,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D15-河南新质生产力.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省政府部门网"
+  },
+  {
+    "id": "SF34",
+    "title": "河南省统计局（转载河南日报）《一份写满\"新\"意的答卷》，2025-01-20",
+    "type": "official",
+    "url": "https://tjj.henan.gov.cn/2025/01-20/3114174.html",
+    "publisher": "河南省统计局（转载河南日报）",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D15-河南新质生产力.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省统计局网"
+  },
+  {
+    "id": "SF35",
+    "title": "河南日报《建设制造强省 塑造高质量发展新优势》，2025-09-12",
+    "type": "official",
+    "url": "https://newpaper.dahe.cn/hnrb/html/2025-09/12/content_20_1757489.htm",
+    "publisher": "河南日报",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D15-河南新质生产力.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·河南日报/大河网"
+  },
+  {
+    "id": "SF36",
+    "title": "河南省人民政府新闻办\"2025 河南省民营经济高质量发展\"系列发布会（省科技厅发布），河南省科学技术厅网 2025-11-26，2025-11-26",
+    "type": "official",
+    "url": "https://kjt.henan.gov.cn/2025/11-26/3267966.html",
+    "publisher": "河南省人民政府新闻办\"2025 河南省民营经济高质量发展\"系列发布会（省科技厅发布），河南省科学技术厅网 2025-11-26",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D15-河南新质生产力.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省政府部门网"
+  },
+  {
+    "id": "SF37",
+    "title": "顶端新闻·河南商报《科创投入连续四年破千亿元 河南如何持续\"点燃\"创新力？》",
+    "type": "media",
+    "url": "https://m.henan100.com/news/2025/1232212.shtml",
+    "publisher": "顶端新闻·河南商报",
+    "year": null,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D15-河南新质生产力.md，LightVela 生产，DSH 待复核；原文备注：媒体转述，转载页非白名单域名，数据源为省统计局公报 [存疑：未取得省统计局原始链接]"
+  },
+  {
+    "id": "SF38",
+    "title": "河南广电大象新闻《六省联动话崛起·创新篇》，2024-03-28",
+    "type": "official",
+    "url": "https://kjt.henan.gov.cn/2024/03-28/2967153.html",
+    "publisher": "河南广电大象新闻",
+    "year": 2024,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D15-河南新质生产力.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省政府部门网转载河南广电"
+  },
+  {
+    "id": "SF39",
+    "title": "新华社《河南：科创局面悄然嬗变》，2024-09-01",
+    "type": "official",
+    "url": "https://www.news.cn/20240901/4e0e9648647a470ebccbba955bbb7e2b/c.html",
+    "publisher": "新华社",
+    "year": 2024,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D15-河南新质生产力.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·新华社"
+  },
+  {
+    "id": "SF41",
+    "title": "郑东新区管理委员会《科技扬帆 助活力郑州破浪前行》",
+    "type": "official",
+    "url": "https://www.zhengdong.gov.cn/bmdt/9853865.jhtml",
+    "publisher": "郑东新区管理委员会",
+    "year": null,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D15-河南新质生产力.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·区政府网"
+  },
+  {
+    "id": "SF42",
+    "title": "河南中原创新发展研究院《推动科技创新和产业创新深度融合——河南产业体系建设 2025 回顾与 2026 前瞻》",
+    "type": "media",
+    "url": "https://cxyjy.hhstu.edu.cn/info/1051/2320.htm",
+    "publisher": "河南中原创新发展研究院",
+    "year": null,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D15-河南新质生产力.md，LightVela 生产，DSH 待复核；原文备注：研究机构观点，非白名单，仅用于 2025 年数据旁证"
   }
 ]
