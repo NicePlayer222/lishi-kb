@@ -2148,5 +2148,645 @@
     "year": 2026,
     "checked_date": "2026-10-19",
     "note": "LightVela 生产，统一重编号，DSH 待复核"
+  },
+  {
+    "id": "SE39",
+    "title": "河南省政府门户网《2026年河南经济\"半年报\"出炉》，2026-07-17",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/07-17/3376766.html",
+    "publisher": "河南省政府门户网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE40",
+    "title": "河南省统计局《2026年上半年全省经济运行情况》，2026-07-17",
+    "type": "official",
+    "url": "https://tjj.henan.gov.cn/2026/07-17/3376629.html",
+    "publisher": "河南省统计局",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE41",
+    "title": "中国新闻网《2026年河南经济\"半年报\"出炉 GDP同比增5%》，2026-07-17",
+    "type": "media",
+    "url": "https://www.chinanews.com.cn/cj/2026/07-17/10661596.shtml",
+    "publisher": "中国新闻网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE42",
+    "title": "河南省政府门户网《河南启动防汛四级应急响应》，2026-07-16",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/07-16/3376291.html",
+    "publisher": "河南省政府门户网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE43",
+    "title": "河南省政府门户网《暴雨大暴雨！\"七下八上\"防汛关键期来了》，2026-07-16",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/07-16/3376103.html",
+    "publisher": "河南省政府门户网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE44",
+    "title": "河南日报网《河南200万吨夏粮销往全国》，2026-07-13",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026/0713/1240088.html",
+    "publisher": "河南日报网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE45",
+    "title": "国际在线河南频道（转河南日报）《郑州国际陆港包件库投用首月破万吨 河南中欧（亚）班列跑出开放加速度》，2026-07-17",
+    "type": "media",
+    "url": "https://hn.cri.cn/20260717/be5daac5-e421-46d0-b8a0-b5ad2d4c5700.html",
+    "publisher": "国际在线河南频道（转河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核；原文备注：转载；河南日报原文见 https://newpaper.dahe.cn/hnrb/html/2026-07/17/content_11_1802367.htm"
+  },
+  {
+    "id": "SE46",
+    "title": "新华网河南频道（转郑州日报）《河南高招普通本科批21日正式投档》，2026-07-20",
+    "type": "official",
+    "url": "http://www.ha.xinhuanet.com/20260720/c1427644d8744629be4791d34d5f0d9b/c.html",
+    "publisher": "新华网河南频道（转郑州日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE47",
+    "title": "人民日报（中国共产党新闻网转载）《两部门联合发布农业高温干旱风险预警》，2026-07-21",
+    "type": "official",
+    "url": "http://cpc.people.com.cn/n1/2026/0722/c64387-40765493.html",
+    "publisher": "人民日报（中国共产党新闻网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE48",
+    "title": "平顶山市发展和改革委员会（转大河网）《GDP增长5%！2026年河南经济\"半年报\"出炉》，2026-07-20",
+    "type": "official",
+    "url": "https://fgw.pds.gov.cn/contents/22243/750315.html",
+    "publisher": "平顶山市发展和改革委员会（转大河网）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE49",
+    "title": "洛阳市人民政府网在线访谈《\"七下八上\"关键期，河南这样守护汛期安全》，2026-07-30",
+    "type": "official",
+    "url": "https://www.ly.gov.cn/2026/07-30/1076560.html",
+    "publisher": "洛阳市人民政府网在线访谈",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W03-周报-2026-07-19.md，LightVela 生产，DSH 待复核；原文备注：作汛期背景引用，发布于本周期之后"
+  },
+  {
+    "id": "SE50",
+    "title": "国务院新闻办公室网站《河南举行推动2026年下半年进一步巩固拓展经济稳中向好势头新闻发布会》，2026-07-24",
+    "type": "official",
+    "url": "http://www.scio.gov.cn/xwfb/dfxwfb/gssfbh/hn_13841/202607/t20260724_1000700.html",
+    "publisher": "国务院新闻办公室网站",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W04-周报-2026-07-26.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE51",
+    "title": "河南省发展和改革委员会《河南省推动2026年下半年进一步巩固拓展经济稳中向好势头新闻发布会举行》，2026-07-21",
+    "type": "official",
+    "url": "https://fgw.henan.gov.cn/2026/07-21/3377708.html",
+    "publisher": "河南省发展和改革委员会",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W04-周报-2026-07-26.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE52",
+    "title": "平顶山市商务局（转载）《河南下半年促消费\"大礼包\"来了！》，2026-07-23",
+    "type": "official",
+    "url": "http://swj.pds.gov.cn/contents/20087/750681.html",
+    "publisher": "平顶山市商务局（转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W04-周报-2026-07-26.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE53",
+    "title": "大河财立方（新浪财经转载）《河南下半年补贴继续，购车最高补2万》，2026-07-21",
+    "type": "media",
+    "url": "https://finance.sina.com.cn/wm/2026-07-21/doc-iniiptrf2608107.shtml",
+    "publisher": "大河财立方（新浪财经转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W04-周报-2026-07-26.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE54",
+    "title": "中国工业新闻网（中国工业报）《外贸创新高、夏粮增产全国第一！河南经济多点发力年中答卷任务过半》，2026-07-21",
+    "type": "media",
+    "url": "https://www.cinn.cn/2026/07-21/brY09vW1.html",
+    "publisher": "中国工业新闻网（中国工业报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W04-周报-2026-07-26.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE55",
+    "title": "大河网《河南高招迎来\"重头戏\" 普通本科批明日正式投档》，2026-07-21",
+    "type": "media",
+    "url": "https://henan.sina.cn/news/z/2026-07-21/detail-iniiphzq8194377.d.html",
+    "publisher": "大河网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W04-周报-2026-07-26.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE56",
+    "title": "人民网河南频道（转河南日报）《王凯主持召开河南省政府常务会议》，2026-07-29",
+    "type": "official",
+    "url": "http://henan.people.com.cn/n2/2026/0729/c351638-41652789.html",
+    "publisher": "人民网河南频道（转河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W05-周报-2026-08-02.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE57",
+    "title": "河南省地方金融监督管理局（转载河南日报）《王凯主持召开省政府常务会议》，2026-07-28",
+    "type": "official",
+    "url": "https://www.hnswjrb.gov.cn/2026/07-28/3654312.html",
+    "publisher": "河南省地方金融监督管理局（转载河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W05-周报-2026-08-02.md，LightVela 生产，DSH 待复核；原文备注：转载；与SE56同稿"
+  },
+  {
+    "id": "SE58",
+    "title": "河南省政府门户网《2026年7月，河南省政府出台了这些重要政策》，2026-07-31",
+    "type": "official",
+    "url": "https://www.henan.gov.cn/2026/07-31/3381194.html",
+    "publisher": "河南省政府门户网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W05-周报-2026-08-02.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE59",
+    "title": "南阳市人民政府网（转载河南发布）《河南省人民政府关于推进服务业扩能提质的实施意见》，2026-07-08",
+    "type": "official",
+    "url": "https://www.nanyang.gov.cn/2026/07-08/1418283.html",
+    "publisher": "南阳市人民政府网（转载河南发布）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W05-周报-2026-08-02.md，LightVela 生产，DSH 待复核；原文备注：转载；文件成文日期2026-07-01"
+  },
+  {
+    "id": "SE60",
+    "title": "国家医疗保障局网站（转河南省政府官网）《河南省人民政府办公厅关于印发河南省建立长期护理保险制度实施方案的通知》，2026-07-26",
+    "type": "official",
+    "url": "http://www.nhsa.gov.cn/art/2026/7/26/art_14_21558.html",
+    "publisher": "国家医疗保障局网站（转河南省政府官网）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W05-周报-2026-08-02.md，LightVela 生产，DSH 待复核；原文备注：转载；文件成文日期2026-06-18"
+  },
+  {
+    "id": "SE61",
+    "title": "大河报（新浪河南转载）《河南\"第六险\"全面启动 2026年底覆盖全省就业人员》，2026-07-23",
+    "type": "media",
+    "url": "https://henan.sina.cn/news/m/2026-07-24/detail-iniitzpf1486339.d.html",
+    "publisher": "大河报（新浪河南转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W05-周报-2026-08-02.md，LightVela 生产，DSH 待复核；原文备注：转载"
+  },
+  {
+    "id": "SE62",
+    "title": "河南省教育考试院（河南高考信息网转载）《关于普通本科批再次征集志愿的通知》，2026-07-27",
+    "type": "media",
+    "url": "https://gaokao.haedu.cn/501/552/2026/0624/155630.html",
+    "publisher": "河南省教育考试院（河南高考信息网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W05-周报-2026-08-02.md，LightVela 生产，DSH 待复核；原文备注：页面转载；通知原文载河南省教育考试院网站"
+  },
+  {
+    "id": "SE63",
+    "title": "郑州市发展和改革委员会网站工作动态（大河网稿）《郑州：奋力实现\"十五五\"良好开局》，2026-07-29",
+    "type": "official",
+    "url": "https://fgw.zhengzhou.gov.cn/work/index_7.jhtml",
+    "publisher": "郑州市发展和改革委员会网站工作动态（大河网稿）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W05-周报-2026-08-02.md，LightVela 生产，DSH 待复核；原文备注：栏目页；发布会内容为大河网报道转载"
+  },
+  {
+    "id": "SE64",
+    "title": "河南省农业科学院粮食作物研究所《防汛抗旱齐抓共管，做好玉米孕穗期管理》，2026-07-13",
+    "type": "media",
+    "url": "https://www.hnagri.org.cn/article-113419.html",
+    "publisher": "河南省农业科学院粮食作物研究所",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W05-周报-2026-08-02.md，LightVela 生产，DSH 待复核；原文备注：作秋粮田管技术背景引用"
+  },
+  {
+    "id": "SE65",
+    "title": "人民网河南频道（转河南日报）《中国共产党河南省第十一届委员会第十一次全体会议公报》，2026-08-04",
+    "type": "official",
+    "url": "http://henan.people.com.cn/n2/2026/0804/c351638-41658137.html",
+    "publisher": "人民网河南频道（转河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE66",
+    "title": "河南省地方金融监督管理局（转载河南日报）《王凯主持召开省政府常务会议 传达贯彻省委十一届十一次全会精神》，2026-08-04",
+    "type": "official",
+    "url": "https://www.hnswjrb.gov.cn/2026/08-04/3655074.html",
+    "publisher": "河南省地方金融监督管理局（转载河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核；原文备注：转载；页面经搜索引擎检索核验标题与日期，正文抓取受限，细节以SE67同稿互证"
+  },
+  {
+    "id": "SE67",
+    "title": "商丘新闻网（转载河南日报客户端）《王凯主持召开省政府常务会议 传达贯彻省委十一届十一次全会精神》，2026-08-04",
+    "type": "media",
+    "url": "http://www.sqxww.com/news/zhengwu/300935.html",
+    "publisher": "商丘新闻网（转载河南日报客户端）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核；原文备注：转载；与SE66同稿"
+  },
+  {
+    "id": "SE68",
+    "title": "洛阳市人民政府网（转载河南日报）《王凯在洛阳调研城市更新工作》，2026-08-06",
+    "type": "official",
+    "url": "https://www.ly.gov.cn/2026/08-06/1077906.html",
+    "publisher": "洛阳市人民政府网（转载河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核；原文备注：转载；调研日期2026-08-05"
+  },
+  {
+    "id": "SE69",
+    "title": "河南省政协网（转河南日报）《刘宁王凯在郑州市督导调研防汛备汛工作时强调 绷紧防汛安全之弦 守牢安全生产底线 坚决维护人民群众生命财产安全》，2026-08-08",
+    "type": "official",
+    "url": "https://www.hnzx.gov.cn/2026/08-08/4369356.html",
+    "publisher": "河南省政协网（转河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核；原文备注：转载"
+  },
+  {
+    "id": "SE70",
+    "title": "新华网河南频道（转河南日报）《刘宁王凯在郑州市督导调研防汛备汛工作》，2026-08-09",
+    "type": "official",
+    "url": "http://ha.news.cn/20260809/eb74b222d705450d9248b9713a630a63/c.html",
+    "publisher": "新华网河南频道（转河南日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核；原文备注：转载；与SE69同稿"
+  },
+  {
+    "id": "SE71",
+    "title": "新华网（新华社郑州8月8日电）《河南发布农田渍涝灾害风险预警》，2026-08-08",
+    "type": "official",
+    "url": "https://www.news.cn/20260808/62991c3c86bc4f61aade72f6612d3606/c.html",
+    "publisher": "新华网（新华社郑州8月8日电）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE72",
+    "title": "中国农业农村信息网（农业农村部种植业管理司）《农业农村部召开全国秋粮生产现场推进会 强调统筹抓好田间管理和农业防灾减灾救灾》，2026-08-03",
+    "type": "media",
+    "url": "https://www.agri.cn/zx/nyyw/202608/t20260803_8861026.htm",
+    "publisher": "中国农业农村信息网（农业农村部种植业管理司）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE73",
+    "title": "新华网河南频道（来源大河健康报）《全民健身日：从\"会运动\"到\"懂健康\"》，2026-08-08",
+    "type": "official",
+    "url": "http://www.ha.xinhuanet.com/20260808/a4c263d9b4f1448cac8aaea333220789/c.html",
+    "publisher": "新华网河南频道（来源大河健康报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核；原文备注：转载"
+  },
+  {
+    "id": "SE74",
+    "title": "郑州日报（新华网河南频道转载）《河南高招录取今起开始 今年至少进行5次征集志愿》，2026-07-08",
+    "type": "official",
+    "url": "http://ha.news.cn/20260708/e5542255862d43beb5436f239f0c126d/c.html",
+    "publisher": "郑州日报（新华网河南频道转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核；原文备注：转载；取其批次时间表作为8月5—7日录取、8月8日征集志愿的依据"
+  },
+  {
+    "id": "SE75",
+    "title": "河南省政协网《河南政协\"每日要闻速览\"（8月7日）》，2026-08-07",
+    "type": "official",
+    "url": "https://hnzx.gov.cn/2026/08-07/4369348.html",
+    "publisher": "河南省政协网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核；原文备注：载8月7日省委常委会会议信息及第18个全民健身日背景"
+  },
+  {
+    "id": "SE76",
+    "title": "华禹教育网（转河南省教育考试院）《河南：关于普通高职（专科）批再次征集志愿的通知》，2026-08-10",
+    "type": "media",
+    "url": "http://huaue.com/gkao2026/2026810101241.htm",
+    "publisher": "华禹教育网（转河南省教育考试院）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W06-周报-2026-08-09.md，LightVela 生产，DSH 待复核；原文备注：转载；属下一周期节点，仅作衔接引用"
+  },
+  {
+    "id": "SE77",
+    "title": "大河网（中新网河南转载）《河南启动防汛四级应急响应》，2026-08-10",
+    "type": "media",
+    "url": "http://www.ha.chinanews.com.cn/news/hnxw/2026/0810/70115.shtml",
+    "publisher": "大河网（中新网河南转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核；原文备注：转载大河网，记者王怡潇"
+  },
+  {
+    "id": "SE78",
+    "title": "新华网（新华社北京8月12日电）《国家防总、应急管理部对河南启动防汛三级应急响应》，2026-08-12",
+    "type": "official",
+    "url": "https://www.news.cn/20260812/340d190f0d1c4119bc305281f15951ba/c.html",
+    "publisher": "新华网（新华社北京8月12日电）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE79",
+    "title": "央广网（总台中国之声《新闻纵横》，2026-08-14",
+    "type": "official",
+    "url": "https://china.cnr.cn/yaowen/20260814/t20260814_527761927.shtml",
+    "publisher": "央广网（总台中国之声",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE80",
+    "title": "中国经济网（转中央气象台网站）《农业农村部和中国气象局继续发布农田渍涝风险预警》，2026-08-10",
+    "type": "media",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260810_3139184.shtml",
+    "publisher": "中国经济网（转中央气象台网站）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核；原文备注：转载"
+  },
+  {
+    "id": "SE81",
+    "title": "河南日报（中共河南省委宣传部党建网转载）《跻身全国美丽公路标杆行列 沿太行高速公路安阳段究竟有多美》，2026-08-10",
+    "type": "media",
+    "url": "http://www.hnswxcb.com/2026/08-10/465461.html",
+    "publisher": "河南日报（中共河南省委宣传部党建网转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核；原文备注：转载"
+  },
+  {
+    "id": "SE82",
+    "title": "河南交通投资集团网站《沿太行高速公路安阳段入选2026年度美丽公路项目展示交流活动名单》，2026-08-05",
+    "type": "media",
+    "url": "https://www.hnjttz.com/new/show-68561.html",
+    "publisher": "河南交通投资集团网站",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE83",
+    "title": "河南省教育考试院（河南日报网\"要闻\"栏目转载）《136所！8月12日9:00-13日18:00普通高职（专科）批再次征集志愿的通知》，2026-08-10",
+    "type": "official",
+    "url": "https://www.henandaily.cn/news/2026-08",
+    "publisher": "河南省教育考试院（河南日报网\"要闻\"栏目转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核；原文备注：栏目列表页核验标题与日期"
+  },
+  {
+    "id": "SE84",
+    "title": "河南省应急管理厅\"河南应急\"公众号（财联社新浪财经转载）《河南调整防汛应急响应等级》，2026-08-16",
+    "type": "media",
+    "url": "https://finance.sina.com.cn/jjxw/2026-08-16/doc-ininnqpu9901165.shtml",
+    "publisher": "河南省应急管理厅\"河南应急\"公众号（财联社新浪财经转载）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核；原文备注：转载"
+  },
+  {
+    "id": "SE85",
+    "title": "新华网（新华社北京8月11日电）《台风\"白海豚\"致强降雨 多地积极应对》，2026-08-11",
+    "type": "official",
+    "url": "https://www.news.cn/politics/20260811/4da31b6135064119a0aac25470821780/c.html",
+    "publisher": "新华网（新华社北京8月11日电）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE86",
+    "title": "科技日报《逐渐深入内陆 多地有大风暴雨 台风\"白海豚\"最新情况》，2026-08-11",
+    "type": "media",
+    "url": "https://www.stdaily.com/web/gdxw/2026-08/11/content_562243.html",
+    "publisher": "科技日报",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核"
+  },
+  {
+    "id": "SE87",
+    "title": "商丘市人民政府网（转商丘日报）《暴雨过后 秋粮田间咋管理》，2026-08-14",
+    "type": "official",
+    "url": "https://www.shangqiu.gov.cn/hd/hygq/content_310621",
+    "publisher": "商丘市人民政府网（转商丘日报）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W07-周报-2026-08-16.md，LightVela 生产，DSH 待复核；原文备注：转载"
+  },
+  {
+    "id": "SE88",
+    "title": "中国新闻网《农业农村部和中国气象局联合发布农业高温干旱风险预警》，2026-07-21",
+    "type": "media",
+    "url": "https://www.chinanews.com/sh/2026/07-21/10663706.shtml",
+    "publisher": "中国新闻网",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/W05-周报-2026-08-02.md，LightVela 生产，DSH 待复核；原文备注：与SE47同事件不同媒体报道，非同一来源"
+  },
+  {
+    "id": "SF01",
+    "title": "河南省人民政府办公厅《河南省高标准农田示范区建设实施方案》，2022-09-27",
+    "type": "official",
+    "url": "http://www.xiangcheng.gov.cn/sitesources/xcs/page_pc/xxgk/jcxxgk/zcjd/articleb408b599b1b84d169d74d644babe7829.html",
+    "publisher": "河南省人民政府办公厅",
+    "year": 2022,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D11-河南高标准农田.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·县级政府网"
+  },
+  {
+    "id": "SF02",
+    "title": "人民日报《河南：建好高标准农田 打牢农业高质量发展\"地基\"》，2025-02-07",
+    "type": "official",
+    "url": "https://fzzx.jl.gov.cn/tszs/202502/t20250214_9057142.html",
+    "publisher": "人民日报",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D11-河南高标准农田.md，LightVela 生产，DSH 待复核；原文备注：中央媒体，转载页"
+  },
+  {
+    "id": "SF03",
+    "title": "新华每日电讯《中原沃野启新程——河南推进农业大省向农业强省蝶变》，2025-12-25",
+    "type": "official",
+    "url": "http://www.news.cn/20251225/249c08d7300f41a4b01779c79cec50a2/c.html",
+    "publisher": "新华每日电讯",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D11-河南高标准农田.md，LightVela 生产，DSH 待复核；原文备注：新华社"
+  },
+  {
+    "id": "SF04",
+    "title": "经济日报《高标准农田要建好更要管好》，2025-08-22",
+    "type": "official",
+    "url": "https://ntjss.moa.gov.cn/gzdt/202508/t20250822_6476675.htm",
+    "publisher": "经济日报",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D11-河南高标准农田.md，LightVela 生产，DSH 待复核；原文备注：中央部委官网，转载页"
+  },
+  {
+    "id": "SF05",
+    "title": "人民网河南频道《冲刺 1400 亿斤产能 河南\"十五五\"加快建设农业强省》，2026-05-29",
+    "type": "media",
+    "url": "http://henan.people.cn/n2/2026/0529/c351638-41594689.html",
+    "publisher": "人民网河南频道",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D11-河南高标准农田.md，LightVela 生产，DSH 待复核；原文备注：人民日报报系"
+  },
+  {
+    "id": "SF06",
+    "title": "证券时报网（据中国网国新办发布会）《河南：到 2025 年粮食产能新增 100 亿斤、达到 1400 亿斤是有把握的》，2024-05-09",
+    "type": "media",
+    "url": "https://www.stcn.com/article/detail/1199971.html",
+    "publisher": "证券时报网（据中国网国新办发布会）",
+    "year": 2024,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D11-河南高标准农田.md，LightVela 生产，DSH 待复核；原文备注：持牌媒体转官方发布会"
+  },
+  {
+    "id": "SF07",
+    "title": "河南省人民政府门户网站（英文版，来源 dahe.cn）《Henan maps out its 2026 development goals》，2026-01-27",
+    "type": "official",
+    "url": "https://english.henan.gov.cn/2026/01-27/3314404.html",
+    "publisher": "河南省人民政府门户网站（英文版，来源 dahe.cn）",
+    "year": 2026,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D11-河南高标准农田.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·省政府门户网站"
+  },
+  {
+    "id": "SF08",
+    "title": "新华社《年终话\"三农\"丨农田提质效 沃野焕新机——2025 年高标准农田建设扫描》，2025-12-23",
+    "type": "official",
+    "url": "http://www.news.cn/20251223/2f0e0f090e7c4522a7a28e1b7e9c2f9f/c.html",
+    "publisher": "新华社",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D11-河南高标准农田.md，LightVela 生产，DSH 待复核；原文备注：新华社"
+  },
+  {
+    "id": "SF09",
+    "title": "河南省农业农村厅（种业商务网转载）《探秘\"中原农谷\"种业\"芯\"城》，2022-07-13",
+    "type": "official",
+    "url": "https://www.ndrc.gov.cn/fggz/nyncjj/xczx/202207/t20220713_1330449.html",
+    "publisher": "河南省农业农村厅（种业商务网转载）",
+    "year": 2022,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D12-河南粮食安全.md，LightVela 生产，DSH 待复核；原文备注：；新华网《中原农谷育新种迎丰年》，2025-04-30，http://www.news.cn/20250430/ea930df770164808b8a937632fa3f7d1/c.html"
+  },
+  {
+    "id": "SF10",
+    "title": "新华社（新华网）《中原农谷育新种迎丰年——探访产粮大省河南的农业\"芯\"科技》，2025-04-30",
+    "type": "official",
+    "url": "http://www.news.cn/20250430/ea930df770164808b8a937632fa3f7d1/c.html",
+    "publisher": "新华社（新华网）",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D12-河南粮食安全.md，LightVela 生产，DSH 待复核；原文备注：新华社"
+  },
+  {
+    "id": "SF11",
+    "title": "新华每日电讯《中原沃野启新程——河南推进农业大省向农业强省蝶变》，2025-12-25",
+    "type": "official",
+    "url": "http://www.news.cn/20251225/249c08d7300f41a4b01779c79cec50a2/c.html",
+    "publisher": "新华每日电讯",
+    "year": 2025,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D12-河南粮食安全.md，LightVela 生产，DSH 待复核；原文备注：新华社；与 D11 的 SF03 为同一篇原文，此处按 line-b 号段独立建号引用同一 URL，合并时以 DSH 去重为准"
+  },
+  {
+    "id": "SF12",
+    "title": "中共河南省委、河南省人民政府《2026 年河南省委一号文件》",
+    "type": "media",
+    "url": "http://www.zzetaa.com/news/news.aspx?id=9077",
+    "publisher": "中共河南省委、河南省人民政府",
+    "year": null,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D12-河南粮食安全.md，LightVela 生产，DSH 待复核；原文备注：非官方转载，正式文号与省政府门户原文链接未查到 [存疑]"
+  },
+  {
+    "id": "SF13",
+    "title": "国家发展改革委（转载国家粮食和物资储备局）《关于 2025—2026 年小麦最低收购价有关政策的通知》",
+    "type": "official",
+    "url": "https://www.ndrc.gov.cn/fzggw/jgsj/jgs/sjdt/202409/t20240924_1393234.html",
+    "publisher": "国家发展改革委（转载国家粮食和物资储备局）",
+    "year": null,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D12-河南粮食安全.md，LightVela 生产，DSH 待复核；原文备注：；2026 年河南执行情况见国粮粮〔2026〕224 号通知及各省辖市收储库点公告（官方原文页未直接检索到 [存疑]"
+  },
+  {
+    "id": "SF14",
+    "title": "河南省人民政府办公厅《关于防止耕地\"非粮化\"稳定粮食生产的实施意见》",
+    "type": "official",
+    "url": "https://zrzyhghj.xuchang.gov.cn/gdbhlsaqxxzl/016001/20230403/c39b160d-56b7-4fff-95e5-88b1dd2833f5.html",
+    "publisher": "河南省人民政府办公厅",
+    "year": null,
+    "checked_date": "2026-10-20",
+    "note": "来自 topics/D12-河南粮食安全.md，LightVela 生产，DSH 待复核；原文备注：白名单官方·县级政府网）；《中华人民共和国粮食安全保障法》条文见国家粮食和物资储备局网站 https://www.lswz.gov.cn/html/zcfb/2023-12/30/content_278749.shtml （白名单官方·国家部委"
   }
 ]
