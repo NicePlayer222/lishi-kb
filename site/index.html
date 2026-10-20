@@ -2,20 +2,20 @@
 <title>砺行集 · 2027 河南普选备考库</title><meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 :root{
-  --bg:#F7F4EE;--side:#F2EDE4;--card:#FFFDFA;--fg:#1A1F26;--muted:#6B6560;
-  --acc:#1E4B8F;--acc2:#B03A2E;--accbg:#EAF0F9;--acc2bg:#FBEDEB;
-  --bd:#E2DAD0;--hov:#EFE9DF;
-  --code:#F0EBE2;--shadow:0 1px 2px rgba(60,48,35,.04),0 2px 10px rgba(60,48,35,.05);
-  --shadow-lg:0 4px 12px rgba(60,48,35,.07),0 12px 32px rgba(60,48,35,.07);
+  --bg:#EDEAE4;--side:#E6E1D8;--card:#F7F5F1;--fg:#3A3A38;--muted:#8A8880;
+  --acc:#5C7A99;--acc2:#A8736B;--accbg:#E3EAF0;--acc2bg:#F0E6E3;
+  --bd:#D8D2C8;--hov:#E2DCD2;
+  --code:#E8E3DA;--shadow:0 1px 2px rgba(90,82,70,.05),0 2px 10px rgba(90,82,70,.06);
+  --shadow-lg:0 4px 12px rgba(90,82,70,.08),0 12px 32px rgba(90,82,70,.08);
   --topbar-h:60px;--side-w:260px;--toc-w:212px;
   --serif:"Songti SC","STSong","Noto Serif SC","Source Han Serif SC","SimSun",Georgia,serif;
 }
 html[data-theme="dark"]{
-  --bg:#0D1117;--side:#0A0E14;--card:#161B22;--fg:#E8E3DA;--muted:#8B939E;
-  --acc:#6FA8DC;--acc2:#E07A6E;--accbg:#152233;--acc2bg:#2A1B19;
-  --bd:#232B36;--hov:#1C232C;
-  --code:#1C232C;--shadow:0 1px 3px rgba(0,0,0,.4);
-  --shadow-lg:0 4px 16px rgba(0,0,0,.5);
+  --bg:#25272B;--side:#1E2024;--card:#2D3034;--fg:#DDD9D2;--muted:#93908A;
+  --acc:#8FA9C4;--acc2:#C49188;--accbg:#313A44;--acc2bg:#3A2E2C;
+  --bd:#3A3D42;--hov:#34373B;
+  --code:#34373B;--shadow:0 1px 3px rgba(0,0,0,.3);
+  --shadow-lg:0 4px 16px rgba(0,0,0,.4);
 }
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg);line-height:1.8;font-size:16px;-webkit-font-smoothing:antialiased}
@@ -65,6 +65,17 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 .navgroup li a:hover{background:var(--hov);color:var(--fg);text-decoration:none}
 .navgroup li a.active{background:var(--accbg);color:var(--acc);font-weight:600;border-left:2px solid var(--acc)}
 #sidebar .sidecap{font-size:11px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;padding:6px 10px 10px;font-weight:600}
+/* 二级分组（周报按月） */
+.navsub{list-style:none;margin:0}
+.navsub-head{display:flex;align-items:center;gap:6px;padding:5px 10px 5px 22px;font-size:12px;color:var(--muted);cursor:pointer;border-radius:6px;user-select:none;font-weight:600;letter-spacing:.03em}
+.navsub-head:hover{background:var(--hov);color:var(--fg)}
+.navsub-head .subchev{display:inline-flex;transition:transform .15s;flex:none}
+.navsub-head .subcnt{margin-left:auto;font-size:10.5px;opacity:.7;font-variant-numeric:tabular-nums}
+.navsub.closed .subchev{transform:rotate(-90deg)}
+.navsub.closed .navsub-list{display:none}
+.navsub-list{list-style:none;margin:0 0 4px;padding:0}
+.navsub-list li a{padding-left:38px;font-size:12.5px}
+#sidebar ul>li.navsub{padding:0}
 #sidebar .sidefoot{margin-top:20px;padding:14px;border:1px solid var(--bd);border-radius:12px;background:var(--card);font-size:12px;color:var(--muted);line-height:1.7}
 #sidebar .sidefoot b{color:var(--fg);display:block;font-size:12.5px;margin-bottom:2px}
 
@@ -106,6 +117,21 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 .secthead h2::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);width:4px;height:18px;background:var(--acc2);border-radius:2px}
 .secthead .more{margin-left:auto;font-size:13px;color:var(--muted)}
 .catgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-bottom:38px}
+/* 本周推荐 */
+.reccard{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:38px}
+.recitem{display:flex;align-items:flex-start;gap:12px;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px 18px;cursor:pointer;transition:border-color .18s,transform .18s,box-shadow .18s;box-shadow:var(--shadow);min-width:0}
+.recitem:hover{border-color:var(--acc);transform:translateY(-2px);box-shadow:var(--shadow-lg);text-decoration:none}
+.recitem.remain{background:linear-gradient(135deg,var(--accbg),var(--card) 75%);border-color:rgba(92,122,153,.25)}
+.recbadge{flex:none;font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--acc2);background:var(--acc2bg);border-radius:6px;padding:3px 9px}
+.recitem.remain .recbadge{color:#fff;background:var(--acc2)}
+.recbody{min-width:0;flex:1}
+.rectitle{font-family:var(--serif);font-size:14px;font-weight:600;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.recitem.remain .rectitle{font-size:15px}
+.recmeta{display:flex;gap:10px;font-size:11.5px;color:var(--muted);margin-top:3px;flex-wrap:wrap}
+.recarr{flex:none;color:var(--bd);transition:color .15s,transform .15s}
+.recitem:hover .recarr{color:var(--acc);transform:translateX(2px)}
+@media (max-width:1100px){.reccard{grid-template-columns:1fr 1fr}}
+@media (max-width:840px){.reccard{grid-template-columns:1fr}}
 .catcard{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:22px;cursor:pointer;
   box-shadow:var(--shadow);transition:border-color .18s,transform .18s,box-shadow .18s;display:flex;flex-direction:column;gap:12px}
 .catcard:hover{border-color:var(--acc);transform:translateY(-3px);box-shadow:var(--shadow-lg)}
@@ -383,11 +409,54 @@ function buildNav(){
   for(const c of CATORDER){
     const ts=DATA.topics.filter(t=>t.category===c);
     if(!ts.length)continue;
+    let body="";
+    // 周报类按月二级分组，避免一长串数字墙
+    if(c==='W'){
+      const groups=new Map();
+      ts.forEach(t=>{
+        const m=(t.title||'').match(/20\d{2}-(\d{2})/);
+        const key=m?`${m[1]}月`:'其他';
+        if(!groups.has(key))groups.set(key,[]);
+        groups.get(key).push(t);
+      });
+      const order=[...groups.keys()].sort();
+      body=order.map(k=>{
+        const arr=groups.get(k);
+        return `<li class="navsub"><div class="navsub-head" onclick="event.stopPropagation();this.parentElement.classList.toggle('closed')">
+          <span class="subchev">${ICONS.chev}</span><span>${k}</span><span class="subcnt">${arr.length}</span></div>
+          <ul class="navsub-list">${arr.map(t=>`<li><a data-nav="${t.id}" tabindex="0" role="button" title="${esc(t.title)}" onclick="openTopic('${t.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openTopic('${t.id}')}">${esc(shortWeek(t.title))}</a></li>`).join("")}</ul></li>`;
+      }).join("");
+    }else{
+      body=ts.map(t=>`<li><a data-nav="${t.id}" tabindex="0" role="button" title="${esc(t.title)}" onclick="openTopic('${t.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openTopic('${t.id}')}">${esc(t.title)}</a></li>`).join("");
+    }
     h+=`<div class="navgroup" id="ng${c}"><button class="navgroup-head" onclick="toggleGroup('${c}')" aria-expanded="true">
       <span class="chev">${ICONS.chev}</span><span>${CATS[c].name}</span><span class="cnt">${ts.length}</span></button>
-      <ul>${ts.map(t=>`<li><a data-nav="${t.id}" tabindex="0" role="button" title="${esc(t.title)}" onclick="openTopic('${t.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openTopic('${t.id}')}">${esc(t.title)}</a></li>`).join("")}</ul></div>`;
+      <ul>${body}</ul></div>`;
   }
   document.getElementById("navtree").innerHTML=h;
+}
+// 本周推荐：取最新 5 篇（周报优先 + 最新案例）
+function renderRec(){
+  const box=document.getElementById('recbox');
+  if(!box)return;
+  const ws=DATA.topics.filter(t=>t.category==='W').sort((a,b)=>b.updated.localeCompare(a.updated)).slice(0,3);
+  const ds=DATA.topics.filter(t=>t.category==='D').sort((a,b)=>b.updated.localeCompare(a.updated)).slice(0,2);
+  const pick=[...ws,...ds];
+  if(!pick.length)return;
+  box.innerHTML=pick.map((t,i)=>{
+    const isW=t.category==='W';
+    return `<a class="recitem" onclick="openTopic('${t.id}')" title="${esc(t.title)}">
+      <div class="recbadge">${isW?'时政':'案例'}</div>
+      <div class="recbody">
+        <div class="rectitle">${esc(t.title)}</div>
+        <div class="recmeta"><span>${t.id}</span><span>${t.updated}</span>${t.sources.length?`<span>${t.sources.length} 源</span>`:''}</div>
+      </div>
+    </a>`;
+  }).join("");
+} 
+// 周报标题精简：去掉“河南时政周报”前缀
+function shortWeek(t){
+  return (t||'').replace(/^河南时政周报\s*/, '');
 }
 function toggleGroup(c){const g=document.getElementById("ng"+c);g.classList.toggle("closed");
   g.querySelector(".navgroup-head").setAttribute("aria-expanded",g.classList.contains("closed")?"false":"true")}
@@ -465,12 +534,13 @@ function home(){
       <div class="stat"><div class="n" id="lastupdate">—</div><div class="l">最近更新</div></div>
     </div>
   </div>
-  <div class="warn">${ICONS.alert}<span>2027 年河南选调生及省考公告均未发布，本库考情基于 2024–2026 届公开信息整理，仅作备考参考，以 2027 年官方公告为准。</span></div>
   <div class="searchwrap"><div class="searchbox">${ICONS.search}
       <input id="searchinput" type="search" placeholder="搜索专题标题、标签或正文内容…" autocomplete="off" aria-label="搜索知识库">
       <button class="sclear" onclick="clearSearch()" aria-label="清空搜索">✕</button><kbd>Enter</kbd></div>
     <div id="searchresults"></div>
   </div>
+  <div class="secthead"><h2>本周推荐</h2><span class="more">最新发布，按时间排序</span></div>
+  <div class="reccard" id="recbox"></div>
   <div class="secthead"><h2>内容板块</h2><span class="more">共 ${CATORDER.length} 类</span></div>
   <div class="catgrid">`;
   for(const c of CATORDER){
@@ -497,6 +567,7 @@ function home(){
   `</div></details>
   <div class="homefoot">砺行集 · v2.0 · 内容持续更新中 · 以官方公告为准</div>`;
   const c=document.getElementById("content");c.innerHTML=h;
+  renderRec();
   const lu=document.getElementById("lastupdate");
   if(lu){
     const ds=DATA.topics.map(t=>t.updated).filter(Boolean).sort();
