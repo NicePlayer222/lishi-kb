@@ -50,6 +50,9 @@ FILES = [
     "topics/D17-河南县域经济高质量发展.md",
     "topics/W13-周报-2026-09-27.md",
     "topics/D18-河南人才引育与中原人才高地.md",
+    "topics/W14-周报-2026-10-04.md",
+    "topics/W15-周报-2026-10-11.md",
+    "topics/W16-周报-2026-10-18.md",
 ]
 LINE_RE = re.compile(r"^-\s*\[(S[EF]\d{2,3})\]\s*(.+)$")
 URL_RE = re.compile(r"https?://[^\s，,）)]+")
