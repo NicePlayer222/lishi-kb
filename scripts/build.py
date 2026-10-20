@@ -25,7 +25,9 @@ GENERATED_DATE = datetime.date.today().isoformat()  # 实际构建日期
 CAT_NAMES = {'A': 'A · 理论与现实问题分析',
              'B': 'B · 学习科学与个人能力提升',
              'C': 'C · 考试方法论与命题研究',
-             'D': 'D · 政策与实证案例库'}
+             'D': 'D · 河南案例库',
+             'W': 'W · 河南时政周报',
+             'P': 'P · 政策文件摘要'}
 
 REQUIRED_FIELDS = ['id', 'title', 'category', 'tags', 'related',
                    'evidence_level', 'sources', 'created', 'updated', 'status']
@@ -179,8 +181,14 @@ def main():
     os.makedirs(SITE_DIR, exist_ok=True)
     html = build_html(topics, srcs)
     open(os.path.join(SITE_DIR, 'index.html'), 'w', encoding='utf-8').write(html)
+    # GitHub Pages 从 docs/ 发布，同步一份
+    DOCS_DIR = os.path.join(ROOT, 'docs')
+    os.makedirs(DOCS_DIR, exist_ok=True)
+    open(os.path.join(DOCS_DIR, 'index.html'), 'w', encoding='utf-8').write(html)
+    open(os.path.join(DOCS_DIR, '.nojekyll'), 'w', encoding='utf-8').write('')
     print(f'已生成: {os.path.relpath(INDEX_PATH, ROOT)}')
     print(f'已生成: {os.path.relpath(os.path.join(SITE_DIR, "index.html"), ROOT)}')
+    print(f'已同步: docs/index.html（GitHub Pages）')
 
 if __name__ == '__main__':
     main()
