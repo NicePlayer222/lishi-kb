@@ -4,6 +4,11 @@
 :root{
   --bg:#EDEAE4;--side:#E6E1D8;--card:#F7F5F1;--fg:#3A3A38;--muted:#8A8880;
   --acc:#5C7A99;--acc2:#A8736B;--accbg:#E3EAF0;--acc2bg:#F0E6E3;
+  /* 扩展色：用于卡片与各区块区分 */
+  --c-green:#7C9A82;--c-green-bg:#E8EFE9;
+  --c-gold:#B8935A;--c-gold-bg:#F5EDE0;
+  --c-plum:#8E6E8E;--c-plum-bg:#EFE8EF;
+  --c-teal:#6E9298;--c-teal-bg:#E5EDEE;
   --bd:#D8D2C8;--hov:#E2DCD2;
   --code:#E8E3DA;--shadow:0 1px 2px rgba(90,82,70,.05),0 2px 10px rgba(90,82,70,.06);
   --shadow-lg:0 4px 12px rgba(90,82,70,.08),0 12px 32px rgba(90,82,70,.08);
@@ -13,6 +18,10 @@
 html[data-theme="dark"]{
   --bg:#25272B;--side:#1E2024;--card:#2D3034;--fg:#DDD9D2;--muted:#93908A;
   --acc:#8FA9C4;--acc2:#C49188;--accbg:#313A44;--acc2bg:#3A2E2C;
+  --c-green:#8FB096;--c-green-bg:#2B332C;
+  --c-gold:#D0AC72;--c-gold-bg:#332D22;
+  --c-plum:#B394B3;--c-plum-bg:#302A30;
+  --c-teal:#8AAFB5;--c-teal-bg:#283133;
   --bd:#3A3D42;--hov:#34373B;
   --code:#34373B;--shadow:0 1px 3px rgba(0,0,0,.3);
   --shadow-lg:0 4px 16px rgba(0,0,0,.4);
@@ -94,9 +103,9 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 #sidebar::-webkit-scrollbar-thumb{background:var(--bd);border-radius:3px}
 #sidebar::-webkit-scrollbar-thumb:hover{background:var(--muted)}
 #main{flex:1;min-width:0}
-#content{max-width:1280px;margin:0 auto;padding:28px 40px 80px;width:100%}
-.page-article{display:flex;gap:36px;max-width:1160px;margin:0 auto}
-#articlecol{flex:1;min-width:0;max-width:800px}
+#content{max-width:1280px;margin:0 auto;padding:28px 40px 80px;width:100%;box-sizing:border-box}
+.page-article{display:flex;gap:36px;max-width:1160px;margin:0 auto;width:100%}
+#articlecol{flex:1;min-width:0;max-width:800px;width:100%}
 #toccol{width:var(--toc-w);flex:none;position:sticky;top:calc(var(--topbar-h) + 28px);align-self:flex-start;max-height:calc(100vh - var(--topbar-h) - 56px);overflow-y:auto}
 
 /* ---------- 侧边导航（Starlight 风格） ---------- */
@@ -138,6 +147,12 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 .stat{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:14px 20px;min-width:104px;text-align:center;position:relative;overflow:hidden}
 .stat::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--acc),transparent)}
 .stat .n{font-family:var(--serif);font-size:26px;font-weight:700;color:var(--acc);line-height:1.25;font-variant-numeric:tabular-nums}
+.stat:nth-child(2) .n{color:var(--c-teal)}
+.stat:nth-child(2)::before{background:linear-gradient(90deg,var(--c-teal),transparent)}
+.stat:nth-child(3) .n{color:var(--c-plum)}
+.stat:nth-child(3)::before{background:linear-gradient(90deg,var(--c-plum),transparent)}
+.stat:nth-child(4) .n{color:var(--acc2)}
+.stat:nth-child(4)::before{background:linear-gradient(90deg,var(--acc2),transparent)}
 .stat .l{font-size:12px;color:var(--muted);margin-top:2px}
 
 .searchwrap{position:relative;margin:22px 0 26px}
@@ -170,7 +185,7 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 .recitem{display:flex;align-items:flex-start;gap:12px;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:18px 20px;cursor:pointer;transition:border-color .18s,transform .18s,box-shadow .18s;box-shadow:var(--shadow);min-width:0;overflow:hidden}
 .recitem:hover{border-color:var(--acc);transform:translateY(-2px);box-shadow:var(--shadow-lg);text-decoration:none}
 .recitem.remain{background:linear-gradient(135deg,var(--accbg),var(--card) 75%);border-color:rgba(92,122,153,.25)}
-.recbadge{flex:none;font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--acc2);background:var(--acc2bg);border-radius:6px;padding:3px 9px}
+.recbadge{flex:none;font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--acc);background:var(--accbg);border-radius:6px;padding:3px 9px}
 .recitem.remain .recbadge{color:#fff;background:var(--acc2)}
 .recbody{min-width:0;flex:1;overflow:hidden}
 .rectitle{font-family:var(--serif);font-size:14px;font-weight:600;line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;word-break:break-word}
@@ -236,6 +251,23 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 .topiccard .tags{color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .topiccard .meta2{display:flex;gap:12px;color:var(--muted);font-size:11.5px;margin-top:auto;padding-top:8px;border-top:1px dashed var(--bd)}
 
+/* ---------- 专题内彩色卡片（可考角度 / 金句对策） ---------- */
+.sec-card{border-radius:12px;padding:6px 22px 18px;margin:30px 0;border:1px solid transparent;position:relative}
+.sec-card>h2,.sec-card>h3{margin-top:18px;padding-bottom:8px;border-bottom:0}
+.sec-card>h2::after,.sec-card>h3::after{display:none}
+.sec-card .cardbody>*:last-child{margin-bottom:0}
+.sec-exam{background:var(--c-teal-bg);border-color:rgba(110,146,152,.28)}
+.sec-exam>h2,.sec-exam>h3{color:var(--c-teal)}
+.sec-quote{background:var(--c-gold-bg);border-color:rgba(184,147,90,.3)}
+.sec-quote>h2,.sec-quote>h3{color:var(--c-gold)}
+
+/* 分类卡配色区分 */
+.catcard[data-cat="D"] .letter{background:var(--c-teal-bg);color:var(--c-teal);border-color:rgba(110,146,152,.22)}
+.catcard[data-cat="D"] .cntb{background:var(--c-teal-bg);color:var(--c-teal)}
+.catcard[data-cat="W"] .letter{background:var(--accbg);color:var(--acc);border-color:rgba(92,122,153,.22)}
+.catcard[data-cat="P"] .letter{background:var(--c-plum-bg);color:var(--c-plum);border-color:rgba(142,110,142,.22)}
+.catcard[data-cat="P"] .cntb{background:var(--c-plum-bg);color:var(--c-plum)}
+
 /* ---------- 文章阅读（Fumadocs 风格） ---------- */
 .backtop{display:inline-flex;align-items:center;gap:6px;margin:24px 0 10px;padding:6px 14px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--muted);font-size:13px;cursor:pointer;transition:background .15s}
 .backtop:hover{background:var(--hov);color:var(--fg)}
@@ -300,15 +332,15 @@ article.md pre code{background:none;padding:0}
   body.sideopen #sidebar{transform:translateX(0)}
   body.sideopen #mask{display:block}
   #hamburger{display:inline-flex}
-  #content{padding:20px 18px 60px}
+  #content{padding:20px 16px 60px;max-width:none;box-sizing:border-box}
   .hero{flex-direction:column;align-items:flex-start;padding:26px 0 20px}
   .statrow{width:100%}
   .stat{flex:1;min-width:0;padding:10px 12px}
   .catgrid{grid-template-columns:1fr;gap:12px;margin-bottom:28px}
   .topiclist{grid-template-columns:1fr}
   .hero h1{font-size:28px}
-  .page-article{display:block}
-  #articlecol{max-width:none}
+  .page-article{display:block;max-width:none;width:100%;gap:0;margin:0}
+  #articlecol{max-width:none;width:100%}
   .searchbox{height:48px}
   .searchbox kbd{display:none}
   .warn{max-width:none}
@@ -368,7 +400,7 @@ article.md pre code{background:none;padding:0}
     <p class="splash-quote">
       <span class="q">“</span>砺所以致刃，行所以致远。<span class="q">”</span>
     </p>
-    <p class="splash-desc">河南时政 · 政策案例 · 真题素材<br>已在为你整理今日的有用之学</p>
+    <p class="splash-desc">河南时政 · 政策案例 · 每周更新<br>把最新的政策与数据，整理成能用的素材</p>
     <button class="splash-enter" onclick="enterSite()">
       <span>进入备考库</span>
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -539,6 +571,28 @@ function highlightNav(id){
 function go(v){document.body.classList.remove('sideopen');v==="home"?home():catView(v)}
 function openTopic(id){document.body.classList.remove('sideopen');topicView(id)}
 
+/* 将“可考角度”“金句/对策”两节包成彩色卡片 */
+function wrapSpecialSections(html){
+  const wrapOne=(src,titleRe,cls)=>{
+    // 找到标题位置
+    const re=new RegExp('<h[23][^>]*>([^<]*(?:'+titleRe+')[^<]*)</h[23]>','i');
+    const m=src.match(re);
+    if(!m)return src;
+    const start=m.index;
+    const afterStart=start+m[0].length;
+    // 找下一个同级或更高级标题
+    const rest=src.slice(afterStart);
+    const nextM=rest.match(/<h[23][\s>]/i);
+    const end=nextM?afterStart+nextM.index:src.length;
+    const header=src.slice(start,afterStart);
+    const body=src.slice(afterStart,end);
+    return src.slice(0,start)+`<div class="${cls}">${header}<div class="cardbody">${body}</div></div>`+src.slice(end);
+  };
+  html=wrapOne(html,'可考角度','sec-card sec-exam');
+  html=wrapOne(html,'金句','sec-card sec-quote');
+  return html;
+}
+
 /* ---------- 搜索 ---------- */
 let SITEMS=null,SR_HITS=[];
 function searchItems(){
@@ -615,7 +669,7 @@ function home(){
   for(const c of CATORDER){
     const ts=DATA.topics.filter(t=>t.category===c);
     if(!ts.length)continue;
-    h+=`<div class="catcard" onclick="go('${c}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')go('${c}')">
+    h+=`<div class="catcard" data-cat="${c}" onclick="go('${c}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')go('${c}')">
       <div class="cchead"><div class="letter">${ICONS.book}</div><div class="ccmeta"><h3>${CATS[c].name}</h3></div><span class="cntb">${ts.length}</span></div>
       <p>${CATS[c].desc}</p>
       <div class="mini">${ts.slice(0,3).map(t=>`<a onclick="event.stopPropagation();openTopic('${t.id}')" title="${esc(t.title)}">${t.id} · ${esc(t.title)}</a>`).join("")}${ts.length>3?`<a onclick="event.stopPropagation();go('${c}')" style="color:var(--acc)">还有 ${ts.length-3} 篇，查看全部 →</a>`:""}</div>
@@ -684,7 +738,7 @@ function topicView(id){
   const mdtext=MDS[t.file]||"（未找到正文）";
   const sp=splitCard(mdtext);
   HEADING_IDS=[];TOC_IDS=[];
-  const rendered=md(sp.body);
+  const rendered=wrapSpecialSections(md(sp.body));
   TOC_IDS=HEADING_IDS.map(x=>x.id);
   const srcs=t.sources.map(sid=>{const s=DATA.sources.find(s=>s.id===sid);
     return s?`<div class="srcitem">[${s.id}] ${esc(s.title)} — <a href="${s.url}" target="_blank" rel="noopener">${s.url}</a>（${s.type}，核实 ${s.checked_date}）</div>`:""}).join("");
