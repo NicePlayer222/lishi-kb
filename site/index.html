@@ -278,7 +278,7 @@ article.md pre code{background:none;padding:0}
   <button class="iconbtn" onclick="toggleTheme()" id="themebtn" aria-label="切换深浅主题"></button>
 </div>
 <div id="layout">
-  <nav id="sidebar" aria-label="知识导航"><div class="sidecap">知识分类</div><div id="navtree"></div>
+  <nav id="sidebar" aria-label="知识导航"><div class="sidecap">内容板块</div><div id="navtree"></div>
     <div class="sidefoot"><b>备考知识库</b>面向 2027 河南选调生与省考的拓展阅读。新增专题后运行 build.py 即自动收录。</div>
   </nav>
   <div id="mask" onclick="document.body.classList.remove('sideopen')"></div>
@@ -297,9 +297,9 @@ const ICONS={
   link:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>'
 };
 const CATS={
- D:{name:"河南案例库",desc:"可引用、可分析的河南真实政策案例与实施证据。"},
- W:{name:"河南时政周报",desc:"每周河南时政要点回溯，含深度案例与可考角度。"},
- P:{name:"政策文件摘要",desc:"河南重要政策文件的要点摘录与可考角度。"}
+ D:{name:"河南案例库",desc:"可引用、可分析的河南真实政策案例与实施证据。",icon:"case"},
+ W:{name:"时政周报",desc:"每周河南时政要点回溯，含深度案例与可考角度。",icon:"news"},
+ P:{name:"政策摘要",desc:"河南重要政策文件的要点摘录与可考角度。",icon:"doc"}
 };
 
 // 分类展示顺序：按 DATA 里实际存在的分类推导
@@ -369,7 +369,7 @@ function buildNav(){
     const ts=DATA.topics.filter(t=>t.category===c);
     if(!ts.length)continue;
     h+=`<div class="navgroup" id="ng${c}"><button class="navgroup-head" onclick="toggleGroup('${c}')" aria-expanded="true">
-      <span class="chev">${ICONS.chev}</span><span>${c} · ${CATS[c].name}</span><span class="cnt">${ts.length}</span></button>
+      <span class="chev">${ICONS.chev}</span><span>${CATS[c].name}</span><span class="cnt">${ts.length}</span></button>
       <ul>${ts.map(t=>`<li><a data-nav="${t.id}" tabindex="0" role="button" title="${esc(t.title)}" onclick="openTopic('${t.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openTopic('${t.id}')}">${esc(t.title)}</a></li>`).join("")}</ul></div>`;
   }
   document.getElementById("navtree").innerHTML=h;
@@ -438,16 +438,16 @@ function home(){
   let h=`
   <div class="hero">
     <div>
-      <span class="kicker">${ICONS.book} 个人备考知识库 · 离线可用</span>
+      <span class="kicker">${ICONS.book} 个人备考知识库 · 在线访问</span>
       <h1>《砺行》</h1>
       <p class="sub">2027 河南选调生备考知识库</p>
-      <p class="desc">面向 2027 年河南普通选调生与省考备考的理论拓展、方法论与政策实证案例整理。全部内容本地存储、可离线阅读，不依赖任何在线服务。</p>
+      <p class="desc">面向 2027 年河南普通选调生与省考备考的河南时政、政策案例与真题素材整理，持续更新。</p>
     </div>
     <div class="statrow">
       <div class="stat"><div class="n">${n}</div><div class="l">知识专题</div></div>
       <div class="stat"><div class="n">${DATA.sources.length}</div><div class="l">来源证据</div></div>
-      <div class="stat"><div class="n">${CATORDER.length}</div><div class="l">知识分类</div></div>
-      <div class="stat"><div class="n">离线</div><div class="l">本地阅读</div></div>
+      <div class="stat"><div class="n">${CATORDER.length}</div><div class="l">内容板块</div></div>
+      <div class="stat"><div class="n" id="lastupdate">—</div><div class="l">最近更新</div></div>
     </div>
   </div>
   <div class="warn">${ICONS.alert}<span>2027 年河南选调生及省考公告均未发布，本库考情基于 2024–2026 届公开信息整理，仅作备考参考，以 2027 年官方公告为准。</span></div>
@@ -456,13 +456,13 @@ function home(){
       <button class="sclear" onclick="clearSearch()" aria-label="清空搜索">✕</button><kbd>Enter</kbd></div>
     <div id="searchresults"></div>
   </div>
-  <div class="secthead"><h2>知识分类</h2><span class="more">按 ${CATORDER.join(" / ")} 组织</span></div>
+  <div class="secthead"><h2>内容板块</h2><span class="more">共 ${CATORDER.length} 类</span></div>
   <div class="catgrid">`;
   for(const c of CATORDER){
     const ts=DATA.topics.filter(t=>t.category===c);
     if(!ts.length)continue;
     h+=`<div class="catcard" onclick="go('${c}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')go('${c}')">
-      <div class="cchead"><div class="letter">${ICONS.book}</div><div class="ccmeta"><div class="cat">分类 ${c}</div><h3>${CATS[c].name}</h3></div><span class="cntb">${ts.length}</span></div>
+      <div class="cchead"><div class="letter">${ICONS.book}</div><div class="ccmeta"><h3>${CATS[c].name}</h3></div><span class="cntb">${ts.length}</span></div>
       <p>${CATS[c].desc}</p>
       <div class="mini">${ts.slice(0,3).map(t=>`<a onclick="event.stopPropagation();openTopic('${t.id}')" title="${esc(t.title)}">${t.id} · ${esc(t.title)}</a>`).join("")}${ts.length>3?`<a onclick="event.stopPropagation();go('${c}')" style="color:var(--acc)">还有 ${ts.length-3} 篇，查看全部 →</a>`:""}</div>
       </div>`;
@@ -482,6 +482,11 @@ function home(){
   `</div></details>
   <div class="homefoot">《砺行》备考知识库 · 内容版本 v1.3 · 全部专题为 draft 状态，以官方公告为准</div>`;
   const c=document.getElementById("content");c.innerHTML=h;
+  const lu=document.getElementById("lastupdate");
+  if(lu){
+    const ds=DATA.topics.map(t=>t.updated).filter(Boolean).sort();
+    lu.textContent=ds.length?ds[ds.length-1].slice(5):"—";
+  }
   const inp=document.getElementById("searchinput");
   inp.addEventListener("input",()=>doSearch(inp.value));
   inp.addEventListener("keydown",srKey);
@@ -493,8 +498,8 @@ function catView(c){
   if(!CATS[c]){home();return}
   HEADING_IDS=[];
   const ts=DATA.topics.filter(t=>t.category===c);
-  let h=`<div class="crumb"><a onclick="go('home')">首页</a>${ICONS.chev}<span>分类 ${c}</span></div>
-  <div class="catview-head"><div><h1>${c} · ${CATS[c].name}</h1>
+  let h=`<div class="crumb"><a onclick="go('home')">首页</a>${ICONS.chev}<span>${CATS[c].name}</span></div>
+  <div class="catview-head"><div><h1>${CATS[c].name}</h1>
   <p class="sub">${CATS[c].desc}</p></div>
   <span class="pill" style="flex:none">${ts.length} 篇专题</span></div>
   <div class="topiclist">`;
