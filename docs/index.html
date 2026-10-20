@@ -34,6 +34,76 @@ button{font-family:inherit}
 :focus-visible{outline:2px solid var(--acc);outline-offset:2px;border-radius:4px}
 svg{display:block}
 
+/* ---------- 学习进度 ---------- */
+/* 阅读页工具条 */
+.readbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 16px;
+  padding:10px 14px;background:var(--card);border:1px solid var(--bd);border-radius:10px;box-shadow:var(--shadow)}
+.readbar .rb-btn{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;
+  border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--muted);
+  font-size:13px;cursor:pointer;transition:all .16s;font-family:inherit}
+.readbar .rb-btn:hover{border-color:var(--acc);color:var(--acc);background:var(--accbg)}
+.readbar .rb-btn.fav-on{background:var(--c-gold-bg);border-color:var(--c-gold);color:var(--c-gold)}
+.readbar .rb-sep{flex:1}
+.readbar .rb-stat{font-size:12px;color:var(--muted)}
+/* 已读/收藏标记（列表） */
+.trow .tidwrap{display:flex;align-items:center;gap:6px}
+.trow .rddot{width:7px;height:7px;border-radius:50%;background:var(--c-green);flex:none;display:none}
+.trow.isread .rddot{display:block}
+.trow.isread .t1{opacity:.62}
+.trow .favmark{color:var(--c-gold);font-size:13px;display:none;margin-left:4px}
+.trow.isfav .favmark{display:inline}
+.topiccard.isread .row1 h3{opacity:.62}
+/* 笔记区 */
+.notebox{background:var(--c-plum-bg);border:1px solid rgba(142,110,142,.26);
+  border-radius:12px;padding:16px 20px;margin:26px 0}
+.notebox .nbcap{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;
+  color:var(--c-plum);margin-bottom:10px;font-family:var(--serif)}
+.notebox textarea{width:100%;min-height:96px;padding:12px 14px;border:1px solid var(--bd);
+  border-radius:8px;background:var(--card);color:var(--fg);font-size:14px;line-height:1.75;
+  font-family:inherit;resize:vertical;box-sizing:border-box;outline:0}
+.notebox textarea:focus{border-color:var(--c-plum)}
+.notebox .nbfoot{display:flex;align-items:center;gap:12px;margin-top:10px;flex-wrap:wrap}
+.notebox .nbhint{font-size:12px;color:var(--muted);flex:1;min-width:140px}
+.notebox .nbsave{padding:7px 20px;border:0;border-radius:8px;background:var(--c-plum);
+  color:#fff;font-size:13px;cursor:pointer;font-family:inherit;transition:opacity .15s}
+.notebox .nbsave:hover{opacity:.86}
+/* 进度面板（首页） */
+.progpanel{background:var(--card);border:1px solid var(--bd);border-radius:12px;
+  padding:20px 24px;margin-bottom:38px;box-shadow:var(--shadow)}
+.progpanel .phead{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+.progpanel .phead h3{margin:0;font-size:16px;font-family:var(--serif)}
+.progpanel .phead .pcurl{margin-left:auto;font-size:13px;color:var(--acc);cursor:pointer}
+.progbar{height:8px;background:var(--hov);border-radius:99px;overflow:hidden;margin-bottom:16px}
+.progbar i{display:block;height:100%;width:0;border-radius:99px;
+  background:linear-gradient(90deg,var(--acc),var(--c-teal));transition:width .5s}
+.progstats{display:flex;gap:26px;flex-wrap:wrap}
+.progstats .ps{display:flex;flex-direction:column;gap:2px;cursor:pointer}
+.progstats .ps b{font-family:var(--serif);font-size:20px;line-height:1.2;font-variant-numeric:tabular-nums}
+.progstats .ps span{font-size:12px;color:var(--muted)}
+.progstats .ps:nth-child(1) b{color:var(--acc)}
+.progstats .ps:nth-child(2) b{color:var(--c-gold)}
+.progstats .ps:nth-child(3) b{color:var(--c-plum)}
+.progstats .ps:nth-child(4) b{color:var(--c-green)}
+.progempty{font-size:13.5px;color:var(--muted);line-height:1.8}
+#resume-tip{position:fixed;left:50%;bottom:22px;transform:translate(-50%,80px);z-index:290;
+  display:flex;align-items:center;gap:12px;padding:12px 18px;background:var(--card);
+  border:1px solid var(--bd);border-radius:10px;font-size:13.5px;box-shadow:var(--shadow-lg);
+  opacity:0;transition:transform .32s,opacity .32s;pointer-events:none}
+#resume-tip.show{transform:translate(-50%,0);opacity:1;pointer-events:auto}
+#resume-tip button{background:var(--acc);color:#fff;border:0;border-radius:7px;
+  padding:6px 16px;font-size:13px;cursor:pointer;font-family:inherit}
+#resume-tip button.no{background:var(--hov);color:var(--muted)}
+#toast{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%) scale(.94);z-index:400;
+  padding:14px 26px;background:rgba(58,58,56,.94);color:#F7F5F1;border-radius:10px;
+  font-size:14px;opacity:0;transition:opacity .25s,transform .25s;pointer-events:none;
+  box-shadow:0 10px 32px rgba(0,0,0,.3);max-width:80vw;text-align:center}
+#toast.show{opacity:1;transform:translate(-50%,-50%) scale(1)}
+@media (max-width:520px){
+  .progstats{gap:18px}
+  .progstats .ps b{font-size:18px}
+  #resume-tip{font-size:12.5px;padding:10px 14px;gap:9px;max-width:92vw;box-sizing:border-box}
+}
+
 /* ---------- 欢迎界面 ---------- */
 #splash{position:fixed;inset:0;z-index:200;display:flex;align-items:center;justify-content:center;
   background:var(--bg);overflow:hidden;transition:opacity .6s ease,visibility .6s;padding:20px;
@@ -716,6 +786,8 @@ function home(){
   </div>
   <div class="secthead"><h2>本周推荐</h2><span class="more">最新发布，按时间排序</span></div>
   <div class="reccard" id="recbox"></div>
+  <div class="secthead"><h2>我的进度</h2><span class="more">仅保存在本机</span></div>
+  <div class="progpanel" id="progpanel"></div>
   <div class="secthead"><h2>内容板块</h2><span class="more">共 ${CATORDER.length} 类</span></div>
   <div class="catgrid">`;
   for(const c of CATORDER){
@@ -731,9 +803,9 @@ function home(){
   <div class="secthead"><h2>全部专题</h2><span class="more">共 ${n} 篇 · 点击行进入阅读</span></div>
   <div class="topicpanel">
     <div class="tp-head"><span>编号</span><span>专题标题</span><span class="h-meta">标签 / 状态</span><span></span></div>`;
-  h+=DATA.topics.map(t=>`<div class="trow" onclick="openTopic('${t.id}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')openTopic('${t.id}')">
-    <span class="tid">${t.id}</span>
-    <div class="tt"><div class="t1">${esc(t.title)}</div><div class="t2">${esc(t.tags.slice(0,4).join(" · "))}</div></div>
+  h+=DATA.topics.map(t=>`<div class="trow${PROG.isRead(t.id)?' isread':''}${PROG.isFav(t.id)?' isfav':''}" onclick="openTopic('${t.id}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')openTopic('${t.id}')">
+    <span class="tidwrap"><span class="rddot"></span><span class="tid">${t.id}</span></span>
+    <div class="tt"><div class="t1">${esc(t.title)}<span class="favmark">★</span>${PROG.getNote(t.id)?'<span class="favmark" style="color:var(--c-plum)">✎</span>':''}</div><div class="t2">${esc(t.tags.slice(0,4).join(" · "))}</div></div>
     <div class="tm"><div class="pillrow"><span class="pill">${t.evidence_level}</span><span class="pill dim">${t.status}</span></div><div class="tags">更新 ${t.updated}</div></div>
     <span class="arr">${ICONS.arrow}</span></div>`).join("");
   h+=`</div>
@@ -743,6 +815,7 @@ function home(){
   <div class="homefoot">砺行集 · v2.0 · 内容持续更新中 · 以官方公告为准</div>`;
   const c=document.getElementById("content");c.innerHTML=h;
   renderRec();
+  renderProgress();
   const lu=document.getElementById("lastupdate");
   if(lu){
     const ds=DATA.topics.map(t=>t.updated).filter(Boolean).sort();
@@ -787,6 +860,7 @@ function jumpTo(id){const el=document.getElementById(id);if(!el)return;
   const y=el.getBoundingClientRect().top+window.scrollY-80;window.scrollTo({top:y,behavior:"smooth"})}
 function topicView(id){
   const t=DATA.topics.find(t=>t.id===id);if(!t){home();return}
+  window.__currentTopic = id;
   const mdtext=MDS[t.file]||"（未找到正文）";
   const sp=splitCard(mdtext);
   HEADING_IDS=[];TOC_IDS=[];
@@ -800,9 +874,26 @@ function topicView(id){
   <div id="articlecol">
     <button class="backtop" onclick="go('${t.category}')">← 返回${(CATS[t.category]||{}).name||"列表"}</button>
     <div class="artmeta"><span class="pill">${t.id}</span><span class="pill dim">证据等级：${t.evidence_level}</span><span class="pill dim">${t.status}</span><span>更新 ${t.updated}</span></div>
+    <div class="readbar" id="readbar">
+      <button class="rb-btn${PROG.isRead(t.id)?' on':''}" id="rb-read" onclick="toggleRead('${t.id}')">
+        ${PROG.isRead(t.id)?'✓ 已读':'标记已读'}</button>
+      <button class="rb-btn${PROG.isFav(t.id)?' fav-on':''}" id="rb-fav" onclick="toggleFav('${t.id}')">
+        ${PROG.isFav(t.id)?'★ 已收藏':'☆ 收藏'}</button>
+      <button class="rb-btn" onclick="jumpNote()">✎ 写笔记</button>
+      <span class="rb-sep"></span>
+      <span class="rb-stat" id="rb-stat"></span>
+    </div>
     ${sp.card?`<div class="kcard"><div class="kcap">${ICONS.zap} 快速知识卡</div><div class="md">${md(sp.card)}</div></div>`:""}
     <article class="md">${rendered}</article>
     ${srcs?`<div class="srcbox"><b>本专题来源（${t.sources.length} 条）</b>${srcs}<button class="srctoggle" onclick="toggleSrc(this)">展开全部链接</button></div>`:""}
+    <div class="notebox" id="notebox">
+      <div class="nbcap">${ICONS.zap} 我的笔记</div>
+      <textarea id="noteta" placeholder="写下你对这篇的思考、补充或疑问…（自动保存在本机）">${esc(PROG.getNote(t.id))}</textarea>
+      <div class="nbfoot">
+        <span class="nbhint" id="nbsaved">${PROG.getNote(t.id)?'已保存 · '+PROG.getNote(t.id).length+' 字':'尚未记录'}</span>
+        <button class="nbsave" onclick="saveNote('${t.id}')">保存笔记</button>
+      </div>
+    </div>
     ${rel?`<div class="relbox"><h3>${ICONS.link} 关联专题</h3><div class="relbtns">${rel}</div></div>`:""}
     <button class="backtop" onclick="go('home')">← 返回首页</button>
   </div>
@@ -811,6 +902,39 @@ function topicView(id){
   document.getElementById("content").innerHTML=h;
   highlightNav(id);window.scrollTo(0,0);
   setupTOCSpy();
+  // 进度：自动标记已读，更新统计，并恢复阅读位置
+  setTimeout(()=>{
+    PROG.markRead(id);
+    const b = document.getElementById('rb-read');
+    if (b) { b.textContent='✓ 已读'; b.classList.add('on'); }
+    updateReadStat();
+    syncListMarks();
+    const saved = PROG.getPos(id);
+    if (saved > 60 && saved < document.body.scrollHeight - window.innerHeight - 40) {
+      // 有位置记录且不在底部：提示用户可跳回
+      showResumeTip(saved, id);
+    }
+  }, 120);
+}
+/* 阅读位置恢复提示 */
+function showResumeTip(y, id){
+  const old = document.getElementById('resume-tip');
+  if (old) old.remove();
+  const d = document.createElement('div');
+  d.id = 'resume-tip';
+  d.innerHTML = '<span>上次读到一半，要接着看吗？</span><button>继续</button><button class="no">从头看</button>';
+  document.body.appendChild(d);
+  d.querySelector('button').onclick = () => {
+    window.scrollTo({top:y, behavior:'smooth'});
+    PROG.setPos(id, y);
+    d.remove();
+  };
+  d.querySelector('button.no').onclick = () => {
+    PROG.setPos(id, 0);
+    d.remove();
+  };
+  requestAnimationFrame(()=>d.classList.add('show'));
+  setTimeout(()=>{ if(d.parentNode) d.remove(); }, 12000);
 }
 function setupTOCSpy(){
   const links=TOC_IDS.map(i=>({id:i,el:document.getElementById(i),a:document.getElementById("toclink-"+i)})).filter(x=>x.el);
@@ -897,9 +1021,219 @@ async function doInstall(){
   __deferredInstall = null;
 }
 
+/* ========== 学习进度（本地存储） ========== */
+const PROG_KEY = 'lishi_progress_v1';
+const PROG = {
+  data: { read: {}, fav: [], notes: {}, pos: {}, firstUse: null, days: [] },
+  load(){
+    try {
+      const raw = localStorage.getItem(PROG_KEY);
+      if (raw) { const o = JSON.parse(raw); this.data = Object.assign(this.data, o); }
+    } catch(e) {}
+    if (!this.data.firstUse) { this.data.firstUse = new Date().toISOString().slice(0,10); }
+    const today = new Date().toISOString().slice(0,10);
+    if (!this.data.days.includes(today)) this.data.days.push(today);
+  },
+  save(){
+    try { localStorage.setItem(PROG_KEY, JSON.stringify(this.data)); } catch(e) {}
+  },
+  isRead(id){ return !!this.data.read[id]; },
+  markRead(id){
+    if (!this.data.read[id]) {
+      this.data.read[id] = new Date().toISOString();
+    } else {
+      // 已读过也更新最近阅读时间
+      this.data.read[id] = new Date().toISOString();
+    }
+    this.save();
+  },
+  favIds(){ return this.data.fav.slice(); },
+  isFav(id){ return this.data.fav.includes(id); },
+  toggleFav(id){
+    const i = this.data.fav.indexOf(id);
+    if (i >= 0) this.data.fav.splice(i,1); else this.data.fav.push(id);
+    this.save();
+    return this.isFav(id);
+  },
+  getNote(id){ return this.data.notes[id] || ''; },
+  setNote(id, txt){
+    if (txt && txt.trim()) this.data.notes[id] = txt; else delete this.data.notes[id];
+    this.save();
+  },
+  noteIds(){ return Object.keys(this.data.notes); },
+  setPos(id, y){ this.data.pos[id] = Math.round(y); this.save(); },
+  getPos(id){ return this.data.pos[id] || 0; },
+  readCount(){ return Object.keys(this.data.read).length; },
+  stats(){
+    const total = DATA.topics.length;
+    const read = this.readCount();
+    return {
+      total, read,
+      fav: this.data.fav.length,
+      notes: this.noteIds().length,
+      days: this.data.days.length,
+      percent: total ? Math.round(read/total*100) : 0
+    };
+  }
+};
+
+/* 请求持久化存储（让浏览器不自动清除数据） */
+async function requestPersist(){
+  try {
+    if (navigator.storage && navigator.storage.persist) {
+      const already = await navigator.storage.persisted();
+      if (already) return true;
+      const ok = await navigator.storage.persist();
+      return ok;
+    }
+  } catch(e) {}
+  return false;
+}
+
+/* ---------- 进度功能交互 ---------- */
+function toggleRead(id){
+  const was = PROG.isRead(id);
+  if (was) { delete PROG.data.read[id]; PROG.save(); }
+  else PROG.markRead(id);
+  const b = document.getElementById('rb-read');
+  if (b) { b.textContent = PROG.isRead(id) ? '✓ 已读' : '标记已读';
+           b.classList.toggle('on', PROG.isRead(id)); }
+  updateReadStat();
+  syncListMarks();
+}
+function toggleFav(id){
+  const on = PROG.toggleFav(id);
+  const b = document.getElementById('rb-fav');
+  if (b) { b.textContent = on ? '★ 已收藏' : '☆ 收藏';
+           b.classList.toggle('fav-on', on); }
+  updateReadStat();
+  syncListMarks();
+}
+function saveNote(id){
+  const ta = document.getElementById('noteta');
+  if (!ta) return;
+  PROG.setNote(id, ta.value);
+  const h = document.getElementById('nbsaved');
+  if (h) h.textContent = ta.value.trim() ? ('已保存 · ' + ta.value.trim().length + ' 字') : '尚未记录';
+}
+function jumpNote(){
+  const n = document.getElementById('notebox');
+  if (n) { n.scrollIntoView({behavior:'smooth', block:'center'});
+           setTimeout(()=>{ const t=document.getElementById('noteta'); if(t) t.focus(); }, 380); }
+}
+function updateReadStat(){
+  const s = document.getElementById('rb-stat');
+  if (s) { const st = PROG.stats();
+           s.textContent = `已读 ${st.read}/${st.total} · ${st.percent}%`; }
+}
+/* 同步列表上的已读/收藏标记 */
+function syncListMarks(){
+  document.querySelectorAll('.trow').forEach(r=>{
+    const id = (r.querySelector('.tid')||{}).textContent;
+    if (!id) return;
+    r.classList.toggle('isread', PROG.isRead(id));
+    r.classList.toggle('isfav', PROG.isFav(id));
+  });
+  document.querySelectorAll('.topiccard').forEach(c=>{
+    const id = (c.querySelector('.tid')||{}).textContent;
+    if (id) c.classList.toggle('isread', PROG.isRead(id));
+  });
+}
+/* 首页进度面板 */
+function renderProgress(){
+  const box = document.getElementById('progpanel');
+  if (!box) return;
+  const st = PROG.stats();
+  const last = lastActiveTopic();
+  let h = '<div class="phead"><h3>学习进度</h3>';
+  if (last) h += `<span class="pcurl" onclick="openTopic('${last.id}')">继续阅读：${last.id} →</span>`;
+  else h += '<span class="pcurl" onclick="go(\'D\')">去读第一篇 →</span>';
+  h += '</div>';
+  h += `<div class="progbar"><i style="width:${st.percent}%"></i></div>`;
+  h += `<div class="progstats">
+    <div class="ps"><b>${st.read}<span style="font-size:13px;opacity:.5">/${st.total}</span></b><span>已读专题</span></div>
+    <div class="ps"><b>${st.percent}%</b><span>完成度</span></div>
+    <div class="ps" onclick="showFavList()"><b>${st.fav}</b><span>收藏</span></div>
+    <div class="ps" onclick="showNoteList()"><b>${st.notes}</b><span>笔记</span></div>
+  </div>`;
+  if (st.read === 0) {
+    h += '<div class="progempty" style="margin-top:14px">还没有阅读记录。打开任意专题后，会自动标记已读并记录阅读位置。</div>';
+  }
+  box.innerHTML = h;
+}
+/* 最近阅读的一篇：按 read 记录的时间倒序 */
+function lastActiveTopic(){
+  const entries = Object.entries(PROG.data.read || {});
+  if (!entries.length) return null;
+  entries.sort((a,b) => String(b[1]).localeCompare(String(a[1])));
+  for (const [id] of entries) {
+    const t = DATA.topics.find(x => x.id === id);
+    if (t) return {id, title:t.title};
+  }
+  return null;
+}
+/* 收藏列表 */
+function showFavList(){
+  const ids = PROG.favIds();
+  if (!ids.length) { toast('还没有收藏任何专题'); return; }
+  const items = ids.map(id => DATA.topics.find(t=>t.id===id)).filter(Boolean);
+  openListPage('我的收藏', items);
+}
+/* 笔记列表 */
+function showNoteList(){
+  const ids = PROG.noteIds();
+  if (!ids.length) { toast('还没有写过笔记'); return; }
+  const items = ids.map(id => DATA.topics.find(t=>t.id===id)).filter(Boolean);
+  openListPage('我的笔记', items, true);
+}
+/* 通用列表页 */
+function openListPage(title, items, withNote){
+  let h = `<div class="crumb"><a onclick="go('home')">首页</a>${ICONS.chev}<span>${title}</span></div>
+  <div class="catview-head"><div><h1>${title}</h1><p class="sub">共 ${items.length} 篇</p></div></div>
+  <div class="topiclist">`;
+  h += items.map(t => {
+    const note = withNote ? PROG.getNote(t.id) : '';
+    return `<div class="topiccard" onclick="openTopic('${t.id}')">
+      <div class="row1"><span class="tid">${t.id}</span><h3>${esc(t.title)}</h3></div>
+      ${note ? `<div class="tags" style="color:var(--c-plum)">${esc(note.slice(0,90))}${note.length>90?'…':''}</div>` : `<div class="tags">${esc(t.tags.join(' · '))}</div>`}
+      <div class="meta2"><span>${t.category==='W'?'时政周报':t.category==='D'?'河南案例':'政策摘要'}</span><span>更新 ${t.updated}</span></div>
+    </div>`;
+  }).join('');
+  h += '</div>';
+  document.getElementById('content').innerHTML = h;
+  highlightNav(null); window.scrollTo(0,0);
+  syncListMarks();
+}
+/* 轻提示 */
+function toast(msg){
+  const old = document.getElementById('toast');
+  if (old) old.remove();
+  const d = document.createElement('div');
+  d.id = 'toast'; d.textContent = msg;
+  document.body.appendChild(d);
+  requestAnimationFrame(()=>d.classList.add('show'));
+  setTimeout(()=>{ d.classList.remove('show'); setTimeout(()=>d.remove(), 320); }, 2200);
+}
+
 /* ---------- 启动 ---------- */
 document.getElementById("verline").textContent=`v2.0`;
 document.getElementById("tstat").textContent=``;
+PROG.load();
 buildNav();home();
 initSplash();
+/* 启动时请求持久化存储，并异步同步一次列表标记 */
+requestPersist();
+setTimeout(syncListMarks, 60);
+/* 滚动时记录阅读位置（节流） */
+let __posTimer = null;
+window.addEventListener('scroll', () => {
+  if (__posTimer) return;
+  __posTimer = setTimeout(() => {
+    __posTimer = null;
+    const cur = window.__currentTopic;
+    if (cur && !document.body.classList.contains('splash-lock')) {
+      PROG.setPos(cur, window.scrollY);
+    }
+  }, 900);
+}, {passive:true});
 </script><style>#pwa-update{position:fixed;left:50%;bottom:22px;transform:translate(-50%,80px);z-index:300;display:flex;align-items:center;gap:14px;padding:12px 18px;background:#3A3A38;color:#F7F5F1;border-radius:10px;font-size:13.5px;box-shadow:0 8px 26px rgba(0,0,0,.28);opacity:0;transition:transform .32s,opacity .32s;pointer-events:none;font-family:system-ui,sans-serif}#pwa-update.on{transform:translate(-50%,0);opacity:1;pointer-events:auto}#pwa-update button{background:#A8736B;color:#fff;border:0;border-radius:7px;padding:6px 16px;font-size:13px;cursor:pointer;font-family:inherit}</style><script>(function(){if(!("serviceWorker" in navigator))return;navigator.serviceWorker.register("sw.js").then(function(reg){reg.addEventListener("updatefound",function(){var nw=reg.installing;if(!nw)return;nw.addEventListener("statechange",function(){if(nw.state==="installed"&&navigator.serviceWorker.controller){bar(reg);}});});}).catch(function(){});function bar(reg){var d=document.getElementById("pwa-update");if(!d){d=document.createElement("div");d.id="pwa-update";d.innerHTML="<span>有新版本，点击刷新</span><button>刷新</button>";document.body.appendChild(d);}d.classList.add("on");d.querySelector("button").onclick=function(){if(reg.waiting)reg.waiting.postMessage("SKIP_WAITING");setTimeout(function(){location.reload();},300);};}})();</script></body></html>
