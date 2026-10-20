@@ -228,6 +228,47 @@ article.md pre code{background:none;padding:0}
   #topbar .tstat{display:none}
   #topbar .brand small{display:none}
 }
+/* ---------- 手机竖屏专项 ---------- */
+@media (max-width:520px){
+  :root{--topbar-h:54px}
+  #topbar{padding:0 12px;gap:8px}
+  #topbar .brand{font-size:15.5px;gap:8px}
+  #topbar .brand .logo{width:26px;height:26px;font-size:13px}
+  #content{padding:16px 14px 56px}
+  .hero{padding:18px 0 14px}
+  .hero h1{font-size:25px;line-height:1.3}
+  .hero .sub{font-size:14px}
+  .hero .lead{font-size:14px}
+  /* 四个统计卡挤成 2×2，避免「离线」被压成竖排 */
+  .statrow{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .stat{min-width:0;padding:12px 10px}
+  .stat .n{font-size:22px;line-height:1.2}
+  .stat .l{font-size:12px}
+  .warn{padding:12px 14px;font-size:13px;line-height:1.65}
+  .searchbox{height:46px;padding:0 14px}
+  .searchbox input{font-size:15px}
+  .secthead h2{font-size:19px}
+  .secthead .more{font-size:12px}
+  .catcard{padding:16px 16px}
+  .catcard h3{font-size:16px}
+  /* 文章正文：手机上字号和行距按可读性调 */
+  article.md{font-size:16px;line-height:1.85}
+  article.md h1{font-size:23px;line-height:1.35}
+  article.md h2{font-size:19px;margin:26px 0 10px}
+  article.md h3{font-size:17px;margin:20px 0 8px}
+  article.md h4{font-size:15.5px}
+  article.md ul,article.md ol{padding-left:20px}
+  .kcard{padding:14px 16px;border-radius:12px}
+  .srcbox{padding:13px 15px;font-size:12.5px}
+  .relbtns{grid-template-columns:1fr}
+  .trow{padding:12px 10px}
+  .trow .tid{font-size:12px}
+  .topiccard{padding:14px 14px}
+  .topiccard h3{font-size:15.5px}
+  /* 手机上正文里的表格可横向滑动，不撑破页面 */
+  article.md table{font-size:13px}
+  article.md th,article.md td{padding:6px 9px}
+}
 </style></head><body>
 <div id="topbar">
   <button id="hamburger" class="iconbtn" onclick="document.body.classList.add('sideopen')" aria-label="打开导航"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
@@ -256,11 +297,13 @@ const ICONS={
   link:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>'
 };
 const CATS={
- A:{name:"公共管理与治理理论",desc:"公共管理、治理与政策过程的基础理论，用于理解现实问题与政策逻辑。"},
- B:{name:"学习科学与认知方法",desc:"基于认知科学的学习方法，服务长期高强度备考。"},
- C:{name:"考试方法论与命题研究",desc:"行测与申论的命题逻辑、题型方法与作答策略。"},
- D:{name:"政策与实证案例库",desc:"可引用、可分析的真实政策案例与实施证据。"}
+ D:{name:"河南案例库",desc:"可引用、可分析的河南真实政策案例与实施证据。"},
+ W:{name:"河南时政周报",desc:"每周河南时政要点回溯，含深度案例与可考角度。"},
+ P:{name:"政策文件摘要",desc:"河南重要政策文件的要点摘录与可考角度。"}
 };
+
+// 分类展示顺序：按 DATA 里实际存在的分类推导
+const CATORDER=Object.keys(CATS).filter(k=>DATA.topics.some(t=>t.category===k));
 function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
 let HEADING_IDS=[],TOC_IDS=[];
 
@@ -402,7 +445,7 @@ function home(){
     <div class="statrow">
       <div class="stat"><div class="n">${n}</div><div class="l">知识专题</div></div>
       <div class="stat"><div class="n">${DATA.sources.length}</div><div class="l">来源证据</div></div>
-      <div class="stat"><div class="n">4</div><div class="l">知识分类</div></div>
+      <div class="stat"><div class="n">${CATORDER.length}</div><div class="l">知识分类</div></div>
       <div class="stat"><div class="n">离线</div><div class="l">本地阅读</div></div>
     </div>
   </div>
@@ -412,10 +455,11 @@ function home(){
       <button class="sclear" onclick="clearSearch()" aria-label="清空搜索">✕</button><kbd>Enter</kbd></div>
     <div id="searchresults"></div>
   </div>
-  <div class="secthead"><h2>知识分类</h2><span class="more">按 A / B / C / D 四大板块组织</span></div>
+  <div class="secthead"><h2>知识分类</h2><span class="more">按 ${CATORDER.join(" / ")} 组织</span></div>
   <div class="catgrid">`;
-  for(const c of ["A","B","C","D"]){
+  for(const c of CATORDER){
     const ts=DATA.topics.filter(t=>t.category===c);
+    if(!ts.length)continue;
     h+=`<div class="catcard" onclick="go('${c}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')go('${c}')">
       <div class="cchead"><div class="letter">${ICONS.book}</div><div class="ccmeta"><div class="cat">分类 ${c}</div><h3>${CATS[c].name}</h3></div><span class="cntb">${ts.length}</span></div>
       <p>${CATS[c].desc}</p>
