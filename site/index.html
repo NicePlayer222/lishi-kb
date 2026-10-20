@@ -365,8 +365,9 @@ function toggleTheme(){applyTheme(document.documentElement.getAttribute("data-th
 /* ---------- 侧边导航树 ---------- */
 function buildNav(){
   let h="";
-  for(const c of ["A","B","C","D"]){
+  for(const c of CATORDER){
     const ts=DATA.topics.filter(t=>t.category===c);
+    if(!ts.length)continue;
     h+=`<div class="navgroup" id="ng${c}"><button class="navgroup-head" onclick="toggleGroup('${c}')" aria-expanded="true">
       <span class="chev">${ICONS.chev}</span><span>${c} · ${CATS[c].name}</span><span class="cnt">${ts.length}</span></button>
       <ul>${ts.map(t=>`<li><a data-nav="${t.id}" tabindex="0" role="button" title="${esc(t.title)}" onclick="openTopic('${t.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openTopic('${t.id}')}">${esc(t.title)}</a></li>`).join("")}</ul></div>`;
@@ -390,7 +391,7 @@ let SITEMS=null,SR_HITS=[];
 function searchItems(){
   return DATA.topics.map(t=>{
     const mdtext=(MDS[t.file]||"").replace(/[#*`>|[\]()]/g," ");
-    return {t,text:(t.id+" "+t.title+" "+t.tags.join(" ")+" "+CATS[t.category].name+" "+(t.card||"")+" "+mdtext).toLowerCase()};
+    return {t,text:(t.id+" "+t.title+" "+t.tags.join(" ")+" "+((CATS[t.category]||{}).name||"")+" "+(t.card||"")+" "+mdtext).toLowerCase()};
   });
 }
 function doSearch(q){
