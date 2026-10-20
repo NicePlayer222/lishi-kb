@@ -1,0 +1,49 @@
+{
+  "name": "砺行集 · 2027 河南普选备考库",
+  "short_name": "砺行集",
+  "description": "2027 河南普选备考库：河南时政周报、政策案例、真题素材，每周更新",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#EDEAE4",
+  "theme_color": "#A8736B",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "最新时政",
+      "short_name": "最新时政",
+      "description": "查看本周最新时政周报",
+      "url": "/?go=latest"
+    },
+    {
+      "name": "河南案例库",
+      "short_name": "案例库",
+      "description": "查看河南政策案例",
+      "url": "/?go=D"
+    }
+  ]
+}
