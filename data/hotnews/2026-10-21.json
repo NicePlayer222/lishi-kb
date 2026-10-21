@@ -1,0 +1,28 @@
+{
+  "collected_at": "2026-10-21T10:44:59+08:00",
+  "since": "2026-10-11",
+  "count": 2,
+  "official_count": 2,
+  "errors": [
+    {
+      "source": "河南省人民政府",
+      "error": "HTTPError: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nMoved Temporarily"
+    }
+  ],
+  "items": [
+    {
+      "url": "https://news.dahe.cn/2026/10-20/2142878.html",
+      "title": "前三季度国民经济运行情况发布，GDP同比增长4.6%",
+      "date": "2026-10-20",
+      "source": "大河网新闻",
+      "official": true
+    },
+    {
+      "url": "https://news.dahe.cn/2026/10-19/2142616.html",
+      "title": "养老的“医”靠从何而来",
+      "date": "2026-10-19",
+      "source": "大河网新闻",
+      "official": true
+    }
+  ]
+}
