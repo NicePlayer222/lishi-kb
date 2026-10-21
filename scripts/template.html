@@ -16,14 +16,14 @@
   --serif:"Songti SC","STSong","Noto Serif SC","Source Han Serif SC","SimSun",Georgia,serif;
 }
 html[data-theme="dark"]{
-  --bg:#25272B;--side:#1E2024;--card:#2D3034;--fg:#DDD9D2;--muted:#93908A;
+  --bg:#25272B;--side:#1E2024;--card:#31353A;--fg:#DDD9D2;--muted:#A09D96;
   --acc:#8FA9C4;--acc2:#C49188;--accbg:#313A44;--acc2bg:#3A2E2C;
-  --c-green:#8FB096;--c-green-bg:#2B332C;
-  --c-gold:#D0AC72;--c-gold-bg:#332D22;
-  --c-plum:#B394B3;--c-plum-bg:#302A30;
-  --c-teal:#8AAFB5;--c-teal-bg:#283133;
-  --bd:#3A3D42;--hov:#34373B;
-  --code:#34373B;--shadow:0 1px 3px rgba(0,0,0,.3);
+  --c-green:#8FB096;--c-green-bg:#2C3631;
+  --c-gold:#D0AC72;--c-gold-bg:#3A3226;
+  --c-plum:#B394B3;--c-plum-bg:#342C35;
+  --c-teal:#8AAFB5;--c-teal-bg:#2A3538;
+  --bd:#464B52;--hov:#3B3F44;
+  --code:#363A3F;--shadow:0 1px 3px rgba(0,0,0,.3);
   --shadow-lg:0 4px 16px rgba(0,0,0,.4);
 }
 *{box-sizing:border-box}html{scroll-behavior:smooth}
@@ -263,6 +263,9 @@ html[data-theme="dark"] #topbar{background:rgba(22,27,34,.92)}
 #searchresults .sr-item .t .badge{font-size:11px;color:var(--acc);font-weight:700;flex:none;font-variant-numeric:tabular-nums}
 #searchresults .sr-item .d{color:var(--muted);font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:2px}
 #searchresults .sr-empty{padding:18px 16px;color:var(--muted);font-size:14px}
+/* 搜索命中高亮：标题与摘要里的关键词 */
+#searchresults mark{background:var(--c-gold-bg);color:inherit;border-radius:3px;padding:0 2px;font-weight:700}
+#searchresults .sr-item.sel mark{background:var(--c-gold);color:var(--card)}
 
 .secthead{display:flex;align-items:baseline;gap:12px;margin:14px 0 16px}
 .secthead h2{font-size:20px;margin:0;font-family:var(--serif);letter-spacing:.03em;position:relative;padding-left:14px}
@@ -650,7 +653,7 @@ function buildNav(){
         const arr=groups.get(k);
         return `<li class="navsub"><div class="navsub-head" onclick="event.stopPropagation();this.parentElement.classList.toggle('closed')">
           <span class="subchev">${ICONS.chev}</span><span>${k}</span><span class="subcnt">${arr.length}</span></div>
-          <ul class="navsub-list">${arr.map(t=>`<li><a data-nav="${t.id}" tabindex="0" role="button" title="${esc(t.title)}" onclick="openTopic('${t.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openTopic('${t.id}')}">${esc(shortWeek(t.title))}</a></li>`).join("")}</ul></li>`;
+          <ul class="navsub-list">${arr.map(t=>`<li><a data-nav="${t.id}" tabindex="0" role="button" title="${esc(weekLabel(t.title))}　${esc(shortWeek(t.title))}" onclick="openTopic('${t.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openTopic('${t.id}')}">${esc(weekLabel(t.title))}</a></li>`).join("")}</ul></li>`;
       }).join("");
     }else{
       body=ts.map(t=>`<li><a data-nav="${t.id}" tabindex="0" role="button" title="${esc(t.title)}" onclick="openTopic('${t.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openTopic('${t.id}')}">${esc(t.title)}</a></li>`).join("");
@@ -791,8 +794,8 @@ function wrapSpecialSections(html){
 let SITEMS=null,SR_HITS=[];
 function searchItems(){
   return DATA.topics.map(t=>{
-    const mdtext=(MDS[t.file]||"").replace(/[#*`>|[\]()]/g," ");
-    return {t,text:(t.id+" "+t.title+" "+t.tags.join(" ")+" "+((CATS[t.category]||{}).name||"")+" "+(t.card||"")+" "+mdtext).toLowerCase()};
+    const raw=(MDS[t.file]||"").replace(/[#*`>|[\]()]/g," ");
+    return {t,raw,text:(t.id+" "+t.title+" "+t.tags.join(" ")+" "+((CATS[t.category]||{}).name||"")+" "+(t.card||"")+" "+raw).toLowerCase()};
   });
 }
 function doSearch(q){
@@ -807,12 +810,52 @@ function doSearch(q){
   SR_HITS=SITEMS.filter(it=>words.every(w=>it.text.includes(w))).slice(0,10);
   box.innerHTML=`<div class="sr-cap">搜索结果 · ${SR_HITS.length} 条</div>`+(SR_HITS.length?SR_HITS.map((it,i)=>{
     const t=it.t;
+    // 优先显示正文命中处的上下文，没有正文命中再退回知识卡/标签
+    const snip=hitSnippet(it.raw,words,90);
+    const desc=snip||(t.card||t.tags.join(" · ")).slice(0,90);
     return `<div class="sr-item${i===0?" sel":""}" data-id="${t.id}" onclick="event.stopPropagation();srOpen('${t.id}')">
-      <div class="t"><span class="badge">${t.id}</span><span>${esc(t.title)}</span></div>
-      <div class="d">${esc((t.card||t.tags.join(" · ")).slice(0,90))}</div></div>`}).join("")
+      <div class="t"><span class="badge">${t.id}</span><span>${markHit(t.title,words)}</span></div>
+      <div class="d">${markHit(desc,words)}</div></div>`}).join("")
     :`<div class="sr-empty">未找到与「${esc(q)}」相关的专题</div>`);
   box.style.display="block";
 }
+/* 把命中词包成 <mark>：先转义再加标签，避免正文里的尖括号破坏结构 */
+function markHit(text,words){
+  let s=esc(text);
+  if(!words||!words.length)return s;
+  // 长的优先匹配，避免短词拆散长词
+  const ws=[...words].filter(Boolean).sort((a,b)=>b.length-a.length);
+  // 先收集所有命中区间，再统一重建，防止替换产生的新标签被二次匹配
+  const lower=s.toLowerCase(),spans=[];
+  for(const w of ws){
+    let i=0;
+    while((i=lower.indexOf(w,i))!==-1){spans.push([i,i+w.length]);i+=w.length}
+  }
+  if(!spans.length)return s;
+  spans.sort((a,b)=>a[0]-b[0]||b[1]-a[1]);
+  const merged=[];
+  for(const sp of spans){
+    const last=merged[merged.length-1];
+    if(last&&sp[0]<=last[1])last[1]=Math.max(last[1],sp[1]);
+    else merged.push([...sp]);
+  }
+  let out="",prev=0;
+  for(const [a,b] of merged){out+=s.slice(prev,a)+"<mark>"+s.slice(a,b)+"</mark>";prev=b}
+  return out+s.slice(prev);
+}
+/* 从正文里截取命中词周围的上下文；找不到则返回空串 */
+function hitSnippet(rawText,words,len){
+  const src=(rawText||"").replace(/\s+/g," ").trim();
+  if(!src)return "";
+  const low=src.toLowerCase();
+  let pos=-1;
+  for(const w of words){const i=low.indexOf(w);if(i!==-1&&(pos===-1||i<pos))pos=i}
+  if(pos===-1)return "";
+  const start=Math.max(0,pos-18);
+  const frag=src.slice(start,start+len);
+  return (start>0?"…":"")+frag+(start+len<src.length?"…":"");
+}
+
 /* 修复：等当前点击事件结束（rAF）再销毁首页 DOM，避免访问已销毁节点导致 JS 异常 */
 function srOpen(id){hideSearch();requestAnimationFrame(()=>openTopic(id))}
 function hideSearch(){const b=document.getElementById("searchresults");if(!b)return;b.style.display="none";b.innerHTML="";SR_HITS=[]}
