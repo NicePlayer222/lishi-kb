@@ -16,3 +16,6 @@ processing/
 rework/
 reports/*.md
 inbox/*.zip
+
+# 时政采集产物由 GitHub Actions 每日生成并提交回仓库（见 .github/workflows/collect-hotnews.yml），
+# 这里不忽略，方便在手机上直接翻看 data/hotnews/。
