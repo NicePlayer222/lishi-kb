@@ -8,7 +8,7 @@
  * 版本号由构建脚本注入（CACHE_VERSION 会被替换），
  * 每次构建变化都会让浏览器判定为新 SW，从而触发更新。
  */
-const CACHE_VERSION = '20261020211254';
+const CACHE_VERSION = '20261021102739';
 const CACHE_NAME = 'lishi-' + CACHE_VERSION;
 const PRECACHE = [
   './',
