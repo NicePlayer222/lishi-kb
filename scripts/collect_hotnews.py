@@ -115,12 +115,28 @@ def ctx():
 
 
 def fetch(url, timeout=25):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    # 部分政务/新闻站会按云厂商 IP 段或请求头特征直接 403，
+    # 这里补齐常见浏览器头，尽量贴近真实访问。
+    req = urllib.request.Request(url, headers={
+        "User-Agent": UA,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Accept-Encoding": "gzip, deflate",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+    })
     with urllib.request.urlopen(req, timeout=timeout, context=ctx()) as r:
         raw = r.read()
-    for enc in ("utf-8", "gbk", "gb18030"):
+        cenc = r.headers.get("Content-Encoding", "")
+    if cenc == "gzip":
+        import gzip
+        raw = gzip.decompress(raw)
+    elif cenc == "deflate":
+        import zlib
+        raw = zlib.decompress(raw)
+    for charset in ("utf-8", "gbk", "gb18030"):
         try:
-            return raw.decode(enc)
+            return raw.decode(charset)
         except UnicodeDecodeError:
             continue
     return raw.decode("utf-8", "replace")
