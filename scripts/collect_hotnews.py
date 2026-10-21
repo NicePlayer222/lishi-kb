@@ -29,6 +29,9 @@ SEEN = OUT_DIR / "seen.json"
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
 
+# 清洗后标题的最大长度；超出多半是混进了正文摘要
+MAX_TITLE_LEN = 60
+
 # 白名单源：name -> 列表页 URL 与链接提取规则
 SOURCES = [
     {
@@ -79,6 +82,15 @@ HENAN_MARKERS = [
     "焦作", "濮阳", "许昌", "漯河", "三门峡", "南阳", "商丘", "信阳", "周口",
     "驻马店", "济源", "航空港", "中原", "黄河", "兰考", "林州", "固始",
 ]
+# 明确的省外地名：出现在标题里说明是外地新闻，丢弃。
+# 注意「黄河」「中原」不能作为外地判据——河南本属黄河流域、中原腹地，
+# 但外省黄河新闻（如山东东营黄河入海口）仍要挡住，所以单列外省地名。
+OTHER_PROVINCES = [
+    "山东", "山西", "陕西", "河北", "湖北", "湖南", "安徽", "江苏", "浙江",
+    "江西", "福建", "广东", "广西", "海南", "四川", "云南", "贵州", "辽宁",
+    "吉林", "黑龙江", "内蒙古", "甘肃", "青海", "宁夏", "新疆", "西藏",
+    "北京", "上海", "天津", "重庆", "东营", "辽西", "香江", "香港", "澳门", "台湾",
+]
 
 
 def relevant(title, require_henan=False):
@@ -86,8 +98,12 @@ def relevant(title, require_henan=False):
         return False
     if not any(k in title for k in RELEVANT):
         return False
-    if require_henan and not any(h in title for h in HENAN_MARKERS):
-        return False
+    if require_henan:
+        if not any(h in title for h in HENAN_MARKERS):
+            return False
+        # 命中外省地名且没提到河南 → 判为外地新闻
+        if any(p in title for p in OTHER_PROVINCES) and "河南" not in title:
+            return False
     return True
 
 
@@ -123,8 +139,32 @@ def is_official(url):
     return any(bare == d or bare.endswith("." + d) for d in OFFICIAL_DOMAINS)
 
 
+def clean_title(raw):
+    """清洗列表页抓来的标题文本。
+
+    实际抓取中会遇到两类噪声（大河网尤甚）:
+      1. 尾部日期/时间戳:  "… 相关新闻 | 2026-10-20 07:17"
+      2. 标题后接正文摘要:  "… 全文… 大河报 | 2026-10-20 21:41"
+    所以先砍掉 "| 日期" 及其后内容，再截断到合理长度。
+    """
+    t = re.sub(r"<[^>]+>", "", raw)
+    t = re.sub(r"\s+", " ", t).strip()
+    # 尾部 "| 2026-10-20" 或 "| 2026-10-20 07:17"（含全角竖线/斜杠变体）
+    t = re.sub(r"\s*[|｜/]\s*20\d{2}[-/年]\d{1,2}[-/月]\d{1,2}.*$", "", t)
+    # 残留的裸日期尾巴
+    t = re.sub(r"\s*20\d{2}[-/年]\d{1,2}[-/月]\d{1,2}[日]?\s*\d{0,2}:?\d{0,2}\s*$", "", t)
+    # 媒体来源后缀（大河网列表都把出处附在标题尾部）
+    t = re.sub(r"\s*(顶端新闻·河南商报|河南商报|河南法治报|大河报|大河网|河南日报|"
+               r"中国新闻网|新华社|人民网|央视新闻|央广网)\s*$", "", t)
+    t = t.strip()
+    # 标题不该这么长；超出多半混进了摘要，截断并加省略号
+    if len(t) > MAX_TITLE_LEN:
+        t = t[:MAX_TITLE_LEN].rstrip() + "…"
+    return t
+
+
 def extract(html, src, since):
-    """从列表页提取 (url, title, date)。标题取 <a> 的文本。"""
+    """从列表页提取 (url, title, date)。标题取 <a> 的文本并清洗。"""
     out = []
     pat = re.compile(src["pattern"])
     # 逐个 <a ...>...</a> 扫描，避免跨标签抓错
@@ -140,11 +180,14 @@ def extract(html, src, since):
             continue
         if day < since:
             continue
-        title = re.sub(r"<[^>]+>", "", inner)
-        title = re.sub(r"\s+", " ", title).strip()
+        # 相关性用「清洗前后都试一次」：媒体后缀（如「河南商报」）可能正是
+        # 判定河南相关的唯一线索，先清洗再判会误杀。
+        raw_title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", inner)).strip()
+        title = clean_title(inner)
         if len(title) < 6:
             continue
-        if not relevant(title, require_henan=src.get("require_henan", False)):
+        if not (relevant(title, require_henan=src.get("require_henan", False))
+                or relevant(raw_title, require_henan=src.get("require_henan", False))):
             continue
         out.append({"url": href, "title": title, "date": day.isoformat(),
                     "source": src["name"], "official": is_official(href)})
@@ -204,21 +247,39 @@ def main():
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     today = date.today().isoformat()
+    out_json = OUT_DIR / f"{today}.json"
+
+    # 同一天重跑要合并，不能覆盖：否则手动触发一次就把当天清单清空了
+    merged = list(fresh)
+    if out_json.exists():
+        try:
+            prev = json.loads(out_json.read_text(encoding="utf-8"))
+            have = {x["url"] for x in merged}
+            for x in prev.get("items", []):
+                if x.get("url") not in have:
+                    merged.append(x)
+                    have.add(x["url"])
+        except Exception as e:
+            print(f"[warn] 已存在的 {out_json.name} 读取失败，将覆盖：{e}")
+    merged = dedupe(merged)
+    merged.sort(key=lambda x: (x["date"], x["source"]), reverse=True)
+    official_n = sum(1 for x in merged if x["official"])
+
     payload = {
         "collected_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "since": since.isoformat(),
-        "count": len(fresh),
+        "count": len(merged),
         "official_count": official_n,
         "errors": errors,
-        "items": fresh,
+        "items": merged,
     }
-    (OUT_DIR / f"{today}.json").write_text(
+    out_json.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     lines = [f"# 河南时政候选 · {today}", "",
              f"> 采集时间 {payload['collected_at']}；近 {args.days} 天；"
-             f"新增 {len(fresh)} 条，官方 {official_n} 条。", ""]
-    for x in fresh:
+             f"本轮新增 {len(fresh)} 条，累计 {len(merged)} 条（官方 {official_n} 条）。", ""]
+    for x in merged:
         flag = "官方" if x["official"] else "媒体"
         lines.append(f"- {x['date']} [{flag}·{x['source']}] {x['title']}")
         lines.append(f"  {x['url']}")
