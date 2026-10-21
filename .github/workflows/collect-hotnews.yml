@@ -1,6 +1,12 @@
 name: 河南时政候选采集
 
 # 每天北京时间 06:30 跑一次（UTC 22:30 前一天），也可手动触发。
+#
+# ⚠️ 已知限制（2026-10-21 实测）：
+#   GitHub Actions 机房 IP 访问 henan.gov.cn / dahe.cn 均返回 403 Forbidden。
+#   这是站点按网段封禁云厂商 IP，改 UA / 请求头无效（已试过，仍 403）。
+#   本地家宽 IP 抓取正常（5 条/天）。所以本工作流目前跑得出结果但拿不到数据。
+#   在换用不被封的来源或代理之前，保留它作为「可运行骨架」，不会产生空提交。
 on:
   schedule:
     - cron: '30 22 * * *'
@@ -43,15 +49,18 @@ jobs:
         run: |
           TODAY=$(date -u -d '+8 hours' +%F)
           MD="data/hotnews/${TODAY}.md"
+          COUNT=0
           if [ -f "$MD" ]; then
-            COUNT=$(grep -c '^- ' "$MD" || true)
-            echo "count=${COUNT}" >> "$GITHUB_OUTPUT"
-            echo "md=${MD}" >> "$GITHUB_OUTPUT"
-          else
-            echo "count=0" >> "$GITHUB_OUTPUT"
-            echo "md=" >> "$GITHUB_OUTPUT"
+            # 只数「候选条目」区段（出现在「## 采集失败」之前），
+            # 避免把失败源的列表项也算成候选。
+            COUNT=$(sed '/^## 采集失败/,$d' "$MD" | grep -c '^- ' || true)
           fi
-          echo "今日候选：${COUNT:-0} 条"
+          echo "count=${COUNT}" >> "$GITHUB_OUTPUT"
+          echo "md=${MD}" >> "$GITHUB_OUTPUT"
+          echo "今日候选：${COUNT} 条"
+          if [ "$COUNT" -eq 0 ]; then
+            echo "::warning::本次采集 0 条。若两源都 403，是云厂商 IP 被封（已知限制）。"
+          fi
 
       - name: 提交结果
         # 没有新条目时不产生空提交
@@ -87,6 +96,9 @@ jobs:
             echo "## 河南时政候选采集"
             echo ""
             echo "- 新增条目：**${{ steps.check.outputs.count || '0' }}** 条"
+            echo ""
+            echo "> 提示：GitHub Actions 机房 IP 访问政务/新闻源常被 403 拦截，"
+            echo "> 若长期为 0 条，属已知限制，详情见工作流文件顶部说明。"
             if [ -n "$MD" ] && [ -f "$MD" ]; then
               echo ""
               echo "### 今日清单"
